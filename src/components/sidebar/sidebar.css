@@ -1,0 +1,27 @@
+.sideBarContainer{
+    height: 100%;
+    width: 175px;
+    background-color: pink;
+    position: absolute;
+}
+
+.logoWrapper{
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+}
+.navItems{
+    padding-left: 25px;
+}
+
+.navItem{
+    list-style: none;
+    margin-top: 15px;
+}
+.navLinks{
+    text-decoration: none;
+}
