@@ -1,6 +1,6 @@
 .sideBarContainer{
     height: 100%;
-    width: 175px;
+    width: 155px;
     background-color: pink;
     position: absolute;
 }
@@ -13,6 +13,7 @@
 .logo{
     text-decoration: none;
     font-size: 40px;
+    color: black;
 }
 .navItems{
     padding-left: 25px;
@@ -24,4 +25,5 @@
 }
 .navLinks{
     text-decoration: none;
+    color: black;
 }

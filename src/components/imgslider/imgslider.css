@@ -1,0 +1,44 @@
+.slider{
+    position: relative;
+    height: 27vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImgWrapper{
+    height: 25vh;
+    background-color: aquamarine;
+}
+
+.sliderImg{
+   height: 27vh;
+   width: auto;
+}
+
+.leftArrow, .rightArrow{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+    user-select: none;
+    font-size: medium;
+}
+
+.leftArrow{
+    left: 32px;
+}
+
+.rightArrow{
+    right: 32px;
+}
+
+.slide.active{
+    opacity: 1;
+
+}
+
+.slide{
+    transition: ease-out 0.2s;
+}

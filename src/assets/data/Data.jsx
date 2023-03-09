@@ -1,3 +1,16 @@
+import GW1 from '../images/Drawings_Page_01.jpg'
+import GW2 from '../images/Drawings_Page_02.jpg'
+import GW3 from '../images/Drawings_Page_03.jpg'
+import GW4 from '../images/Drawings_Page_04.jpg'
+import GW5 from '../images/Drawings_Page_05.jpg'
+import GW6 from '../images/Drawings_Page_06.jpg'
+import GW7 from '../images/Drawings_Page_07.jpg'
+import GW8 from '../images/Drawings_Page_08.jpg'
+import GW9 from '../images/Drawings_Page_09.jpg'
+import GW10 from '../images/Drawings_Page_10.jpg'
+import GW11 from '../images/Drawings_Page_11.jpg'
+
+
 export const NavItems = [
     {
         title: '2023',
@@ -28,47 +41,47 @@ export const NavItems = [
 
 export const GroundWater = [
     {
-        image: '../images/Drawings_Page_01.jpg',
-        alt: 'GW 1'
+        image: GW1,
+        alt: 'Groundwater page 1'
     },
     {
-        image: '../images/Drawings_Page_02.jpg',
-        alt: 'GW 2'
+        image: GW2,
+        alt: 'Groundwater page 2'
     },
     {
-        image: '../images/Drawings_Page_03.jpg',
-        alt: 'GW 3'
+        image: GW3,
+        alt: 'Groundwater page 3'
     },
     {
-        image: '../images/Drawings_Page_04.jpg',
-        alt: 'GW 4'
+        image: GW4,
+        alt: 'Groundwater page 4'
     },
     {
-        image: '../images/Drawings_Page_05.jpg',
-        alt: 'GW 5'
+        image: GW5,
+        alt: 'Groundwater page 5'
     },
     {
-        image: '../images/Drawings_Page_06.jpg',
-        alt: 'GW 6'
+        image: GW6,
+        alt: 'Groundwater page 6'
     },
     {
-        image: '../images/Drawings_Page_07.jpg',
-        alt: 'GW 7'
+        image: GW7,
+        alt: 'Groundwater page 7'
     },
     {
-        image: '../images/Drawings_Page_08.jpg',
-        alt: 'GW 8'
+        image: GW8,
+        alt: 'Groundwater page 8'
     },
     {
-        image: '../images/Drawings_Page_09.jpg',
-        alt: 'GW 9'
+        image: GW9,
+        alt: 'Groundwater page 9'
     },
     {
-        image: '../images/Drawings_Page_10.jpg',
-        alt: 'GW 10'
+        image: GW10,
+        alt: 'Groundwater page 10'
     },
     {
-        image: '../images/Drawings_Page_11.jpg',
-        alt: 'GW 11'
+        image: GW11,
+        alt: 'Groundwater page 11'
     }
 ]
