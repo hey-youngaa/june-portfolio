@@ -1,6 +1,6 @@
 .pageContainer{
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
     top: 40px;
     left: 175px;
     right: 20px;

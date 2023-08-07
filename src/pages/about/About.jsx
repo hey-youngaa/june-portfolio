@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import Self from '../../assets/images/Self.jpg'
+import self from '../../assets/images/self.jpg'
+
 function About() {
   return (
     <div className='pageContainer'>
@@ -11,7 +12,7 @@ function About() {
           </p>
         </div>
         <div className="pfpWrapper">
-          <img src={Self} alt="self"/>
+          <img src={self} alt="self"/>
         </div>
       </div>
     </div>

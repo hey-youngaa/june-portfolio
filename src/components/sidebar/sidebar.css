@@ -1,6 +1,7 @@
 .sideBarContainer{
     height: 100%;
     width: 155px;
+    top: 0;
     background-color: pink;
     position: absolute;
 }
@@ -27,3 +28,4 @@
     text-decoration: none;
     color: black;
 }
+

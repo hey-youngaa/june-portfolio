@@ -1,20 +1,19 @@
 .slider{
     position: relative;
-    height: 27vh;
+    width: 100%;
     display: flex;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
 }
 
 .sliderImgWrapper{
-    height: 25vh;
-    background-color: aquamarine;
+    width: 60vw;
 }
 
 .sliderImg{
-   height: 27vh;
-   width: auto;
+   max-height: 100%;
+   max-width: 100%;
+   object-fit: contain;
 }
 
 .leftArrow, .rightArrow{
@@ -27,11 +26,11 @@
 }
 
 .leftArrow{
-    left: 32px;
+    left: 0;
 }
 
 .rightArrow{
-    right: 32px;
+    right: 0;
 }
 
 .slide.active{

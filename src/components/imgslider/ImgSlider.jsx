@@ -27,7 +27,9 @@ function ImgSlider({slides}) {
         return(
           <div className={index === current ? 'slide active' : 'slide'} key={index}>
             {index === current && (
-              <img src={slide.image} alt={slide.alt} className='sliderImg'/>
+              <div className="sliderImgWrapper">
+                <img src={slide.image} alt={slide.alt} className='sliderImg'/>
+              </div>
             )}
           </div>
         )
