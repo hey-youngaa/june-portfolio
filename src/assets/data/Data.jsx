@@ -1,3 +1,6 @@
+import insta from '../images/insta.svg'
+import email from '../images/email.svg'
+
 import GW1 from '../images/GW1.jpg'
 import GW2 from '../images/GW2.jpg'
 import GW3 from '../images/GW3.jpg'
@@ -31,6 +34,12 @@ import S2 from '../images/S2.jpg'
 import S3 from '../images/S3.jpg'
 import S4 from '../images/S4.jpg'
 
+import swim from '../images/swim.png'
+import corner from '../images/corner.png'
+import fish from '../images/fish.png'
+import swimming from '../videos/swimming.avi'
+import move from '../videos/move.mp4'
+
 export const NavItems = [
     {
         title: 'Painting',
@@ -56,6 +65,21 @@ export const NavItems = [
         title: 'About',
         url: '/about',
         cName: 'navLinks'
+    }
+]
+
+export const socialIcons = [
+    {
+        icon: insta,
+        alt: 'Instagram',
+        url: 'http://www.instagram.com/hey.goma',
+        cName: 'socialLinks'
+    },
+    {
+        icon: email,
+        alt: 'Email',
+        url: 'mailto:ju.choi168@gmail.com',
+        cName: 'socialLinks'
     }
 ]
 
@@ -199,4 +223,27 @@ export const sculptureWork = [
         image: S4,
         alt: 'sculpture piece'
     },
+]
+
+export const miscWork = [
+    {
+        image: swim,
+        alt: 'misc work'
+    },
+    {
+        image: corner,
+        alt: 'misc work'
+    },
+    {
+        image: fish,
+        alt: 'misc work'
+    },
+    {
+        image: swimming,
+        alt: 'misc work'
+    },
+    {
+        image: move,
+        alt: 'misc work'
+    }
 ]

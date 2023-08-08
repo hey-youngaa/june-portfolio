@@ -1,13 +1,13 @@
 import React from 'react'
 import ImgGallery from '../../components/imgGallery/ImgGallery'
-import { sculptureWork } from '../../assets/data/Data'
+import { miscWork } from '../../assets/data/Data'
 
-function Sculpture() {
+function Misc() {
   return (
     <div className='pageContainer'>
-      <ImgGallery gallery={sculptureWork} />
+        <ImgGallery gallery={miscWork} />
     </div>
   )
 }
 
-export default Sculpture
+export default Misc

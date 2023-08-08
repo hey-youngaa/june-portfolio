@@ -6,7 +6,7 @@ import { drawingWork } from '../../assets/data/Data'
 
 function Drawing() {
   return (
-    <div>
+    <div className='pageContainer'>
       <ImgGallery gallery={drawingWork} />
       <ImgGallery gallery={GroundWater} />
     </div>

@@ -1,9 +1,12 @@
 .sideBarContainer{
     height: 100%;
     width: 155px;
+    position: fixed;
     top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
     background-color: pink;
-    position: absolute;
 }
 
 .logoWrapper{
@@ -18,6 +21,7 @@
 }
 .navItems{
     padding-left: 25px;
+    margin-top: 30px;
 }
 
 .navItem{
@@ -29,3 +33,19 @@
     color: black;
 }
 
+.socials{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+}
+
+.socialLinks {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.socialLinks img{
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}

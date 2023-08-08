@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Masonry,{ResponsiveMasonry} from 'react-responsive-masonry'
 import './imggallery.css'
-import {FiChevronLeft,FiChevronRight} from 'react-icons/fi'
+import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
 import {IoClose} from 'react-icons/io5'
 
 
@@ -33,7 +33,7 @@ function ImgGallery({gallery}) {
             <div className='modalContainer'>
                 <IoClose className='close' onClick={handleCloseModal} />
                 <FiChevronLeft className='previous' onClick={prevSlide} />
-                <img src={gallery[slideNumber].image} className='modalImg' />
+                <img src={gallery[slideNumber].image} alt='' className='modalImg' />
                 <FiChevronRight className='next' onClick={nextSlide} />
             </div>
         }
