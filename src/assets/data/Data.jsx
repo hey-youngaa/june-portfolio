@@ -37,8 +37,6 @@ import S4 from '../images/S4.jpg'
 import swim from '../images/swim.png'
 import corner from '../images/corner.png'
 import fish from '../images/fish.png'
-import swimming from '../videos/swimming.avi'
-import move from '../videos/move.mp4'
 
 export const NavItems = [
     {
@@ -236,14 +234,6 @@ export const miscWork = [
     },
     {
         image: fish,
-        alt: 'misc work'
-    },
-    {
-        image: swimming,
-        alt: 'misc work'
-    },
-    {
-        image: move,
         alt: 'misc work'
     }
 ]

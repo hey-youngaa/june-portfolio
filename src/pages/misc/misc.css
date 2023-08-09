@@ -1,0 +1,6 @@
+video{
+    object-fit: cover;
+    height: 100%;
+    width: calc(100% - 100px);
+    padding-left: 50px; 
+}

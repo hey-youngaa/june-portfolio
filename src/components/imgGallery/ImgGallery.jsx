@@ -34,6 +34,7 @@ function ImgGallery({gallery}) {
                 <IoClose className='close' onClick={handleCloseModal} />
                 <FiChevronLeft className='previous' onClick={prevSlide} />
                 <img src={gallery[slideNumber].image} alt='' className='modalImg' />
+                <h3 className='imgTitle'>{gallery[slideNumber].title}</h3>
                 <FiChevronRight className='next' onClick={nextSlide} />
             </div>
         }
