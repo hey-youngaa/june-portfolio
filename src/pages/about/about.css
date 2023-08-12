@@ -1,8 +1,19 @@
 .aboutContent{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin: 30px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: pink;
 }
 
+.pfpWrapper{
+    margin-right: 50px;
+}
+
+.pfpWrapper img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+}

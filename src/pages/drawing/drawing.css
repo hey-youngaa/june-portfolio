@@ -1,0 +1,11 @@
+.seriesContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+
+.seriesContainer img{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}

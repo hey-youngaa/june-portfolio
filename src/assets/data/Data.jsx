@@ -13,6 +13,20 @@ import GW9 from '../images/GW9.jpg'
 import GW10 from '../images/GW10.jpg'
 import GW11 from '../images/GW11.jpg'
 
+import BS1 from '../images/BS1.jpg'
+import BS2 from '../images/BS2.jpg'
+import BS3 from '../images/BS3.jpg'
+import BS4 from '../images/BS4.jpg'
+import BS5 from '../images/BS5.jpg'
+
+import isit1 from '../images/isit1.jpg'
+import isit2 from '../images/isit2.jpg'
+import isit3 from '../images/isit3.jpg'
+import isit4 from '../images/isit4.jpg'
+import isit5 from '../images/isit5.jpg'
+import isit6 from '../images/isit6.jpg'
+import isit7 from '../images/isit7.jpg'
+
 import DV from '../images/daytimeVacancies.jpg'
 import LT from '../images/leopardTranspirings.png'
 import LGC from '../images/lettuceGardenCharm.jpg'
@@ -28,15 +42,23 @@ import dwellings from '../images/dwellings.jpg'
 import ED from '../images/elephantDreams.png'
 import OD from '../images/observationDrawings.png'
 import TL from '../images/theLeftover.jpg'
+import ddm from '../images/ddm.jpg'
+import red from '../images/red.jpg'
+import scap from '../images/scap.jpg'
 
 import S1 from '../images/S1.jpg'
 import S2 from '../images/S2.jpg'
 import S3 from '../images/S3.jpg'
 import S4 from '../images/S4.jpg'
+import port from '../images/port.jpg'
 
 import swim from '../images/swim.png'
+import tower from '../images/tower.png'
 import corner from '../images/corner.png'
+import rocks from '../images/rocks.png'
 import fish from '../images/fish.png'
+import trail from '../images/trail4.png'
+import washingAshore from '../images/washingAshore.png'
 
 export const NavItems = [
     {
@@ -78,53 +100,6 @@ export const socialIcons = [
         alt: 'Email',
         url: 'mailto:ju.choi168@gmail.com',
         cName: 'socialLinks'
-    }
-]
-
-export const GroundWater = [
-    {
-        image: GW1,
-        alt: 'Groundwater page 1'
-    },
-    {
-        image: GW2,
-        alt: 'Groundwater page 2'
-    },
-    {
-        image: GW3,
-        alt: 'Groundwater page 3'
-    },
-    {
-        image: GW4,
-        alt: 'Groundwater page 4'
-    },
-    {
-        image: GW5,
-        alt: 'Groundwater page 5'
-    },
-    {
-        image: GW6,
-        alt: 'Groundwater page 6'
-    },
-    {
-        image: GW7,
-        alt: 'Groundwater page 7'
-    },
-    {
-        image: GW8,
-        alt: 'Groundwater page 8'
-    },
-    {
-        image: GW9,
-        alt: 'Groundwater page 9'
-    },
-    {
-        image: GW10,
-        alt: 'Groundwater page 10'
-    },
-    {
-        image: GW11,
-        alt: 'Groundwater page 11'
     }
 ]
 
@@ -201,6 +176,21 @@ export const drawingWork = [
         image: TL,
         alt: 'drawing piece',
         title: 'The Leftover'
+    },
+    {
+        image: ddm,
+        alt: 'drawing piece',
+        title: 'Do not disturb me'
+    },
+    {
+        image: red,
+        alt: 'drawing piece',
+        title: 'Red'
+    },
+    {
+        image: scap,
+        alt: 'drawing piece',
+        title: 'Scap'
     }
 ]
 
@@ -221,6 +211,10 @@ export const sculptureWork = [
         image: S4,
         alt: 'sculpture piece'
     },
+    {
+        image: port,
+        alt: 'sculpture piece'
+    }
 ]
 
 export const miscWork = [
@@ -229,11 +223,67 @@ export const miscWork = [
         alt: 'misc work'
     },
     {
+        image: tower,
+        alt: 'misc work'
+    },
+    {
         image: corner,
+        alt: 'misc work'
+    },
+    {
+        image: rocks,
         alt: 'misc work'
     },
     {
         image: fish,
         alt: 'misc work'
+    },
+    {
+        image: trail,
+        alt: 'misc work'
+    },
+    {
+        image: washingAshore,
+        alt: 'misc work'
+    }
+]
+export const drawingSeries = [
+    {
+        id: 'groundwater-series',
+        title: 'Groundwater',
+        img1: GW1,
+        img2: GW2,
+        img3: GW3,
+        img4: GW4,
+        img5: GW5,
+        img6: GW6,
+        img7: GW7,
+        img8: GW8,
+        img9: GW9,
+        img10: GW10,
+        img11: GW11,
+        alt: 'groundwater piece',
+    },
+    {
+        id:'bedtime-tales-series',
+        title: 'Bedtime Tales',
+        img1: BS1,
+        img2: BS2,
+        img3: BS3,
+        img4: BS4,
+        img5: BS5,
+        alt: 'bedtime tales piece'
+    },
+    {
+        id: 'in-summer-i-will-tear-series',
+        title: "In Summer I'll Tear",
+        img1: isit1,
+        img2: isit2,
+        img3: isit3,
+        img4: isit4,
+        img5: isit5,
+        img6: isit6,
+        img7: isit7,
+        alt: 'in summer i will tear piece'
     }
 ]

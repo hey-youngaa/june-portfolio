@@ -6,13 +6,14 @@ function About() {
   return (
     <div className='pageContainer'>
       <div className="aboutContent">
+      <div className="pfpWrapper">
+          <img src={self} alt="self"/>
+        </div>
+        
         <div className="aboutInfoWrapper">
           <p>
             Based in Providence, Rhode Island
           </p>
-        </div>
-        <div className="pfpWrapper">
-          <img src={self} alt="self"/>
         </div>
       </div>
     </div>

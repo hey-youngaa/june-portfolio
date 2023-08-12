@@ -1,0 +1,16 @@
+.singleSeries{
+    display: flex;
+    margin: 20px 50px;
+    flex-direction: column;
+}
+
+.seriesImgs{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seriesImgs img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}

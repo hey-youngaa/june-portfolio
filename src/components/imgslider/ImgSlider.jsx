@@ -21,8 +21,8 @@ function ImgSlider({slides}) {
   
   return (
     <section className='slider'>
-      <FiChevronLeft className='leftArrow' onClick={prevSlide}/>
-      <FiChevronRight className='rightArrow' onClick={nextSlide}/>
+      <FiChevronLeft className='leftArrow' onClick={prevSlide} />
+      <FiChevronRight className='rightArrow' onClick={nextSlide} />
       {slides.map((slide, index) => {
         return(
           <div className={index === current ? 'slide active' : 'slide'} key={index}>
