@@ -1,11 +1,45 @@
 .seriesContainer{
     display: flex;
     flex-direction: column;
-    margin: 10px 50px;
 }
 
-.seriesContainer img{
-    height: auto;
+.seriesWrapper{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.seriesWrapper img{
+    object-fit: cover;
+    height: 50vh;
+    max-width: 80%;
     width: 100%;
-    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+.seriesTitle{
+    position: absolute;
+    color: black;
+    background: rgba(255, 255, 255, .5);
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: calc(100% + 20px);
+    text-align: center;
+    padding-top: 40px;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+    opacity: 0;
+}
+
+.seriesWrapper:hover .seriesTitle{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px){
+    .seriesContainer{
+        font-size: 12px;
+    }
 }

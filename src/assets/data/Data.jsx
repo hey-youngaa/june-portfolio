@@ -46,18 +46,19 @@ import ddm from '../images/ddm.jpg'
 import red from '../images/red.jpg'
 import scap from '../images/scap.jpg'
 
-import S1 from '../images/S1.jpg'
-import S2 from '../images/S2.jpg'
-import S3 from '../images/S3.jpg'
-import S4 from '../images/S4.jpg'
+import window from '../images/window.png'
+import windowSide from '../images/windowSide.png'
+import dust from '../images/dust.png'
+import dustSide from '../images/dustSide.png'
+import reflexes from '../images/reflexes.png'
+import reflexes2 from '../images/reflexes2.png'
 import port from '../images/port.jpg'
 
 import swim from '../images/swim.png'
+import divers from '../images/divers.png'
 import tower from '../images/tower.png'
 import corner from '../images/corner.png'
 import rocks from '../images/rocks.png'
-import fish from '../images/fish.png'
-import trail from '../images/trail4.png'
 import washingAshore from '../images/washingAshore.png'
 
 export const NavItems = [
@@ -196,54 +197,71 @@ export const drawingWork = [
 
 export const sculptureWork = [
     {
-        image: S1,
-        alt: 'sculpture piece'
-    },
-    {
-        image: S2,
-        alt: 'sculpture piece'
-    },
-    {
-        image: S3,
-        alt: 'sculpture piece'
-    },
-    {
-        image: S4,
-        alt: 'sculpture piece'
-    },
-    {
         image: port,
-        alt: 'sculpture piece'
+        alt: 'sculpture piece',
+        title: 'Port'
+    },
+    {
+        image: reflexes,
+        alt: 'sculpture piece',
+        title: 'Reflexes Of A Vulnerable Earth'
+    },
+    {
+        image: reflexes2,
+        alt: 'sculpture piece',
+        title: 'Reflexes Of A Vulnerable Earth II'
+    },
+    {
+        image: window,
+        alt: 'sculpture piece',
+        title: 'Mountain In Stone'
+    },
+    {
+        image: dust,
+        alt: 'sculpture piece',
+        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)'
+    },
+    {
+        image: dustSide,
+        alt: 'sculpture piece',
+        title: 'The Dust That Falls On Modern Things - side'
+    },
+    {
+        image: windowSide,
+        alt: 'sculpture piece',
+        title: 'Mountain In Stone - side'
     }
 ]
 
 export const miscWork = [
     {
         image: swim,
+        title: 'swimmer',
         alt: 'misc work'
     },
     {
         image: tower,
+        title: 'Tower',
         alt: 'misc work'
     },
     {
-        image: corner,
+        image: divers,
+        title: 'Divers',
         alt: 'misc work'
     },
     {
         image: rocks,
+        title: 'Trail',
         alt: 'misc work'
     },
     {
-        image: fish,
-        alt: 'misc work'
-    },
-    {
-        image: trail,
+        image: corner,
+        title: 'Onlooker',
         alt: 'misc work'
     },
     {
         image: washingAshore,
+        title: 'Washing Ashore',
         alt: 'misc work'
     }
 ]

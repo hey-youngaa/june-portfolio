@@ -1,0 +1,12 @@
+.heroWrapper{
+    width: 100%;
+}
+
+.heroWrapper img{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    transform: translate(0, -64%);
+    right: 0;
+    object-fit: cover;
+}

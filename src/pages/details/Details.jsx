@@ -21,17 +21,17 @@ function Details() {
         <h1>{series.title}</h1>
         <p> Some information on medium, measurements?</p>
         <div className="seriesImgs">
-          <img src={series.img1} alt={series.alt} />
-          <img src={series.img2} alt={series.alt} />
-          <img src={series.img3} alt={series.alt} />
-          <img src={series.img4} alt={series.alt} />
-          <img src={series.img5} alt={series.alt} />
-          <img src={series.img6} alt={series.alt} />
-          <img src={series.img7} alt={series.alt} />
-          <img src={series.img8} alt={series.alt} />
-          <img src={series.img9} alt={series.alt} />
-          <img src={series.img10} alt={series.alt} />
-          <img src={series.img11} alt={series.alt} />
+          <img  src={series.img1} alt={series.alt}/>
+          <img  src={series.img2} alt={series.alt}/>
+          <img  src={series.img3} alt={series.alt}/>
+          <img  src={series.img4} alt={series.alt}/>
+          <img  src={series.img5} alt={series.alt}/>
+          <img  src={series.img6} alt={series.alt}/>
+          <img  src={series.img7} alt={series.alt}/>
+          <img  src={series.img8} alt={series.alt}/>
+          <img  src={series.img9} alt={series.alt}/>
+          <img  src={series.img10} alt={series.alt}/>
+          <img  src={series.img11} alt={series.alt}/>
         </div>
       </div>
     ) : null}

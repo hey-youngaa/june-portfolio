@@ -13,7 +13,10 @@ function Drawing() {
         {drawingSeries.map((item) => {
           return(
             <Link to={`/drawing/${item.id}`}>
-              <img src={item.img1} />
+              <div className="seriesWrapper">
+                <img src={item.img1}  alt={item.alt}/>
+                <h2 className='seriesTitle'>{item.title}</h2>
+              </div>
             </Link>
           )
         })}

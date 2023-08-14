@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../../assets/fonts/NunitoSans.ttf');
+}
+
+@font-face {
+    font-family: 'Bagel';
+    src: url('../../assets/fonts/BagelFontOne.ttf');
+}
+
+@font-face {
+    font-family: 'Noto Sans-light';
+    src: url('../../assets/fonts/NotoSansKR-Light.otf');
+}
+
+@font-face {
+    font-family: 'Noto Regular';
+    src: url('../../assets/fonts/NotoSansKR-Regular.otf');
+}
+
 .sideBarContainer{
     height: 100%;
     width: 155px;
@@ -16,7 +36,8 @@
 .logo{
     text-decoration: none;
     font-size: 40px;
-    color: black;
+    color: #663366;
+    font-family: Noto Regular;
 }
 .navItems{
     padding-left: 25px;
@@ -29,9 +50,9 @@
 }
 .navLinks{
     text-decoration: none;
-    color: black;
+    color: #330033;
+    font-family: Noto Regular;
 }
-
 
 .socials{
     display: flex;
