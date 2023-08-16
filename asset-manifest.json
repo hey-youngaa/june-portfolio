@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/june-portfolio/static/css/main.2e673490.css",
-    "main.js": "/june-portfolio/static/js/main.3eaaf8fc.js",
+    "main.css": "/june-portfolio/static/css/main.37e15af7.css",
+    "main.js": "/june-portfolio/static/js/main.bdae1957.js",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
     "static/media/dust.png": "/june-portfolio/static/media/dust.149826864dcf8667f777.png",
     "static/media/window.png": "/june-portfolio/static/media/window.74ba7e88ba1622572781.png",
@@ -29,6 +29,7 @@
     "static/media/rendezvous2.jpg": "/june-portfolio/static/media/rendezvous2.c7d18aa1be1f96d649ca.jpg",
     "static/media/scap.jpg": "/june-portfolio/static/media/scap.e459a1779da4128ca5c6.jpg",
     "static/media/red.jpg": "/june-portfolio/static/media/red.6892bcf31cd19fde742f.jpg",
+    "static/media/donkey.png": "/june-portfolio/static/media/donkey.d5e339ab3e01128089eb.png",
     "static/media/rocks.png": "/june-portfolio/static/media/rocks.4d9a1c91f1b177d44774.png",
     "static/media/washingAshore.png": "/june-portfolio/static/media/washingAshore.5bec44f25a9989120467.png",
     "static/media/corner.png": "/june-portfolio/static/media/corner.a3d400d536540a863d2c.png",
@@ -44,7 +45,7 @@
     "static/media/GW4.jpg": "/june-portfolio/static/media/GW4.7f19404a119d01afeef4.jpg",
     "static/media/GW2.jpg": "/june-portfolio/static/media/GW2.d7df27cd877d50176fb1.jpg",
     "static/media/GW5.jpg": "/june-portfolio/static/media/GW5.f28d44fa1d1450a55856.jpg",
-    "static/media/BagelFontOne.ttf": "/june-portfolio/static/media/BagelFontOne.036565a8126d1bf2ae0c.ttf",
+    "static/media/os.jpg": "/june-portfolio/static/media/os.7b82ace288c2f8e0478c.jpg",
     "static/media/GW3.jpg": "/june-portfolio/static/media/GW3.6aa67e9e472661610683.jpg",
     "static/media/GW11.jpg": "/june-portfolio/static/media/GW11.d01bd0bd2ebd1ea9df39.jpg",
     "static/media/potatoFields.jpg": "/june-portfolio/static/media/potatoFields.808721f9dc6899cfb756.jpg",
@@ -58,18 +59,22 @@
     "static/media/isit2.jpg": "/june-portfolio/static/media/isit2.a6cdf2de499a7d962baa.jpg",
     "static/media/lettuceGardenCharm.jpg": "/june-portfolio/static/media/lettuceGardenCharm.8d3a15c036525c3b7c1d.jpg",
     "static/media/GW7.jpg": "/june-portfolio/static/media/GW7.dfefbbb66992baaac8a8.jpg",
-    "static/media/NunitoSans.ttf": "/june-portfolio/static/media/NunitoSans.61b71ee93d55d9bddead.ttf",
     "static/media/splinter.jpg": "/june-portfolio/static/media/splinter.60103e050530fca8ce54.jpg",
     "static/media/port.jpg": "/june-portfolio/static/media/port.12c1c3d9e68442baa68f.jpg",
+    "static/media/osy.jpg": "/june-portfolio/static/media/osy.e157a9a7eda7e05ecd25.jpg",
+    "static/media/osb.jpg": "/june-portfolio/static/media/osb.91e10777f7d89de36331.jpg",
+    "static/media/oso.jpg": "/june-portfolio/static/media/oso.698b47dadba5f4cca2c0.jpg",
     "static/media/self.jpg": "/june-portfolio/static/media/self.f0e126391da6970aceee.jpg",
+    "static/media/routed-gothic-wide.ttf": "/june-portfolio/static/media/routed-gothic-wide.be0819ff446292149aa5.ttf",
+    "static/media/routed-gothic.ttf": "/june-portfolio/static/media/routed-gothic.eb468ee694267b4d2235.ttf",
     "static/media/insta.svg": "/june-portfolio/static/media/insta.47f41b6b56816e8c907c0c60a25e7c28.svg",
     "static/media/email.svg": "/june-portfolio/static/media/email.f23e44c5b4e60fb84713a3ab69c7105f.svg",
     "index.html": "/june-portfolio/index.html",
-    "main.2e673490.css.map": "/june-portfolio/static/css/main.2e673490.css.map",
-    "main.3eaaf8fc.js.map": "/june-portfolio/static/js/main.3eaaf8fc.js.map"
+    "main.37e15af7.css.map": "/june-portfolio/static/css/main.37e15af7.css.map",
+    "main.bdae1957.js.map": "/june-portfolio/static/js/main.bdae1957.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e673490.css",
-    "static/js/main.3eaaf8fc.js"
+    "static/css/main.37e15af7.css",
+    "static/js/main.bdae1957.js"
   ]
 }
