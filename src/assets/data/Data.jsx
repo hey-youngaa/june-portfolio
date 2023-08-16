@@ -19,6 +19,11 @@ import BS3 from '../images/BS3.jpg'
 import BS4 from '../images/BS4.jpg'
 import BS5 from '../images/BS5.jpg'
 
+import os from '../images/os.jpg'
+import osb from '../images/osb.jpg'
+import oso from '../images/oso.jpg'
+import osy from '../images/osy.jpg'
+
 import isit1 from '../images/isit1.jpg'
 import isit2 from '../images/isit2.jpg'
 import isit3 from '../images/isit3.jpg'
@@ -37,6 +42,7 @@ import RDV from '../images/rendezvous.jpg'
 import rubies from '../images/rubies.png'
 import splinter from '../images/splinter.jpg'
 import untitled from '../images/Untitled.jpg'
+import donkey from '../images/donkey.png'
 
 import dwellings from '../images/dwellings.jpg'
 import ED from '../images/elephantDreams.png'
@@ -161,17 +167,26 @@ export const drawingWork = [
     {
         image: dwellings,
         alt: 'drawing piece',
-        title: 'Dwellings'
+        title: 'Dwellings',
+        matl: '9" x 14" | Acrylic and ink on paper'
+    },
+    {
+        image: donkey,
+        alt: 'drawing piece',
+        title: 'Guardian',
+        matl: '20" x 20" | Ink, shellac, glitter, and soft pastel on paper'
     },
     {
         image: ED,
         alt: 'drawing piece',
-        title: 'Elephant Dreams'
+        title: 'Elephant Dreams',
+        matl: 'Acrylic stencil, glitter, and thread on paper'
     },
     {
         image: OD,
         alt: 'drawing piece',
-        title: 'Observation Drawings'
+        title: 'Observation Drawings',
+        matl: 'Silver point and fire on paper'
     },
     {
         image: TL,
@@ -181,17 +196,20 @@ export const drawingWork = [
     {
         image: ddm,
         alt: 'drawing piece',
-        title: 'Do not disturb me'
+        title: 'Figure Drawing',
+        matl: 'Conte and soft pastel on paper'
     },
     {
         image: red,
         alt: 'drawing piece',
-        title: 'Red'
+        title: "Hill's Backside Under the Red Sky",
+        matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
         image: scap,
         alt: 'drawing piece',
-        title: 'Scap'
+        title: 'An Alien Field',
+        matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     }
 ]
 
@@ -199,44 +217,51 @@ export const sculptureWork = [
     {
         image: port,
         alt: 'sculpture piece',
-        title: 'Port'
+        title: 'Port',
+        matl: '7" x 7" | Oil and ink on found wood'
     },
     {
         image: reflexes,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth'
+        title: 'Reflexes Of A Vulnerable Earth (After Worster)',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
     },
     {
         image: reflexes2,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth II'
+        title: 'Reflexes Of A Vulnerable Earth II (After Worster)',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
     },
     {
         image: window,
         alt: 'sculpture piece',
-        title: 'Mountain In Stone'
+        title: 'Mountainside View',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
     },
     {
         image: dust,
         alt: 'sculpture piece',
-        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)'
+        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft and oil pastel on hanji, paper pulp and wood'
     },
     {
         image: dustSide,
         alt: 'sculpture piece',
-        title: 'The Dust That Falls On Modern Things - side'
+        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft and oil pastel on hanji, paper pulp and wood'
     },
     {
         image: windowSide,
         alt: 'sculpture piece',
-        title: 'Mountain In Stone - side'
+        title: 'Mountainside View - side',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
     }
 ]
 
 export const miscWork = [
     {
         image: swim,
-        title: 'swimmer',
+        title: 'Swimmer',
         alt: 'misc work'
     },
     {
@@ -269,39 +294,141 @@ export const drawingSeries = [
     {
         id: 'groundwater-series',
         title: 'Groundwater',
-        img1: GW1,
-        img2: GW2,
-        img3: GW3,
-        img4: GW4,
-        img5: GW5,
-        img6: GW6,
-        img7: GW7,
-        img8: GW8,
-        img9: GW9,
-        img10: GW10,
-        img11: GW11,
+        cover: GW1,
         alt: 'groundwater piece',
+        imgs: [
+            {
+                image: GW1,
+                alt: 'groundwater'
+            },
+            {
+                image: GW2,
+                alt: 'groundwater'
+            },
+            {
+                image: GW3,
+                alt: 'groundwater'
+            },
+            {
+                image: GW4,
+                alt: 'groundwater'
+            },
+            {
+                image: GW5,
+                alt: 'groundwater'
+            },
+            {
+                image: GW6,
+                alt: 'groundwater'
+            },
+            {
+                image: GW7,
+                alt: 'groundwater'
+            },
+            {
+                image: GW8,
+                alt: 'groundwater'
+            },
+            {
+                image: GW9,
+                alt: 'groundwater'
+            },
+            {
+                image: GW10,
+                alt: 'groundwater'
+            },
+            {
+                image: GW11,
+                alt: 'groundwater'
+            },
+        ]
     },
     {
         id:'bedtime-tales-series',
         title: 'Bedtime Tales',
-        img1: BS1,
-        img2: BS2,
-        img3: BS3,
-        img4: BS4,
-        img5: BS5,
-        alt: 'bedtime tales piece'
+        cover: BS1,
+        alt: 'bedtime tales piece',
+        imgs: [
+            {
+                image: BS1,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS2,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS3,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS4,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS5,
+                alt: 'bedtime tales'
+            }
+        ]
     },
     {
         id: 'in-summer-i-will-tear-series',
         title: "In Summer I'll Tear",
-        img1: isit1,
-        img2: isit2,
-        img3: isit3,
-        img4: isit4,
-        img5: isit5,
-        img6: isit6,
-        img7: isit7,
-        alt: 'in summer i will tear piece'
+        cover: isit1,
+        alt: "in summer i'll tear piece",
+        imgs: [
+            {
+                image: isit1,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit2,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit3,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit4,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit5,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit6,
+                alt: "in summer i'll tear"
+            },
+            {
+                image: isit7,
+                alt: "in summer i'll tear"
+            }
+        ]
+    },
+    {
+        id:'oil-spill-series',
+        title: 'Oill Spill',
+        cover: os,
+        alt: 'oill spill piece',
+        imgs: [
+            {
+                image: os,
+                alt: 'oill spill'
+            },
+            {
+                image: osb,
+                alt: 'oill spill'
+            },
+            {
+                image: oso,
+                alt: 'oill spill'
+            },
+            {
+                image: osy,
+                alt: 'oill spill'
+            }
+        ]
     }
 ]

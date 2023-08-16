@@ -14,8 +14,10 @@ function Drawing() {
           return(
             <Link to={`/drawing/${item.id}`}>
               <div className="seriesWrapper">
-                <img src={item.img1}  alt={item.alt}/>
-                <h2 className='seriesTitle'>{item.title}</h2>
+                <img src={item.cover}  alt={item.alt}/>
+                <div className="titleWrapper">
+                  <h2 className='seriesTitle'>{item.title}</h2>
+                </div>
               </div>
             </Link>
           )

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavItems } from '../../assets/data/Data'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './sidebar.css'
 import { socialIcons } from '../../assets/data/Data'
 
@@ -8,15 +8,15 @@ function SideBar() {
   return (
     <div className="sideBarContainer">
         <div className="logoWrapper">
-            <Link to='/' className='logo'>JUNE CHOI</Link>
+            <NavLink to='/' className='logo'>JUNE CHOI</NavLink>
         </div>
         <ul className='navItems'>
             {NavItems.map((item,index) => {
                 return (
                     <li key={index} className='navItem'>
-                        <Link className={item.cName} to={item.url}>
+                        <NavLink to={item.url} className={item.cName} >
                             {item.title}
-                        </Link>
+                        </NavLink>
                     </li>
                 )
             })}

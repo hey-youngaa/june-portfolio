@@ -1,14 +1,4 @@
 @font-face {
-    font-family: 'Nunito Sans';
-    src: url('../../assets/fonts/NunitoSans.ttf');
-}
-
-@font-face {
-    font-family: 'Bagel';
-    src: url('../../assets/fonts/BagelFontOne.ttf');
-}
-
-@font-face {
     font-family: 'Noto Sans-light';
     src: url('../../assets/fonts/NotoSansKR-Light.otf');
 }
@@ -18,6 +8,10 @@
     src: url('../../assets/fonts/NotoSansKR-Regular.otf');
 }
 
+@font-face {
+    font-family: 'Routed Gothic';
+    src: url('../../assets/fonts/routed-gothic.ttf');
+}
 .sideBarContainer{
     height: 100%;
     width: 155px;
@@ -37,7 +31,7 @@
     text-decoration: none;
     font-size: 40px;
     color: #663366;
-    font-family: Noto Regular;
+    font-family: Routed Gothic;
 }
 .navItems{
     padding-left: 25px;
@@ -51,8 +45,9 @@
 .navLinks{
     text-decoration: none;
     color: #330033;
-    font-family: Noto Regular;
+    font-family: Routed Gothic;
 }
+
 
 .socials{
     display: flex;
