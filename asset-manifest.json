@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/june-portfolio/static/css/main.1ead92b4.css",
-    "main.js": "/june-portfolio/static/js/main.ded4c5ab.js",
+    "main.css": "/june-portfolio/static/css/main.f4bf477a.css",
+    "main.js": "/june-portfolio/static/js/main.239813da.js",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
     "static/media/dust.png": "/june-portfolio/static/media/dust.149826864dcf8667f777.png",
     "static/media/window.png": "/june-portfolio/static/media/window.74ba7e88ba1622572781.png",
     "static/media/reflexes2.png": "/june-portfolio/static/media/reflexes2.01189c47fa902a4ee43e.png",
     "static/media/reflexes.png": "/june-portfolio/static/media/reflexes.14529db5ac5d259d1ffb.png",
+    "static/media/GW1cover.png": "/june-portfolio/static/media/GW1cover.15e6b8d65b5d7e8cebd8.png",
+    "static/media/BScover.png": "/june-portfolio/static/media/BScover.66a7d8e83eb4f19fcb4c.png",
     "static/media/windowSide.png": "/june-portfolio/static/media/windowSide.3f3a1cccd1d06af953c9.png",
     "static/media/leopardTranspirings.png": "/june-portfolio/static/media/leopardTranspirings.f6b8323d25d5206d8b59.png",
     "static/media/rendezvous.jpg": "/june-portfolio/static/media/rendezvous.8c3d1bf6cb7535abefb0.jpg",
     "static/media/rubies.png": "/june-portfolio/static/media/rubies.08fa7f8033b5aec258fc.png",
     "static/media/elephantDreams.png": "/june-portfolio/static/media/elephantDreams.2ec46b000e0119e39819.png",
-    "static/media/observationDrawings.png": "/june-portfolio/static/media/observationDrawings.4410aa42f663c2a9fe96.png",
     "static/media/BS4.jpg": "/june-portfolio/static/media/BS4.46cb5a80d24f206c2519.jpg",
     "static/media/isit7.jpg": "/june-portfolio/static/media/isit7.1fd6cfe1a078dac34231.jpg",
     "static/media/BS2.jpg": "/june-portfolio/static/media/BS2.6ae5993f6dff06bcb71a.jpg",
@@ -25,6 +26,8 @@
     "static/media/NotoSansKR-Regular.otf": "/june-portfolio/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
     "static/media/NotoSansKR-Light.otf": "/june-portfolio/static/media/NotoSansKR-Light.636ff9b51e826a733c3d.otf",
     "static/media/BS1.jpg": "/june-portfolio/static/media/BS1.0f5d46fd5e5ae3cf27ed.jpg",
+    "static/media/oscover.png": "/june-portfolio/static/media/oscover.f06c7787f055cb6dbae9.png",
+    "static/media/isit1cover.png": "/june-portfolio/static/media/isit1cover.563a5f17334315702016.png",
     "static/media/swimming.mp4": "/june-portfolio/static/media/swimming.bd8a772b1d1a4e471e05.mp4",
     "static/media/rendezvous2.jpg": "/june-portfolio/static/media/rendezvous2.c7d18aa1be1f96d649ca.jpg",
     "static/media/scap.jpg": "/june-portfolio/static/media/scap.e459a1779da4128ca5c6.jpg",
@@ -52,6 +55,7 @@
     "static/media/tower.png": "/june-portfolio/static/media/tower.cf82ffdb9a7278afda14.png",
     "static/media/daytimeVacancies.jpg": "/june-portfolio/static/media/daytimeVacancies.24d03cdf2943e2d8189a.jpg",
     "static/media/Untitled.jpg": "/june-portfolio/static/media/Untitled.fab4c70fb8efa15e2c81.jpg",
+    "static/media/observationDrawings.png": "/june-portfolio/static/media/observationDrawings.f2204fa2ced837feea86.png",
     "static/media/isit3.jpg": "/june-portfolio/static/media/isit3.2f8c7bc76eab0bc8d62b.jpg",
     "static/media/isit1.jpg": "/june-portfolio/static/media/isit1.f1adfe9681f5c2b13f28.jpg",
     "static/media/isit4.jpg": "/june-portfolio/static/media/isit4.bdecfca770f378d4a699.jpg",
@@ -70,11 +74,11 @@
     "static/media/insta.svg": "/june-portfolio/static/media/insta.47f41b6b56816e8c907c0c60a25e7c28.svg",
     "static/media/email.svg": "/june-portfolio/static/media/email.f23e44c5b4e60fb84713a3ab69c7105f.svg",
     "index.html": "/june-portfolio/index.html",
-    "main.1ead92b4.css.map": "/june-portfolio/static/css/main.1ead92b4.css.map",
-    "main.ded4c5ab.js.map": "/june-portfolio/static/js/main.ded4c5ab.js.map"
+    "main.f4bf477a.css.map": "/june-portfolio/static/css/main.f4bf477a.css.map",
+    "main.239813da.js.map": "/june-portfolio/static/js/main.239813da.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ead92b4.css",
-    "static/js/main.ded4c5ab.js"
+    "static/css/main.f4bf477a.css",
+    "static/js/main.239813da.js"
   ]
 }
