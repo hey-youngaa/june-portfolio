@@ -131,14 +131,14 @@ export const paintingWork = [
         title: 'Lettuce Garden Charm'
     },
     {
-        image: LOFS,
-        alt: 'painting piece',
-        title: 'Light of Folding Screen'
-    },
-    {
         image: PF,
         alt: 'painting piece',
         title: 'Potato Fields'
+    },
+    {
+        image: LOFS,
+        alt: 'painting piece',
+        title: 'Light of Folding Screen'
     },
     {
         image: R2,

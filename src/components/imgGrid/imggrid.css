@@ -11,7 +11,7 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .gridContainer{
         grid-template-columns: 1fr;
         grid-template-rows: auto ;

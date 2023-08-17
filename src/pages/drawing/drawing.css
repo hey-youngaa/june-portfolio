@@ -14,7 +14,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 1em;
-    margin: 0 50px;
+    margin: 0 70px;
 }
 
 .seriesWrapper{

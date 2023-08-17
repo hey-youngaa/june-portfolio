@@ -30,19 +30,17 @@ function OneCol({gallery}) {
     <>
         {openModal &&
             <div className='modalContainer'>
-                <div className="modalBackdrop">
-                    <IoClose className='close' onClick={handleCloseModal} />
+                <IoClose className='close' onClick={handleCloseModal} />
                     <FiChevronLeft className='previous' onClick={prevSlide} />
                     <img src={gallery[slideNumber].image} alt='' className='modalImg' />
                     <h3 className='title'>{gallery[slideNumber].title}</h3>
                     <FiChevronRight className='next' onClick={nextSlide} />
-                </div>
             </div>
         }
 
         <div className="masonryContainer">
             <ResponsiveMasonry columnsCountBreakPoints={{350:1}}>
-                <Masonry gutter='40px'>
+                <Masonry gutter='1em'>
                     {gallery.map((item,index) => {
                         return(
                             <img 

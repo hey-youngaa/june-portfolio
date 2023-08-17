@@ -27,6 +27,15 @@ function ImgGallery({gallery}) {
        setSlideNumber( slideNumber === length - 1 ? 0 : slideNumber + 1)
     }
 
+    const handleKeyPress = (e) => {
+        if ((e.code) === 'ArrowRight'){
+            nextSlide
+        }
+        else if ((e.code) === 'ArrowLeft'){
+            prevSlide
+        }
+    }
+
   return (
    <>
         {openModal &&
@@ -43,7 +52,7 @@ function ImgGallery({gallery}) {
         }
         <div className='masonryContainer'>
             <ResponsiveMasonry columnsCountBreakPoints={{350:1, 750:2, 900:3}} >
-                <Masonry gutter='80px'>
+                <Masonry gutter='10px'>
                     {gallery.map((item,index) => {
                         return(
                             <img 
