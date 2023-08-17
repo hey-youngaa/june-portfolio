@@ -3,19 +3,22 @@
     src: url('../../assets/fonts/routed-gothic.ttf');
 }
 
+.break{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+}
+
 .seriesContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    margin: 0 50px;
 }
 
 .seriesWrapper{
     position: relative;
-    width: 35vw;
-    height: 40vh;
-    margin: 10px;
 }
 
 .seriesWrapper img{
@@ -39,6 +42,7 @@
     transition: opacity .2s, visibility .2s;
     opacity: 0;
     font-family: Routed Gothic;
+    font-weight: normal;
 }
 
 .seriesWrapper:hover .seriesTitle{
@@ -46,8 +50,17 @@
     opacity: 1;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
     .seriesTitle{
         font-size: 16px;
+    }
+
+    .seriesContainer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .seriesWrapper{
+        height: 25vh;
     }
 }

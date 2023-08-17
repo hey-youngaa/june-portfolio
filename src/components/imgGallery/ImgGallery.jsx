@@ -32,13 +32,13 @@ function ImgGallery({gallery}) {
         {openModal &&
             <div className='modalContainer'>
                 <IoClose className='close' onClick={handleCloseModal} />
-                <FiChevronLeft className='previous' onClick={prevSlide}  />
-                <img src={gallery[slideNumber].image} alt='' className='modalImg' />
-                <div className="imgDesc">
-                    <h3 className='imgTitle'>{gallery[slideNumber].title}</h3>
-                    <p>{gallery[slideNumber].matl}</p>
-                </div>
-                <FiChevronRight className='next' onClick={nextSlide} />
+                    <FiChevronLeft className='previous' onClick={prevSlide}  />
+                    <img src={gallery[slideNumber].image} alt='' className='modalImg' />
+                    <div className="imgDesc">
+                        <h3 className='imgTitle'>{gallery[slideNumber].title}</h3>
+                        <p>{gallery[slideNumber].matl}</p>
+                    </div>
+                    <FiChevronRight className='next' onClick={nextSlide} />
             </div>
         }
         <div className='masonryContainer'>

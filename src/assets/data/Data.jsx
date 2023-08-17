@@ -12,17 +12,20 @@ import GW8 from '../images/GW8.jpg'
 import GW9 from '../images/GW9.jpg'
 import GW10 from '../images/GW10.jpg'
 import GW11 from '../images/GW11.jpg'
+import GW1cover from '../images/GW1cover.png'
 
 import BS1 from '../images/BS1.jpg'
 import BS2 from '../images/BS2.jpg'
 import BS3 from '../images/BS3.jpg'
 import BS4 from '../images/BS4.jpg'
 import BS5 from '../images/BS5.jpg'
+import BScover from '../images/BScover.png'
 
 import os from '../images/os.jpg'
 import osb from '../images/osb.jpg'
 import oso from '../images/oso.jpg'
 import osy from '../images/osy.jpg'
+import oscover from '../images/oscover.png'
 
 import isit1 from '../images/isit1.jpg'
 import isit2 from '../images/isit2.jpg'
@@ -31,6 +34,7 @@ import isit4 from '../images/isit4.jpg'
 import isit5 from '../images/isit5.jpg'
 import isit6 from '../images/isit6.jpg'
 import isit7 from '../images/isit7.jpg'
+import isit1cover from '../images/isit1cover.png'
 
 import DV from '../images/daytimeVacancies.jpg'
 import LT from '../images/leopardTranspirings.png'
@@ -186,7 +190,7 @@ export const drawingWork = [
         image: OD,
         alt: 'drawing piece',
         title: 'Observation Drawings',
-        matl: 'Silver point and fire on paper'
+        matl: 'Silver point and burned paper'
     },
     {
         image: TL,
@@ -294,7 +298,7 @@ export const drawingSeries = [
     {
         id: 'groundwater-series',
         title: 'Groundwater',
-        cover: GW1,
+        cover: GW1cover,
         alt: 'groundwater piece',
         imgs: [
             {
@@ -346,7 +350,7 @@ export const drawingSeries = [
     {
         id:'bedtime-tales-series',
         title: 'Bedtime Tales',
-        cover: BS1,
+        cover: BScover,
         alt: 'bedtime tales piece',
         imgs: [
             {
@@ -374,8 +378,9 @@ export const drawingSeries = [
     {
         id: 'in-summer-i-will-tear-series',
         title: "In Summer I'll Tear",
-        cover: isit1,
+        cover: isit1cover,
         alt: "in summer i'll tear piece",
+        text: 'Dried peel, staked wood, rubber pipe, splintered corner',
         imgs: [
             {
                 image: isit1,
@@ -410,7 +415,7 @@ export const drawingSeries = [
     {
         id:'oil-spill-series',
         title: 'Oill Spill',
-        cover: os,
+        cover: oscover,
         alt: 'oill spill piece',
         imgs: [
             {

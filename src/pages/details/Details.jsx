@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import './details.css'
 import { drawingSeries } from '../../assets/data/Data'
-import OneCol from '../../components/oneCol/OneCol'
+import ImgGrid from '../../components/imgGrid/ImgGrid'
 
 function Details() {
   let {id} = useParams()
@@ -20,8 +20,8 @@ function Details() {
     {series ? (
       <div className="singleSeries">
         <h1>{series.title}</h1>
-        <p> Some information on medium, measurements?</p>
-        <OneCol  gallery={series.imgs} />
+        <p> {series.text}</p>
+        <ImgGrid collection={series.imgs} />
       </div>
     ) : null}
     </div>

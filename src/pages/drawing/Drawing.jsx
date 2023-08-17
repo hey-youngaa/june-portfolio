@@ -9,6 +9,7 @@ function Drawing() {
   return (
     <div className='pageContainer'>
       <ImgGallery gallery={drawingWork} />
+      <div className="break"></div>
       <div className="seriesContainer">
         {drawingSeries.map((item) => {
           return(
