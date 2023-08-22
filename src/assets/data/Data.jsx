@@ -53,7 +53,7 @@ import ED from '../images/elephantDreams.png'
 import OD from '../images/observationDrawings.png'
 import TL from '../images/theLeftover.jpg'
 import ddm from '../images/ddm.jpg'
-import red from '../images/red.jpg'
+import red from '../images/red.png'
 import scap from '../images/scap.jpg'
 
 import window from '../images/window.png'
@@ -66,7 +66,6 @@ import port from '../images/port.jpg'
 
 import swim from '../images/swim.png'
 import divers from '../images/divers.png'
-import tower from '../images/tower.png'
 import corner from '../images/corner.png'
 import rocks from '../images/rocks.png'
 import washingAshore from '../images/washingAshore.png'
@@ -169,83 +168,77 @@ export const paintingWork = [
 
 export const drawingWork = [
     {
-        image: dwellings,
-        alt: 'drawing piece',
-        title: 'Dwellings',
-        matl: '9" x 14" | Acrylic and ink on paper'
-    },
-    {
-        image: donkey,
-        alt: 'drawing piece',
-        title: 'Guardian',
-        matl: '20" x 20" | Ink, shellac, glitter, and soft pastel on paper'
-    },
-    {
-        image: ED,
-        alt: 'drawing piece',
-        title: 'Elephant Dreams',
-        matl: 'Acrylic stencil, glitter, and thread on paper'
-    },
-    {
-        image: OD,
-        alt: 'drawing piece',
-        title: 'Observation Drawings',
-        matl: 'Silver point and burned paper'
-    },
-    {
-        image: TL,
-        alt: 'drawing piece',
-        title: 'The Leftover'
-    },
-    {
-        image: ddm,
-        alt: 'drawing piece',
-        title: 'Figure Drawing',
-        matl: 'Conte and soft pastel on paper'
-    },
-    {
         image: red,
         alt: 'drawing piece',
-        title: "Hill's Backside Under the Red Sky",
+        title: "Hill's Backside Under the Red Sky (2021)",
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
         image: scap,
         alt: 'drawing piece',
-        title: 'An Alien Field',
+        title: 'An Alien Field (2021)',
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
-    }
+    },
+    {
+        image: donkey,
+        alt: 'drawing piece',
+        title: 'Guardian (2021)',
+        matl: '20" x 20" | Ink, shellac, glitter, and soft pastel on paper'
+    },
+    {
+        image: ED,
+        alt: 'drawing piece',
+        title: 'Elephant Dreams (2021)',
+        matl: 'Acrylic stencil, glitter, and thread on paper'
+    },
+    {
+        image: dwellings,
+        alt: 'drawing piece',
+        title: 'Dwellings (2020)',
+        matl: '9" x 14" | Acrylic and ink on paper'
+    },
+    {
+        image: ddm,
+        alt: 'drawing piece',
+        title: 'Figure Drawing (2020)',
+        matl: 'Conte and soft pastel on paper'
+    },
+    {
+        image: OD,
+        alt: 'drawing piece',
+        title: 'Observation Drawings (2020)',
+        matl: 'Silver point and burned paper'
+    },
+    {
+        image: TL,
+        alt: 'drawing piece',
+        title: 'The Leftover (2020)'
+    },
 ]
 
 export const sculptureWork = [
     {
-        image: port,
-        alt: 'sculpture piece',
-        title: 'Port',
-        matl: '7" x 7" | Oil and ink on found wood'
-    },
-    {
         image: reflexes,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth (After Worster)',
+        title: 'Reflexes Of A Vulnerable Earth (After Worster) (2023)',
         matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
     },
     {
         image: reflexes2,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth II (After Worster)',
+        title: 'Reflexes Of A Vulnerable Earth II (After Worster) (2023) ',
         matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
     },
     {
         image: window,
         alt: 'sculpture piece',
-        title: 'Mountainside View',
+        title: 'Mountainside View (2023)',
         matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
     },
     {
         image: dust,
         alt: 'sculpture piece',
-        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)',
+        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga) (2023)',
         matl: '5" x 7" | Acrylic, color pencil, soft and oil pastel on hanji, paper pulp and wood'
     },
     {
@@ -257,40 +250,41 @@ export const sculptureWork = [
     {
         image: windowSide,
         alt: 'sculpture piece',
-        title: 'Mountainside View - side',
+        title: 'Mountainside View - side (2023)',
         matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
-    }
+    },
+    {
+        image: port,
+        alt: 'sculpture piece',
+        title: 'Port (2022)',
+        matl: '7" x 7" | Oil and ink on found wood'
+    },
 ]
 
 export const miscWork = [
     {
-        image: swim,
-        title: 'Swimmer',
-        alt: 'misc work'
-    },
-    {
-        image: tower,
-        title: 'Tower',
-        alt: 'misc work'
-    },
-    {
         image: divers,
-        title: 'Divers',
+        title: 'Divers (2023)',
         alt: 'misc work'
     },
     {
-        image: rocks,
-        title: 'Trail',
-        alt: 'misc work'
-    },
-    {
-        image: corner,
-        title: 'Onlooker',
+        image: swim,
+        title: 'Swimmer (2022)',
         alt: 'misc work'
     },
     {
         image: washingAshore,
-        title: 'Washing Ashore',
+        title: 'Washed Ashore (2022)',
+        alt: 'misc work'
+    },
+    {
+        image: rocks,
+        title: 'Rock Trail (2022)',
+        alt: 'misc work'
+    },
+    {
+        image: corner,
+        title: 'Onlooker (2022)',
         alt: 'misc work'
     }
 ]

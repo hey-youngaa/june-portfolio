@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Routed Gothic';
+    src: url('../../assets/fonts/routed-gothic.ttf');
+}
+
 .singleImg{
     width: 100%;
     height: auto;
@@ -9,4 +14,6 @@
 .title{
     position: absolute;
     bottom: 5%;
+    font-family: Routed Gothic;
+    font-weight: normal;
 }
