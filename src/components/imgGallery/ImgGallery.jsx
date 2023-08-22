@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Masonry,{ResponsiveMasonry} from 'react-responsive-masonry'
+import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 import './imggallery.css'
 import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
 import {IoClose} from 'react-icons/io5'
@@ -43,7 +43,7 @@ function ImgGallery({gallery}) {
         }
         <div className='masonryContainer'>
             <ResponsiveMasonry columnsCountBreakPoints={{350:1, 750:2, 900:3}} >
-                <Masonry gutter='.9rem'>
+                <Masonry gutter='10px'>
                     {gallery.map((item,index) => {
                         return(
                             <img 

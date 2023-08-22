@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'Routed Gothic';
+    src: url('../../assets/fonts/routed-gothic.ttf');
+}
+
 .singleSeries{
     display: flex;
     margin: 20px 50px;
     flex-direction: column;
+}
+
+.singleSeries h1{
+    font-family: Routed Gothic;
 }
 
 .seriesImgs{

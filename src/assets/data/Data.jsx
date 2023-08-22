@@ -73,28 +73,23 @@ import washingAshore from '../images/washingAshore.png'
 export const NavItems = [
     {
         title: 'Painting',
-        url: '/painting',
-        cName: 'navLinks'
+        url: '/painting'
     },
     {
         title: 'Sculpture',
-        url: '/sculpture',
-        cName: 'navLinks'
+        url: '/sculpture'
     },
     {
         title: 'Drawing',
-        url: '/drawing',
-        cName: 'navLinks'
+        url: '/drawing'
     },
     {
         title: 'Misc',
-        url: '/misc',
-        cName: 'navLinks'
+        url: '/misc'
     },
     {
         title: 'About',
-        url: '/about',
-        cName: 'navLinks'
+        url: '/about'
     }
 ]
 
@@ -117,53 +112,53 @@ export const paintingWork = [
     {
         image: DV,
         alt: 'painting piece',
-        title: 'Daytime Vacancies'
-    },
-    {
-        image: LT,
-        alt: 'painting piece',
-        title: 'Leopard Transpirings'
-    },
-    {
-        image: LGC,
-        alt: 'painting piece',
-        title: 'Lettuce Garden Charm'
-    },
-    {
-        image: PF,
-        alt: 'painting piece',
-        title: 'Potato Fields'
+        title: 'Daytime Vacancies (2022)'
     },
     {
         image: LOFS,
         alt: 'painting piece',
-        title: 'Light of Folding Screen'
+        title: 'Light of Folding Screen (2021)'
     },
     {
-        image: R2,
+        image: splinter,
         alt: 'painting piece',
-        title: 'Rendezvous II'
+        title: 'Story of a Splinter (2022)'
     },
     {
-        image: RDV,
+        image: LGC,
         alt: 'painting piece',
-        title: 'Rendezvous'
+        title: 'Lettuce Garden Charm (2021)'
     },
     {
         image: rubies,
         alt: 'painting piece',
-        title: 'Rubies in the Sternum, Long Thereafter '
+        title: 'Rubies in the Sternum, Long Thereafter (2021)'
     },
     {
-        image: splinter,
-        alt: 'Gpainting piece',
-        title: 'Story of a Splinter'
+        image: LT,
+        alt: 'painting piece',
+        title: 'Leopard Transpirings (2021)'
     },
     {
         image: untitled,
         alt: 'painting piece',
-        title: 'Untitled (2019)'
-    }
+        title: 'Untitled (2020)'
+    },
+    {
+        image: PF,
+        alt: 'painting piece',
+        title: 'Potato Fields (2020)'
+    },
+    {
+        image: RDV,
+        alt: 'painting piece',
+        title: 'Rendezvous (2020)'
+    },
+    {
+        image: R2,
+        alt: 'painting piece',
+        title: 'Rendezvous II (2020)'
+    },
 ]
 
 export const drawingWork = [

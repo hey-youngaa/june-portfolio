@@ -20,6 +20,7 @@
     left: 0;
     z-index: 1;
     overflow-x: hidden;
+    background: transparent;
 }
 
 .logoWrapper{
@@ -27,11 +28,16 @@
     padding-left: 20px;
 }
 
+.logo.home{
+    color: white;
+}
+
 .logo{
     text-decoration: none;
     font-size: 40px;
     color: #663366;
     font-family: Routed Gothic;
+    line-height: .8;
 }
 .navItems{
     padding-left: 25px;
@@ -42,33 +48,17 @@
     list-style: none;
     margin-top: 15px;
 }
+
 .navLinks{
     text-decoration: none;
     color: #330033;
     font-family: Routed Gothic;
 }
 
-
-.socials{
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-
+.navLinks.home{
+    color: white;
 }
 
-.socialLinks {
-    list-style: none;
-    margin: 0 5px;
-}
-
-.socialLinks img{
-    height: 30px;
-    width: auto;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 600px) {
     .sideBarContainer{

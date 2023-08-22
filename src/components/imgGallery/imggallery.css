@@ -8,14 +8,10 @@
     src: url('../../assets/fonts/routed-gothic-wide.ttf');
 }
 
-.masonryContainer{
-    margin: 30px 50px;
-    z-index: 10;
-}
 
 .singleImg{
+    width: 100%;
     display: block;
-    cursor: pointer;
     cursor: zoom-in;
 }
 
@@ -35,7 +31,6 @@
 
 .modalImg{
     display: block;
-    object-fit: contain;
     max-height: 80vh;
     max-width: 70vw;
     padding-bottom: 8%;
