@@ -8,13 +8,15 @@
     src: url('../../assets/fonts/routed-gothic-wide.ttf');
 }
 
-
-.singleImg{
-    width: 100%;
-    display: block;
-    cursor: zoom-in;
+.masonryContainer{
+    margin: 0px 50px;
 }
 
+.galleryImg{
+    display: block;
+    width: 100%;
+    cursor: zoom-in;
+}
 
 .modalContainer{
     position: fixed;

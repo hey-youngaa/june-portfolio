@@ -231,6 +231,12 @@ export const sculptureWork = [
         matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
     },
     {
+        image: windowSide,
+        alt: 'sculpture piece',
+        title: 'Mountainside View - side (2023)',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
+    },
+    {
         image: dust,
         alt: 'sculpture piece',
         title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga) (2023)',
@@ -241,12 +247,6 @@ export const sculptureWork = [
         alt: 'sculpture piece',
         title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga)',
         matl: '5" x 7" | Acrylic, color pencil, soft and oil pastel on hanji, paper pulp and wood'
-    },
-    {
-        image: windowSide,
-        alt: 'sculpture piece',
-        title: 'Mountainside View - side (2023)',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
     },
     {
         image: port,
