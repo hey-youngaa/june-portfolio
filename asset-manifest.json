@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/june-portfolio/static/css/main.b5dc329c.css",
-    "main.js": "/june-portfolio/static/js/main.831b159a.js",
+    "main.js": "/june-portfolio/static/js/main.5a05c137.js",
     "static/media/red.png": "/june-portfolio/static/media/red.59818e90c9e6e5414117.png",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
     "static/media/dust.png": "/june-portfolio/static/media/dust.149826864dcf8667f777.png",
     "static/media/window.png": "/june-portfolio/static/media/window.74ba7e88ba1622572781.png",
     "static/media/reflexes2.png": "/june-portfolio/static/media/reflexes2.01189c47fa902a4ee43e.png",
     "static/media/reflexes.png": "/june-portfolio/static/media/reflexes.14529db5ac5d259d1ffb.png",
+    "static/media/swim.mp4": "/june-portfolio/static/media/swim.9c08da87a0a8f7cf558d.mp4",
     "static/media/GW1cover.png": "/june-portfolio/static/media/GW1cover.15e6b8d65b5d7e8cebd8.png",
     "static/media/BScover.png": "/june-portfolio/static/media/BScover.66a7d8e83eb4f19fcb4c.png",
     "static/media/windowSide.png": "/june-portfolio/static/media/windowSide.3f3a1cccd1d06af953c9.png",
@@ -51,7 +52,6 @@
     "static/media/GW3.jpg": "/june-portfolio/static/media/GW3.6aa67e9e472661610683.jpg",
     "static/media/GW11.jpg": "/june-portfolio/static/media/GW11.d01bd0bd2ebd1ea9df39.jpg",
     "static/media/potatoFields.jpg": "/june-portfolio/static/media/potatoFields.808721f9dc6899cfb756.jpg",
-    "static/media/homevid.mp4": "/june-portfolio/static/media/homevid.2c6254d44f0e39ce401e.mp4",
     "static/media/daytimeVacancies.jpg": "/june-portfolio/static/media/daytimeVacancies.24d03cdf2943e2d8189a.jpg",
     "static/media/Untitled.jpg": "/june-portfolio/static/media/Untitled.fab4c70fb8efa15e2c81.jpg",
     "static/media/observationDrawings.png": "/june-portfolio/static/media/observationDrawings.f2204fa2ced837feea86.png",
@@ -74,10 +74,10 @@
     "static/media/email.svg": "/june-portfolio/static/media/email.f23e44c5b4e60fb84713a3ab69c7105f.svg",
     "index.html": "/june-portfolio/index.html",
     "main.b5dc329c.css.map": "/june-portfolio/static/css/main.b5dc329c.css.map",
-    "main.831b159a.js.map": "/june-portfolio/static/js/main.831b159a.js.map"
+    "main.5a05c137.js.map": "/june-portfolio/static/js/main.5a05c137.js.map"
   },
   "entrypoints": [
     "static/css/main.b5dc329c.css",
-    "static/js/main.831b159a.js"
+    "static/js/main.5a05c137.js"
   ]
 }
