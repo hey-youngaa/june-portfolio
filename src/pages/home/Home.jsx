@@ -1,11 +1,11 @@
 import React from 'react'
 import './home.css'
-import homeVid from '../../assets/videos/homevid.mp4'
+import swim from '../../assets/videos/swim.mp4'
 
 function Home() {
   return (
     <div className="homePage">
-      <video src={homeVid} muted autoPlay loop />
+      <video src={swim} muted autoPlay loop />
     </div>
   )
 }

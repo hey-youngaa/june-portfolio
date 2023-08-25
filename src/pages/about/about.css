@@ -31,16 +31,12 @@
 .socials{
     display: flex;
     flex-direction: row;
-    padding-left: 25px;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
 
 }
 
 .socialLinks {
     list-style: none;
-    margin: 0 5px;
+    margin: 5px;
 }
 
 
