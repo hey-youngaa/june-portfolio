@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Routed Gothic';
+    src: url('../../assets/fonts/routed-gothic.ttf');
+}
+
+.break{
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+}
+
+.seriesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    margin: 0 70px;
+}
+
+.seriesWrapper{
+    position: relative;
+}
+
+.seriesWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.seriesTitle{
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, .5);
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+    opacity: 0;
+    font-family: Routed Gothic;
+    font-weight: normal;
+}
+
+.seriesWrapper:hover .seriesTitle{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px){
+    .seriesTitle{
+        font-size: 16px;
+    }
+
+    .seriesContainer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .seriesWrapper{
+        height: 25vh;
+    }
+}

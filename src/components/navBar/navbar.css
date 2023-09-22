@@ -1,0 +1,106 @@
+.navBarContainer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    position: fixed;
+    left: 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 25px;
+}
+
+.socialLinks {
+    list-style: none;
+    margin: 5px;
+}
+
+
+.socialLinks img{
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+}
+
+.navMenu{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 30px;
+    list-style: none;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navItem img{
+    height: 1em;
+}
+
+.menuIcon img{
+    display: none;
+
+}
+
+@media screen and (max-width: 600px) {
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 80px);
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .navMenu.active{
+        background-color: beige;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .navLink{
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navLink:hover{
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .menuIcon img{
+        display: block;
+        width: 40px;
+        height: auto;
+        position: absolute;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .socials{
+        position: absolute;
+        bottom: 40%;
+        left: 50%;
+        right: 50%;
+    }
+}

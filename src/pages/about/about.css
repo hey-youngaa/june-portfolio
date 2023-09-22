@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Routed Gothic';
+    src: url('../../assets/fonts/routed-gothic.ttf');
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.pfpWrapper{
+    margin-right: 50px;
+}
+
+.pfpWrapper img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.aboutInfoWrapper p{
+    font-family: Routed Gothic;
+}

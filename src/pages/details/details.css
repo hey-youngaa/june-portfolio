@@ -1,0 +1,26 @@
+.singleSeries{
+    display: flex;
+    margin: 20px 50px;
+    flex-direction: column;
+    line-height: .8;
+}
+
+.singleSeries h1{
+    font-weight: normal;
+}
+
+.singleSeries h3{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.seriesImgs{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seriesImgs img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}

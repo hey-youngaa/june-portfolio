@@ -1,0 +1,77 @@
+.masonryContainer{
+    margin: 0px 50px;
+}
+
+.galleryImg{
+    display: block;
+    width: 100%;
+    cursor: zoom-in;
+}
+
+.modalContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,1);
+}
+
+
+.modalImg{
+    display: block;
+    max-height: 80vh;
+    max-width: 70vw;
+    padding-bottom: 8%;
+    padding-top: 5%;
+}
+
+.imgDesc{
+    position: absolute;
+    bottom: 3%;
+    text-align: center;
+    width: 100vw;
+}
+
+.imgTitle{
+    font-weight: normal;
+}
+
+.imgDesc p{
+    line-height: 0.1;
+}
+
+.close{
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+    top: 20px;
+    right: 10%;
+}
+
+.previous, .next{
+    cursor: pointer;
+    color: black;
+    top: 50%;
+    font-size: 50px;
+}
+
+
+@media screen and (max-width:350px) {
+    .masonryContainer{
+        margin: 0 10px;
+    }
+
+    .imgTitle{
+        font-size: 14px;
+    }
+
+    .imgDesc p{
+        font-size: 12px;
+        bottom: 0;
+    }
+}
