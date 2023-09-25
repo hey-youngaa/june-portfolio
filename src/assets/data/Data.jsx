@@ -212,13 +212,13 @@ export const drawingWork = [
         image: OD,
         alt: 'drawing piece',
         title: 'Observation Drawings (2020)',
-        matl: 'Silver point and burned paper'
+        matl: 'Silver point and open flame on paper'
     },
     {
         image: TL,
         alt: 'drawing piece',
         title: 'The Leftover (2020)'
-        matl: '9" x 7" | Silver point and burned paper'
+        matl: '9" x 7" | Acrylic and ink on paper'
     },
 ]
 
@@ -297,7 +297,7 @@ export const miscWork = [
 export const drawingSeries = [
     {
         id: 'groundwater-series',
-        title: 'Groundwater',
+        title: 'Ground(water)',
         cover: GW1cover,
         alt: 'groundwater piece',
         matl: 'Soft pastel and oil paint on arches oil paper'
@@ -385,7 +385,7 @@ export const drawingSeries = [
         cover: isit1cover,
         alt: "in summer i'll tear piece",
         matl: 'ink, crayon, and graphite on hanji'
-        text: 'Dried peel, staked wood, rubber pipe, splintered corner',
+        text: 'I grew up in the temperate suburbs of Maryland with a yard that bore chili peppers in the summer. Come wintertime, the garden beds are left empty like lying caskets. The nighttime winds seem to howl more wearily with no vines nor petals left to flutter to their tunes. Suffering from the symptoms of an insistent longing, lies a hollow house of staked wood, rubber pipe, splintered corners, and dried peel.',
         imgs: [
             {
                 image: isit1,
@@ -407,6 +407,7 @@ export const drawingSeries = [
                 image: isit5,
                 alt: "in summer i'll tear"
             },
+            text: 'Frottage trials on neon tissue paper using dried chili peppers.'
             {
                 image: isit6,
                 alt: "in summer i'll tear"
@@ -422,6 +423,7 @@ export const drawingSeries = [
         title: 'Oil Spill',
         cover: oscover,
         alt: 'oill spill piece',
+        matl: 'digital collage of ink etchings on origami paper'
         imgs: [
             {
                 image: os,
