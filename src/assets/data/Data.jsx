@@ -113,51 +113,61 @@ export const paintingWork = [
         image: DV,
         alt: 'painting piece',
         title: 'Daytime Vacancies (2022)'
-    },
-    {
-        image: LOFS,
-        alt: 'painting piece',
-        title: 'Light of Folding Screen (2021)'
+        matl: '18" x 24" | Oil paint and color pencil on wood' 
     },
     {
         image: splinter,
         alt: 'painting piece',
         title: 'Story of a Splinter (2022)'
+        matl: '18" x 24" | Oil paint on wood'
+    },
+{
+        image: LOFS,
+        alt: 'painting piece',
+        title: 'Light of Folding Screen (2021)'
+        matl: '45" x 50" | Oil paint, conte, ink, and hanji on paper'
     },
     {
         image: LGC,
         alt: 'painting piece',
         title: 'Lettuce Garden Charm (2021)'
+        matl: '18" x 24" | Oil paint and oil pastel on canvas'
     },
     {
         image: rubies,
         alt: 'painting piece',
         title: 'Rubies in the Sternum, Long Thereafter (2021)'
+        matl: '17" x 31" | Oil paint, ink, soft pastel, and glitter on paper'
     },
     {
         image: LT,
         alt: 'painting piece',
         title: 'Leopard Transpirings (2021)'
+        matl: '14" x 21" | Oil paint, ink, and shellac on paper'
     },
     {
         image: untitled,
         alt: 'painting piece',
         title: 'Untitled (2020)'
+        matl: '8" x 11" | Oil paint and oil pastel on canvas'
     },
     {
         image: PF,
         alt: 'painting piece',
         title: 'Potato Fields (2020)'
+        matl: '"11 x 8" | Oil paint and oil pastel on canvas'
     },
     {
         image: RDV,
         alt: 'painting piece',
         title: 'Rendezvous (2020)'
+        matl: '11" x 8" | Oil paint on masonite'
     },
     {
         image: R2,
         alt: 'painting piece',
         title: 'Rendezvous II (2020)'
+        matl: '8" x 11" | Oil paint on masonite'
     },
 ]
 
@@ -207,7 +217,7 @@ export const drawingWork = [
     {
         image: TL,
         alt: 'drawing piece',
-        title: 'The Leftover (2020)'
+        title: '9" x 7" | The Leftover (2020)'
     },
 ]
 
