@@ -423,7 +423,7 @@ export const drawingSeries = [
         title: 'Oil Spill',
         cover: oscover,
         alt: 'oill spill piece',
-        matl: 'digital collage of ink etchings on origami paper'
+        matl: 'ink etching and color pencil on origami, digital collage'
         imgs: [
             {
                 image: os,
