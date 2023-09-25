@@ -154,7 +154,7 @@ export const paintingWork = [
     {
         image: PF,
         alt: 'painting piece',
-        title: 'Potato Fields (2020)'
+        title: 'Potato Plains (2020)'
         matl: '"11 x 8" | Oil paint and oil pastel on canvas'
     },
     {
@@ -175,13 +175,13 @@ export const drawingWork = [
     {
         image: red,
         alt: 'drawing piece',
-        title: "Hill's Backside Under the Red Sky (2021)",
+        title: "The Backside of an Exstinguished Hill (2021)",
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
         image: scap,
         alt: 'drawing piece',
-        title: 'An Alien Field (2021)',
+        title: 'Alien Field (2021)',
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
@@ -299,6 +299,9 @@ export const drawingSeries = [
         title: 'Groundwater',
         cover: GW1cover,
         alt: 'groundwater piece',
+        matl: 'Soft pastel and oil paint on arches oil paper'
+        text: 'Ground(water) is a series of soft pastel on oil paint monotypes dedicated to the tough and tender terrain of the Hawaiian coastline. Inspiried by ahupua'a networks of fresh and brackish ponds, traditional rock-walls by the shoreline, and other features that curate accessible water, the drawings seek to define resistance in nature as invasive species, urban clearing, and pollutants become regular sights to behold.
+',
         imgs: [
             {
                 image: GW1,
@@ -351,6 +354,7 @@ export const drawingSeries = [
         title: 'Bedtime Tales',
         cover: BScover,
         alt: 'bedtime tales piece',
+        matl: 'Ink, acrylic, and soft pastel on paper'
         imgs: [
             {
                 image: BS1,
@@ -379,6 +383,7 @@ export const drawingSeries = [
         title: "In Summer I'll Tear",
         cover: isit1cover,
         alt: "in summer i'll tear piece",
+        matl: 'ink, crayon, and graphite on hanji'
         text: 'Dried peel, staked wood, rubber pipe, splintered corner',
         imgs: [
             {
@@ -413,7 +418,7 @@ export const drawingSeries = [
     },
     {
         id:'oil-spill-series',
-        title: 'Oill Spill',
+        title: 'Oil Spill',
         cover: oscover,
         alt: 'oill spill piece',
         imgs: [
