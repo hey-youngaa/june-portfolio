@@ -10,6 +10,7 @@ import Painting from './pages/painting/Painting'
 import Sculpture from './pages/sculpture/Sculpture'
 import About from './pages/about/About'
 import Misc from './pages/misc/Misc';
+import VisualArchive from './pages/visualArchive/VisualArchive';
 import Sketchbook from './pages/sketchbook/Sketchbook';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/sculpture" element={<Sculpture />} />
         <Route path='/about' element={<About />} />
         <Route path='/misc' element={<Misc />} />
+        <Route path='/visual-archive' element={<VisualArchive />} />
         <Route path='/sketchbook' element={<Sketchbook />} />
       </Routes>
     </Router>

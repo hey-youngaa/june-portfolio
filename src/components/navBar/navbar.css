@@ -1,74 +1,116 @@
 .navBarContainer{
-    height: 80px;
     display: flex;
-    justify-content: center;
+    height: 80px;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+}
+
+.logoWrapper{
+    position: fixed;
+    left: 25px;
 }
 
 .logo{
+    font-family: Syne;
     text-decoration: none;
-    position: fixed;
-    left: 25px;
-    cursor: pointer;
     color: black;
-    font-size: 25px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
-.socials{
+.navItems{
     display: flex;
     flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+
+}
+
+.navItem{
+    font-family: Syne;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.social{
     position: absolute;
     right: 25px;
 }
-
-.socialLinks {
-    list-style: none;
-    margin: 5px;
-}
-
-
-.socialLinks img{
+.social img{
     height: 25px;
     width: auto;
     cursor: pointer;
 }
 
-.navMenu{
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    gap: 30px;
-    list-style: none;
+.dropdown{
+    overflow: hidden;
 }
 
-.navLink{
+.dropdown .dropBtn{
+    font-family: Syne;
+    border: none;
+    background-color: white;
+    color: black;
+    outline: none;
+    font-size: 20px;
+    margin: 0;
+}
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+.dropLink{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-family: Syne;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.navItem img{
-    height: 1em;
+.dropLink:hover{
+    font-weight: hover;
 }
 
-.menuIcon img{
+.dropdown:hover .dropdownContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuIcon{
     display: none;
-
 }
 
-@media screen and (max-width: 600px) {
-    .navMenu{
+@media screen and (max-width:800px) {
+    .menuIcon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .menuIcon img{
+        height: 40px;
+        width: auto;
+    }
+
+    .navItems{
         display: flex;
         flex-direction: column;
-        position: absolute;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: 90vh;
         top: 80px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
     }
 
-    .navMenu.active{
+    .navItems.active{
         background-color: beige;
         left: 0;
         opacity: 1;
@@ -76,31 +118,10 @@
         z-index: 1;
     }
 
-    .navLink{
+    .navItem{
         text-align: center;
         padding: 1rem;
         width: 100%;
         display: table;
-    }
-
-    .navLink:hover{
-        background-color: white;
-        border-radius: 0;
-    }
-
-    .menuIcon img{
-        display: block;
-        width: 40px;
-        height: auto;
-        position: absolute;
-        right: 25px;
-        cursor: pointer;
-    }
-
-    .socials{
-        position: absolute;
-        bottom: 40%;
-        left: 50%;
-        right: 50%;
     }
 }

@@ -43,7 +43,7 @@ function ImgGallery({gallery}) {
         }
         <div className='masonryContainer'>
             <ResponsiveMasonry columnsCountBreakPoints={{350:1, 750:2, 900:3}}>
-                <Masonry gutter='5rem'>
+                <Masonry gutter='2em'>
                     {gallery.map((item,index) => {
                         return(
                             <img 

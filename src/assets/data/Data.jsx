@@ -79,8 +79,14 @@ import rocks from '../images/rocks.png'
 import washingAshore from '../images/washingAshore.png'
 import purple from '../images/purple.png'
 
-import sb1 from '../images/sb1.png'
-import sb2 from '../images/sb2.png'
+import adipose from '../images/adipose.jpg'
+import barney from '../images/barney.gif'
+import bird from '../images/bird.jpg'
+import egg from '../images/egg.jpg'
+import korea from '../images/korea.jpg'
+import magazine from '../images/Magazine.jpg'
+import laos from '../images/laos.jpg'
+
 import sb3 from '../images/sb3.png'
 import sb4 from '../images/sb4.png'
 import sb5 from '../images/sb5.png'
@@ -125,13 +131,13 @@ export const NavItems = [
 
 export const DropMenuItems = [
     {
-        title: 'Painting',
-        url: '/painting',
+        title: 'Sculpture',
+        url: '/sculpture',
         cName: 'dropdownLink'
     },
     {
-        title: 'Sculpture',
-        url: '/sculpture',
+        title: 'Painting',
+        url: '/painting',
         cName: 'dropdownLink'
     },
     {
@@ -302,7 +308,7 @@ export const sculptureOne = [
         image: elephant,
         title: 'Elephant In The Snake',
         alt: 'sculpture piece',
-        matl: '18" x 3" | Oil pastel on found wood'
+        matl: '15" x 7" | Cord and nail on found wood'
     },
     {
         image: raft,
@@ -507,15 +513,45 @@ export const drawingSeries = [
     }
 ]
 
+export const archive = [
+    {
+        image: adipose,
+        title:'Fresh cut adipose tissue',
+        alt: 'visual archive'
+    },
+    {
+        image: barney,
+        title:"Barney's fall of 1997",
+        alt: 'visual archive'
+    },
+    {
+        image: bird,
+        title: 'A Luzon bleeding-heart makes mournful, hooting notes-each like a slow, dying whistle',
+        alt: 'visual archive'
+    },
+    {
+        image: egg,
+        title:'Prime Minister Hwang Kyo-ahn caught in an egg and water bottle shower by the hands of Seonju residents (2016)',
+        alt: 'visual archive'
+    },
+    {
+        image: magazine,
+        title: 'National Geographic on the bliss of American travel',
+        alt: 'visual archive'
+    },
+    {
+        image: korea,
+        title: 'My mother, sister and I sitting on a street curb in Korean (2008)',
+        alt: 'visual archive'
+    },
+    {
+        image: laos,
+        title: 'Laotian poster illustrating how opium breaks your heart',
+        alt: 'visual archive'
+    },
+]
+
 export const sketchbookWork = [
-    {
-        image: sb1,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb2,
-        alt: 'sketchbook piece'
-    },
     {
         image: sb3,
         alt: 'sketchbook piece'

@@ -1,19 +1,14 @@
 .dropDownMenu{
-    background: pink;
-    width: 200px;
+    width: 100px;
     position: absolute;
-    top: 80px;
+    top: 60px;
     list-style: none;
-    text-align: start;
+    background: lightblue;
 }
 
 .dropDownMenu li{
-    background-color: white;
     cursor: pointer;
-}
-
-.dropDownMenu li:hover{
-    background-color: beige;
+    background: beige;
 }
 
 .dropDownMenu.clicked{
@@ -22,9 +17,13 @@
 
 .dropdownLink{
     display: block;
-    height: 100%;
     width: 100%;
+    height: 100%;
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+
+.dropdownLink:hover{
+    background-color: white;
 }

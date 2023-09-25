@@ -1,80 +1,44 @@
-import React, {useState} from 'react'
-import './navbar.css'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import DropDown from '../dropDown/DropDown'
-import Menu from '../../assets/images/menu.svg'
-import { socialIcons } from '../../assets/data/Data'
-import { NavItems } from '../../assets/data/Data'
+import insta from '../../assets/images/insta.svg'
+import './navbar.css'
+import menu from '../../assets/images/menu.svg'
 
 function NavBar() {
-    const [click,setClick] = useState(false);
-    const [dropdown, setDropDown] = useState(false);
+    const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const onMouseEnter = () => {
-        if (window.innerWidth < 960) {
-            setDropDown(false);
-        } else {
-            setDropDown(true);
-        }
-    };
-
-    const onMouseLeave = () => {
-        if(window.innerWidth < 960){
-            setDropDown(false);
-        } else{
-            setDropDown(false);
-        }
-    };
-
-  return (
-    <>
-        <nav className='navBarContainer'>
-            <Link to='/'  className='logo' onClick={closeMobileMenu}>
-                june choi 
-            </Link>
-            <div className="menuIcon" onClick={handleClick}>
-                <img src={Menu} alt='menu bar' />
+    return (
+    <nav className="navBarContainer">
+        <div className="logoWrapper">
+            <Link to='/' className='logo'> june choi</Link>
+        </div>
+        <div className="menuIcon" onClick={handleClick}>
+            <img src={menu} alt="menu icon"/>
+        </div>
+        <div className={click ? 'navItems active' : 'navItems'} >
+            <Link to='/about' className='navItem'>about</Link>
+            <div className="dropdown">
+                <button className="dropBtn">
+                    gallery
+                </button>
+                <div className="dropdownContent">
+                    <Link to='/sculpture' className='dropLink' onClick={closeMobileMenu}>sculpture</Link>
+                    <Link to='/painting' className='dropLink' onClick={closeMobileMenu}>painting</Link>
+                    <Link to='/drawing' className='dropLink' onClick={closeMobileMenu}>drawing</Link>
+                    <Link to='/misc' className='dropLink' onClick={closeMobileMenu}>misc</Link>
+                </div>
             </div>
-            <ul className={click ? 'navMenu active' : 'navMenu'}>
-                {NavItems.map((item) => {
-                    if (item.title === 'gallery') {
-                        return(
-                            <li key={item.id} className={item.cName} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                                <Link to={item.url} className='navLink' onClick={closeMobileMenu}>
-                                <img src={item.icon} alt="icon" />
-                                    {item.title}
-                                </Link>
-                                {dropdown && <DropDown />}
-                            </li>
-                        )
-                    }
-
-                    return (
-                        <li key={item.id} className={item.cName}>
-                            <Link to={item.url} className='navLink' onClick={closeMobileMenu}>
-                            <img src={item.icon} alt="icon" />
-                                {item.title}
-                            </Link>
-                        </li>
-                    )
-                })}
-                <div className="socials">
-                {socialIcons.map((item,index) => {
-                    return(
-                        <li className={item.cName}>
-                            <a target='_blank' rel='noreferrer' href={item.url} >
-                                <img src={item.icon} alt={item.alt} />
-                            </a>
-                        </li>
-                    )
-                })}
+            <Link to='/visual-archive' className='navItem'>visual archive</Link>
+            <Link to='/sketchbook' className='navItem'>sketchbook</Link>
+            <div className="social">
+                <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma'>
+                    <img src={insta} alt='instagram'/>
+                </a>
             </div>
-            </ul>
-        </nav>
-    </>
+        </div>
+    </nav>
   )
 }
 
