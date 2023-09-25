@@ -12,7 +12,7 @@ function NavBar() {
     return (
     <nav className="navBarContainer">
         <div className="logoWrapper">
-            <NavLink to='/' className='logo' onClick={closeMobileMenu}> june choi</NavLink>
+            <NavLink to='/' className='logo' onClick={closeMobileMenu}> June Choi</NavLink>
         </div>
         <div className="menuIcon" onClick={handleClick}>
             <img src={menu} alt="menu icon"/>

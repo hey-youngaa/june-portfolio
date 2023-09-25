@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 import './imggallery.css'
-import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
+//import {FiChevronLeft, FiChevronRight} from 'react-icons/fi'
 import {IoClose} from 'react-icons/io5'
-
+import right from '../../assets/images/right.png'
+import left from '../../assets/images/left.png'
 
 function ImgGallery({gallery}) {
     const [slideNumber, setSlideNumber] = useState(0)
@@ -32,13 +33,13 @@ function ImgGallery({gallery}) {
         {openModal &&
             <div className='modalContainer'>
                 <IoClose className='close' onClick={handleCloseModal} />
-                    <FiChevronLeft className='previous' onClick={prevSlide}  />
+                    <img src={left} alt='left arrow' className='previous' onClick={prevSlide}  />
                     <img src={gallery[slideNumber].image} alt='' className='modalImg' />
                     <div className="imgDesc">
                         <h3 className='imgTitle'>{gallery[slideNumber].title}</h3>
                         <p>{gallery[slideNumber].matl}</p>
                     </div>
-                    <FiChevronRight className='next' onClick={nextSlide} />
+                    <img src={right} alt="right arrow" className='next' onClick={nextSlide} />
             </div>
         }
         <div className='masonryContainer'>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/june-portfolio/static/css/main.da28be47.css",
-    "main.js": "/june-portfolio/static/js/main.55af80ef.js",
+    "main.css": "/june-portfolio/static/css/main.1d41362d.css",
+    "main.js": "/june-portfolio/static/js/main.7fd7b6ed.js",
     "static/media/red.png": "/june-portfolio/static/media/red.59818e90c9e6e5414117.png",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
     "static/media/window.png": "/june-portfolio/static/media/window.74ba7e88ba1622572781.png",
@@ -33,7 +33,6 @@
     "static/media/oscover.png": "/june-portfolio/static/media/oscover.f06c7787f055cb6dbae9.png",
     "static/media/isit1cover.png": "/june-portfolio/static/media/isit1cover.563a5f17334315702016.png",
     "static/media/sb6.png": "/june-portfolio/static/media/sb6.91ca27fde78f9f2b7cbe.png",
-    "static/media/swimming.mp4": "/june-portfolio/static/media/swimming.bd8a772b1d1a4e471e05.mp4",
     "static/media/rendezvous2.jpg": "/june-portfolio/static/media/rendezvous2.c7d18aa1be1f96d649ca.jpg",
     "static/media/sb3.png": "/june-portfolio/static/media/sb3.dd6d838dfb90bcd6217a.png",
     "static/media/sb10.png": "/june-portfolio/static/media/sb10.bd3423ab22a8ee78bd97.png",
@@ -67,6 +66,7 @@
     "static/media/Untitled.jpg": "/june-portfolio/static/media/Untitled.fab4c70fb8efa15e2c81.jpg",
     "static/media/observationDrawings.png": "/june-portfolio/static/media/observationDrawings.f2204fa2ced837feea86.png",
     "static/media/sb11.jpg": "/june-portfolio/static/media/sb11.6dc54d2cca361c13ff4a.jpg",
+    "static/media/map.png": "/june-portfolio/static/media/map.65f31469ca03b4d51ffa.png",
     "static/media/Raft.png": "/june-portfolio/static/media/Raft.18415c4f9ccfd76c9f35.png",
     "static/media/isit3.jpg": "/june-portfolio/static/media/isit3.2f8c7bc76eab0bc8d62b.jpg",
     "static/media/isit1.jpg": "/june-portfolio/static/media/isit1.f1adfe9681f5c2b13f28.jpg",
@@ -84,6 +84,7 @@
     "static/media/adipose.jpg": "/june-portfolio/static/media/adipose.3a1dee677085152fa6e2.jpg",
     "static/media/pain.jpeg": "/june-portfolio/static/media/pain.73fd22fd0af3d46859b5.jpeg",
     "static/media/Syne-regular.ttf": "/june-portfolio/static/media/Syne-regular.738f6bde408f8ddf7106.ttf",
+    "static/media/past.jpg": "/june-portfolio/static/media/past.ca2ece126c968b5978aa.jpg",
     "static/media/Karla.ttf": "/june-portfolio/static/media/Karla.873b3ab26751da74a1bc.ttf",
     "static/media/laos.jpg": "/june-portfolio/static/media/laos.9de6eca67527b4bd2d2d.jpg",
     "static/media/egg.jpg": "/june-portfolio/static/media/egg.49e7a99636a77d5b20fd.jpg",
@@ -96,11 +97,11 @@
     "static/media/menu.svg": "/june-portfolio/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/june-portfolio/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/june-portfolio/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.da28be47.css.map": "/june-portfolio/static/css/main.da28be47.css.map",
-    "main.55af80ef.js.map": "/june-portfolio/static/js/main.55af80ef.js.map"
+    "main.1d41362d.css.map": "/june-portfolio/static/css/main.1d41362d.css.map",
+    "main.7fd7b6ed.js.map": "/june-portfolio/static/js/main.7fd7b6ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.da28be47.css",
-    "static/js/main.55af80ef.js"
+    "static/css/main.1d41362d.css",
+    "static/js/main.7fd7b6ed.js"
   ]
 }

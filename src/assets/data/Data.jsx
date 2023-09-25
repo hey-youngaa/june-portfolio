@@ -86,6 +86,9 @@ import egg from '../images/egg.jpg'
 import korea from '../images/korea.jpg'
 import magazine from '../images/Magazine.jpg'
 import laos from '../images/laos.jpg'
+import map from '../images/map.png'
+import pixel from '../images/pixel.png'
+import past from '../images/past.jpg'
 
 import sb3 from '../images/sb3.png'
 import sb4 from '../images/sb4.png'
@@ -555,6 +558,16 @@ export const archive = [
         alt: 'visual archive'
     },
     {
+        image: map,
+        title: 'Diagram mapping personal space',
+        alt: 'visual archive'
+    },
+    {
+        image: pixel,
+        title: 'Pixel art of a flower garden',
+        alt: 'visual archive'
+    },
+    {
         image: korea,
         title: 'My mother, sister and I sitting on a street curb in Korean (2008)',
         alt: 'visual archive'
@@ -564,6 +577,10 @@ export const archive = [
         title: 'Laotian poster illustrating how opium breaks your heart',
         alt: 'visual archive'
     },
+    {
+        image: past,
+        alt: 'visual archive'
+    }
 ]
 
 export const sketchbookWork = [
