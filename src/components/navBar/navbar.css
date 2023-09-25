@@ -8,7 +8,7 @@
 
 .logoWrapper{
     position: fixed;
-    left: 25px;
+    left: 35px;
 }
 
 .logo{
@@ -33,12 +33,20 @@
     color: black;
 }
 
+.navItem:hover, .dropdown:hover .dropBtn{
+    color: #D373B2;
+}
+
+.navItem.active{
+    color: #D373B2
+}
+
 .social{
     position: absolute;
-    right: 25px;
+    right: 35px;
 }
 .social img{
-    height: 25px;
+    height: 20px;
     width: auto;
     cursor: pointer;
 }
@@ -66,14 +74,15 @@
 .dropLink{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0;
     font-family: Karla;
 }
 
 .dropLink:hover{
-    font-weight: hover;
+    font-weight: bold;
 }
+
 
 .dropdown:hover .dropdownContent{
     display: flex;

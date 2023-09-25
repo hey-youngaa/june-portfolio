@@ -5,7 +5,11 @@
 }
 
 .seriesDesc{
-    margin-left: 25px;
+    margin: 0 35px;
+}
+
+.seriesDesc p{
+    line-height: 1.5em;
 }
 
 .seriesImgs{

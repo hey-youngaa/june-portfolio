@@ -34,12 +34,15 @@ p{
 }
 
 .pageHeader h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
 @media screen and (max-width: 800px){
     .pageHeader h3{
         font-size: 20px;
+    }
+    .pageHeader p{
+        font-size: 13px;
     }
 }

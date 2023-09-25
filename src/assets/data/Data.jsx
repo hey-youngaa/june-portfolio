@@ -171,66 +171,76 @@ export const paintingWork = [
     {
         image: DV,
         alt: 'painting piece',
-        title: 'Daytime Vacancies (2022)'
-    },
-    {
-        image: LOFS,
-        alt: 'painting piece',
-        title: 'Light of Folding Screen (2021)'
+        title: 'Daytime Vacancies (2022)',
+        matl: '18" x 24" | Oil paint and color pencil on wood'
     },
     {
         image: splinter,
         alt: 'painting piece',
-        title: 'Story of a Splinter (2022)'
+        title: 'Story of a Splinter (2022)',
+        matl: '18" x 24" | Oil paint on wood'
+    },
+    {
+        image: LOFS,
+        alt: 'painting piece',
+        title: 'Light of Folding Screen (2021)',
+        matl: '45" x 50" | Oil paint, conte, ink, and hanji on paper'
     },
     {
         image: LGC,
         alt: 'painting piece',
-        title: 'Lettuce Garden Charm (2021)'
+        title: 'Lettuce Garden Charm (2021)',
+        matl: '18" x 24" | Oil paint and oil pastel on canvas'
     },
     {
         image: rubies,
         alt: 'painting piece',
-        title: 'Rubies in the Sternum, Long Thereafter (2021)'
+        title: 'Rubies in the Sternum, Long Thereafter (2021)',
+        matl: '17" x 31" | Oil paint, ink, soft pastel, and glitter on paper'
     },
     {
         image: LT,
         alt: 'painting piece',
-        title: 'Leopard Transpirings (2021)'
-    },
-    {
-        image: RDV,
-        alt: 'painting piece',
-        title: 'Rendezvous (2020)'
-    },
-    {
-        image: R2,
-        alt: 'painting piece',
-        title: 'Rendezvous II (2020)'
-    },
-    {
-        image: PF,
-        alt: 'painting piece',
-        title: 'Potato Fields (2020)'
+        title: 'Leopard Transpirings (2021)',
+        matl: '14" x 21" | Oil paint, ink, and shellac on paper'
     },
     {
         image: untitled,
         alt: 'painting piece',
-        title: 'Untitled (2020)'
-    }
+        title: 'Untitled (2020)',
+        matl: '8" x 11" | Oil paint and oil pastel on canvas'
+    },
+    {
+        image: PF,
+        alt: 'painting piece',
+        title: 'Potato Fields (2020)',
+        matl: '11" x 8" | Oil paint and oil pastel on canvas'
+    },
+    {
+        image: RDV,
+        alt: 'painting piece',
+        title: 'Rendezvous (2020)',
+        matl: '11" x 8" | Oil paint on masonite'
+    },
+    {
+        image: R2,
+        alt: 'painting piece',
+        title: 'Rendezvous II (2020)',
+        matl: '8" x 11" | Oil paint on masonite'
+    },
 ]
 
 export const drawingWork = [
     {
         image: red,
         alt: 'drawing piece',
-        title: "Hill's Backside Under the Red Sky (2021)",
+        title: "The Backside of an Extinguished Hill (2021)",
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
         image: scap,
         alt: 'drawing piece',
-        title: 'An Alien Field (2021)',
+        title: 'Alien Field (2021)',
         matl: '8" x 9" | Oil monoprint and soft pastel on paper'
     },
     {
@@ -369,7 +379,12 @@ export const drawingSeries = [
         cover: GW1cover,
         alt: 'groundwater piece',
         year: '2023',
-        text:'9"x 12"  Oil monoprint and pastel on Arches',
+        text:`Ground(water) is a series of soft pastel on oil paint monotypes
+        dedicated to the tough and tender terrain of the Hawaiian coastline. Inspired
+        by ahupua'a networks of fresh and brackish ponds, traditional rock-walls by
+        the shoreline, and other features that curate accessible water, the drawings
+        seek to define resistance in nature as invasive species, and pollutants become
+        regulara sights to behold.`,
         imgs: [
             {
                 image: GW1,
