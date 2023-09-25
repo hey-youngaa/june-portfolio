@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import pain from '../../assets/images/pain.jpeg'
-import { socialIcons } from '../../assets/data/Data'
 
 function About() {
   return (
@@ -17,9 +16,6 @@ function About() {
             <br />
             <br />
             For any questions or work inquiries, please email ju.choi168@gmail.com.
-            <br />
-            <br />
-            Click here for my resume.
           </p>
         </div>
       </div>
