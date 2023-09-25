@@ -217,7 +217,8 @@ export const drawingWork = [
     {
         image: TL,
         alt: 'drawing piece',
-        title: '9" x 7" | The Leftover (2020)'
+        title: 'The Leftover (2020)'
+        matl: '9" x 7" | Silver point and burned paper'
     },
 ]
 
