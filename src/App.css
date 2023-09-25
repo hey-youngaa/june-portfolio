@@ -24,18 +24,7 @@
     text-align: center;
 }
 
-.pageHeader h3{
-    font-size: 30px;
-}
-
-
-
-h1{
-    font-family: Karla;
-    font-weight: 100;
-}
-
-h3{
+h1, h2, h3{
     font-family: Karla;
     font-weight: 100;
 }
@@ -43,6 +32,11 @@ h3{
 p{
     font-family: Karla;
 }
+
+.pageHeader h3{
+    font-size: 30px;
+}
+
 
 @media screen and (max-width: 800px){
     .pageHeader h3{

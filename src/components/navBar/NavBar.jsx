@@ -17,7 +17,7 @@ function NavBar() {
         <div className="menuIcon" onClick={handleClick}>
             <img src={menu} alt="menu icon"/>
         </div>
-        <div className={click ? 'navItems active' : 'navItems'} >
+        <div className='navItems' >
             <Link to='/about' className='navItem'>about</Link>
             <div className="dropdown">
                 <button className="dropBtn">

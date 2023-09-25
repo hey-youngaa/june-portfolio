@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import './details.css'
 import { drawingSeries } from '../../assets/data/Data'
-import ImgGrid from '../../components/imgGrid/ImgGrid'
+import ImgGallery from '../../components/imgGallery/ImgGallery'
 
 function Details() {
   let {id} = useParams()
@@ -19,10 +19,12 @@ function Details() {
     <div className='pageContainer'>
     {series ? (
       <div className="singleSeries">
-        <h1>{series.title}</h1>
-        <h3>{series.year}</h3>
-        <p> {series.text}</p>
-        <ImgGrid collection={series.imgs} />
+        <div className="seriesDesc">
+          <h1>{series.title}</h1>
+          <h3>{series.year}</h3>
+          <p> {series.text}</p>
+        </div>
+        <ImgGallery gallery={series.imgs} />
       </div>
     ) : null}
     </div>

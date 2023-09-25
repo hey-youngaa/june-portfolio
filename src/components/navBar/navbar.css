@@ -12,11 +12,11 @@
 }
 
 .logo{
-    font-family: Karla;
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
+    font-family: Karla;
 }
 
 .navItems{
@@ -24,12 +24,11 @@
     flex-direction: row;
     width: 60%;
     justify-content: space-evenly;
-
+    font-family: Karla;
 }
 
 .navItem{
-    font-family: Karla;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
@@ -49,13 +48,13 @@
 }
 
 .dropdown .dropBtn{
-    font-family: Syne;
     border: none;
     background-color: white;
     color: black;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
+    font-family: Karla;
 }
 
 .dropdownContent{
@@ -67,9 +66,9 @@
 .dropLink{
     text-decoration: none;
     color: black;
-    font-family: Syne;
     font-size: 18px;
     margin: 10px 0;
+    font-family: Karla;
 }
 
 .dropLink:hover{
