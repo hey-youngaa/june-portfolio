@@ -20,8 +20,9 @@ function Details() {
     {series ? (
       <div className="singleSeries">
         <div className="seriesDesc">
-          <h1>{series.title}</h1>
+          <h3>{series.title}</h3>
           <h3>{series.year}</h3>
+          <h3>{series.matl}</h3>
           <p> {series.text}</p>
         </div>
         <ImgGallery gallery={series.imgs} />

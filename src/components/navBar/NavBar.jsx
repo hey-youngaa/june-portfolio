@@ -18,7 +18,6 @@ function NavBar() {
             <img src={menu} alt="menu icon"/>
         </div>
         <div className={click ? 'navItems active' : 'navItems'} >
-            <NavLink to='/about' className='navItem'>about</NavLink>
             <div className="dropdown">
                 <button className="dropBtn">
                     gallery
@@ -30,8 +29,9 @@ function NavBar() {
                     <NavLink to='/misc' className='dropLink' onClick={closeMobileMenu}>misc</NavLink>
                 </div>
             </div>
-            <NavLink to='/visual-archive' className='navItem'>visual archive</NavLink>
-            <NavLink to='/sketchbook' className='navItem'>sketchbook</NavLink>
+            <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>visual archive</NavLink>
+            <NavLink to='/sketchbook' className='navItem' onClick={closeMobileMenu}>sketchbook</NavLink>
+            <NavLink to='/about' className='navItem' onClick={closeMobileMenu}>about</NavLink>
             <div className="social">
                 <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma'>
                     <img src={insta} alt='instagram'/>

@@ -15,7 +15,7 @@ function About() {
             Based in Providence, Rhode Island. Born and raised in the Maryland suburbs.
             <br />
             <br />
-            For any questions or work inquiries, please email ju.choi168@gmail.com.
+            For any questions or work inquiries, please email <a className='email' href='mailto:ju.choi168@gmail.com' target='_blank' rel='noreferrer'>ju.choi168@gmail.com</a>.
           </p>
         </div>
       </div>

@@ -61,16 +61,18 @@ import ddm from '../images/ddm.jpg'
 import red from '../images/red.png'
 import scap from '../images/scap.jpg'
 
-import window from '../images/window.png'
-import dustSide from '../images/dustSide.png'
-import reflexes from '../images/reflexes.png'
-import reflexes2 from '../images/reflexes2.png'
-import port from '../images/port.jpg'
-
 import elephant from '../images/elephant.png'
 import raft from '../images/Raft.png'
 import driftwood1 from '../images/driftwood1.png'
 import driftwood2 from '../images/driftwood2.png'
+import window from '../images/window.png'
+import windowSide from '../images/windowSide.png'
+import dust from '../images/dust.png'
+import dustSide from '../images/dustSide.png'
+import reflexes from '../images/reflexes.png'
+import reflexes2 from '../images/reflexes2.png'
+import port from '../images/port.jpg'
+import bug from '../images/bug.png'
 
 import swim from '../images/swim.png'
 import divers from '../images/divers.png'
@@ -79,17 +81,32 @@ import rocks from '../images/rocks.png'
 import washingAshore from '../images/washingAshore.png'
 import purple from '../images/purple.png'
 
-import adipose from '../images/adipose.jpg'
-import barney from '../images/barney.gif'
-import bird from '../images/bird.jpg'
-import egg from '../images/egg.jpg'
-import korea from '../images/korea.jpg'
-import magazine from '../images/Magazine.jpg'
+import animal from '../images/animals.png'
+import apec from '../images/apec.png'
+import bamboo from '../images/bamboo.png'
+import cuchi from '../images/cuchi.png'
+import dress from '../images/dress.jpg'
+import dwarves from '../images/dwarves.png'
+import egg from '../images/egg.png'
+import eye from '../images/eye.png'
+import fishSpine from '../images/fishspine.png'
+import fossil from '../images/fossil.png'
+import go from '../images/go.png'
 import laos from '../images/laos.jpg'
+import leaf from '../images/leaf.jpg'
+import line from '../images/line.png'
+import littlePrince from '../images/littleprince_.png'
+import lure from '../images/lure.jpg'
+import magazine from '../images/magazine.jpg'
 import map from '../images/map.png'
-import pixel from '../images/pixel.png'
-import past from '../images/past.jpg'
+import me from '../images/me.jpg'
+import plant from '../images/plant.png'
+import sinkHole from '../images/sinkhole.jpg'
+import tree from '../images/tree.png'
+import namja from '../images/namja.png'
 
+import sb1 from '../images/sb1.png'
+import sb2 from '../images/sb2.png'
 import sb3 from '../images/sb3.png'
 import sb4 from '../images/sb4.png'
 import sb5 from '../images/sb5.png'
@@ -98,8 +115,10 @@ import sb7 from '../images/sb7.png'
 import sb8 from '../images/sb8.png'
 import sb9 from '../images/sb9.png'
 import sb10 from '../images/sb10.png'
-import sb11 from '../images/sb11.jpg'
-import sb12 from '../images/sb12.jpg'
+import sb11 from '../images/sb11.png'
+import sb12 from '../images/sb12.png'
+import sb13 from '../images/sb13.png'
+import sb14 from '../images/sb14.png'
 
 export const NavItems = [
     {
@@ -216,7 +235,7 @@ export const paintingWork = [
     {
         image: PF,
         alt: 'painting piece',
-        title: 'Potato Fields (2020)',
+        title: 'Potato Plains (2020)',
         matl: '11" x 8" | Oil paint and oil pastel on canvas'
     },
     {
@@ -274,49 +293,17 @@ export const drawingWork = [
         image: OD,
         alt: 'drawing piece',
         title: 'Observation Drawings (2020)',
-        matl: 'Silver point and burned paper'
+        matl: '9" x 7" | Silver point and open flame on paper'
     },
     {
         image: TL,
         alt: 'drawing piece',
-        title: 'The Leftover (2020)'
+        title: 'The Leftover (2020)',
+        matl: '9" x 7" | Acrylic and ink on paper'
     },
 ]
 
 export const sculptureWork = [
-    {
-        image: reflexes,
-        alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth (After Worster) (2023)',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
-    },
-    {
-        image: reflexes2,
-        alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth II (After Worster) (2023) ',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
-    },
-    {
-        image: window,
-        alt: 'sculpture piece',
-        title: 'Mountainside View (2023)',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
-    },
-    {
-        image: dustSide,
-        alt: 'sculpture piece',
-        title: 'The Dust That Falls On Modern Things (The Artificial Kingdom, Celeste Olalquiga) (2023)',
-        matl: '5" x 7" | Acrylic, color pencil, soft and oil pastel on hanji, paper pulp and wood'
-    },
-    {
-        image: port,
-        alt: 'sculpture piece',
-        title: 'Port (2022)',
-        matl: '7" x 7" | Oil and ink on found wood'
-    },
-]
-
-export const sculptureOne = [
     {
         image: elephant,
         title: 'Elephant In The Snake',
@@ -325,7 +312,7 @@ export const sculptureOne = [
     },
     {
         image: raft,
-        title: "Raft (the folding horizon on a mackeral's back",
+        title: "Raft (the folding horizon on a mackerel's back)",
         alt: 'sculpture piece',
         matl: '12" x 18" | Soft pastel, charcoal, and string on cardboard'
     },
@@ -340,37 +327,91 @@ export const sculptureOne = [
         title: 'Untitled',
         alt: 'sculpture piece',
         matl: '17" x 3" | Oil pastel on found wood'
+    },
+    {
+        image: reflexes2,
+        alt: 'sculpture piece',
+        title: 'Reflexes Of A Vulnerable Earth II (After Worster) (2023) ',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
+    },
+    {
+        image: reflexes,
+        alt: 'sculpture piece',
+        title: 'Reflexes Of A Vulnerable Earth (After Worster) (2023)',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
+    },
+    {
+        image: dustSide,
+        alt: 'sculpture piece',
+        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga) (2023)',
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood'
+    },
+    {
+        image: dust,
+        alt:'sculpture piece',
+        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood'
+    },
+    {
+        image: windowSide,
+        alt: 'sculpture piece',
+        title: 'Mountainside View (2023)',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
+    },
+    {
+        image: window,
+        alt: 'sculpture piece',
+        title: 'Mountainside View (2023)',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
+    },
+    {
+        image: bug,
+        alt: 'sculpture piece',
+        title: 'Bug (2022)',
+        matl: '4" x 6" | Thread and nail on found wood'
+    },
+    {
+        image: port,
+        alt: 'sculpture piece',
+        title: 'Port (2022)',
+        matl: '7" x 7" | Oil and ink on found wood'
     }
 ]
 
 export const miscWork = [
     {
-        image: divers,
+        original: divers,
+        thumbnail: divers,
         title: 'Divers (2023)',
         alt: 'misc work'
     },
     {
-        image: purple,
+        original: purple,
+        thumbnail: purple,
         title: 'Coral Wallpaper (2023)',
         alt: 'misc work'
     },
     {
-        image: swim,
+        original: swim,
+        thumbnail: swim,
         title: 'Swimmer (2022)',
         alt: 'misc work'
     },
     {
-        image: washingAshore,
+        original: washingAshore,
+        thumbnail: washingAshore,
         title: 'Washed Ashore (2022)',
         alt: 'misc work'
     },
     {
-        image: rocks,
+        original: rocks,
+        thumbnail: rocks,
         title: 'Rock Trail (2022)',
         alt: 'misc work'
     },
     {
-        image: corner,
+        original: corner,
+        thumbnail: corner,
         title: 'Onlooker (2022)',
         alt: 'misc work'
     }
@@ -382,12 +423,13 @@ export const drawingSeries = [
         cover: GW1cover,
         alt: 'groundwater piece',
         year: '2023',
+        matl: 'Soft pastel and oil paint on arches oil paper',
         text:`Ground(water) is a series of soft pastel on oil paint monotypes
         dedicated to the tough and tender terrain of the Hawaiian coastline. Inspired
         by ahupua'a networks of fresh and brackish ponds, traditional rock-walls by
         the shoreline, and other features that curate accessible water, the drawings
-        seek to define resistance in nature as invasive species, and pollutants become
-        regulara sights to behold.`,
+        seek to define resistance in nature as invasive species, urban clearing and
+        pollutants become regular sights to behold.`,
         imgs: [
             {
                 image: GW1,
@@ -441,7 +483,8 @@ export const drawingSeries = [
         cover: BScover,
         alt: 'bedtime tales piece',
         year: '2020',
-        text: '8"x11" Ink, acrylic, and pastel on paper',
+        matl: 'Ink, acrylic, and soft pastel on paper',
+        text: '',
         imgs: [
             {
                 image: BS1,
@@ -471,7 +514,11 @@ export const drawingSeries = [
         cover: isit1cover,
         alt: "in summer i'll tear piece",
         year: '2021',
-        text: 'Ink, crayon, and graphite on hanji',
+        matl: 'Ink, crayon, and graphite on hanji',
+        text: `I grew up in the temperate suburbs of Maryland with a yard that bore chili
+        peppers in the summer. Come wintertime, the garden beds are left empty like lying caskets
+        . Suffering from the symptoms of an insistent longing, lies a hollow house of splintered
+        corners, rubber pipe, and dried peel.`,
         imgs: [
             {
                 image: isit1,
@@ -509,7 +556,8 @@ export const drawingSeries = [
         cover: oscover,
         alt: 'oill spill piece',
         year: '2020',
-        text:'ink etching and color pencil on origami, digital collage',
+        matl:'Ink etching and color pencil on origami, digital collage',
+        text:'',
         imgs: [
             {
                 image: os,
@@ -533,87 +581,110 @@ export const drawingSeries = [
 
 export const archive = [
     {
-        image: adipose,
-        title:'Fresh cut adipose tissue',
-        alt: 'visual archive'
+        image: animal,
+        alt: 'archive piece'
     },
     {
-        image: barney,
-        title:"Barney's fall of 1997",
-        alt: 'visual archive'
+        image: apec,
+        alt: 'archive piece'
     },
     {
-        image: bird,
-        title: 'A Luzon bleeding-heart makes mournful, hooting notes-each like a slow, dying whistle',
-        alt: 'visual archive'
+        image: leaf,
+        alt: 'archive piece'
     },
     {
-        image: egg,
-        title:'Prime Minister Hwang Kyo-ahn caught in an egg and water bottle shower by the hands of Seonju residents (2016)',
-        alt: 'visual archive'
-    },
-    {
-        image: magazine,
-        title: 'National Geographic on the bliss of American travel',
-        alt: 'visual archive'
-    },
-    {
-        image: map,
-        title: 'Diagram mapping personal space',
-        alt: 'visual archive'
-    },
-    {
-        image: pixel,
-        title: 'Pixel art of a flower garden',
-        alt: 'visual archive'
-    },
-    {
-        image: korea,
-        title: 'My mother, sister and I sitting on a street curb in Korean (2008)',
-        alt: 'visual archive'
+        image: line,
+        alt: 'archive piece'
     },
     {
         image: laos,
-        title: 'Laotian poster illustrating how opium breaks your heart',
-        alt: 'visual archive'
+        alt: 'archive piece'
     },
     {
-        image: past,
-        alt: 'visual archive'
-    }
+        image: fossil,
+        alt: 'archive piece'
+    },
+    {
+        image: go,
+        alt: 'archive piece'
+    },
+    {
+        image: egg,
+        alt: 'archive piece'
+    },
+    {
+        image: eye,
+        alt: 'archive piece'
+    },
+    {
+        image: me,
+        alt: 'archive piece'
+    },
+    {
+        image: dwarves,
+        alt: 'archive piece'
+    },
+    {
+        image: cuchi,
+        alt: 'archive piece'
+    },
+    {
+        image: bamboo,
+        alt: 'archive piece'
+    },
+    {
+        image: fishSpine,
+        alt: 'archive piece'
+    },
+    {
+        image: dress,
+        alt: 'archive piece'
+    },
+    {
+        image: lure,
+        alt: 'archive piece'
+    },
+    {
+        image: magazine,
+        alt: 'archive piece'
+    },
+    {
+        image: map,
+        alt: 'archive piece'
+    },
+    {
+        image: namja,
+        alt: '남자와 기생',
+    },
+    {
+        image: tree,
+        alt: 'archive piece'
+    },
+    {
+        image: sinkHole,
+        alt: 'archive piece'
+    },
+    {
+        image: littlePrince,
+        alt: 'archive piece'
+    },
+    {
+        image: plant,
+        alt: 'archive piece'
+    },
 ]
 
 export const sketchbookWork = [
     {
-        image: sb3,
+        image: sb14,
         alt: 'sketchbook piece'
     },
     {
-        image: sb4,
+        image: sb13,
         alt: 'sketchbook piece'
     },
     {
-        image: sb5,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb6,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb7,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb8,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb9,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: sb10,
+        image: sb12,
         alt: 'sketchbook piece'
     },
     {
@@ -621,7 +692,43 @@ export const sketchbookWork = [
         alt: 'sketchbook piece'
     },
     {
-        image: sb12,
+        image: sb10,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb9,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb8,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb7,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb6,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb5,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb4,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb3,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb2,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: sb1,
         alt: 'sketchbook piece'
     }
 ]

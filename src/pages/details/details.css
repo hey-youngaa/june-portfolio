@@ -8,6 +8,9 @@
     margin: 0 35px;
 }
 
+.seriesDesc h3{
+    font-size: 18px;
+}
 .seriesDesc p{
     line-height: 1.5em;
     font-weight: 100;
