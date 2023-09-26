@@ -4,14 +4,14 @@
     line-height: .8;
 }
 
-.seriesDesc{
-    margin: 0 35px;
+.series h1{
+    font-size: 20px;
 }
 
 .seriesDesc h3{
     font-size: 18px;
 }
-.seriesDesc p{
+p{
     line-height: 1.5em;
     font-weight: 100;
 }
@@ -26,3 +26,16 @@
     max-width: 400px;
     height: auto;
 }
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .right{
+    display: block;
+    width: 40px;
+    cursor: pointer;
+}
+

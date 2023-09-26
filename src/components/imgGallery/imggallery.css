@@ -1,7 +1,3 @@
-.masonryContainer{
-    margin: 0 35px;
-}
-
 .galleryImg{
     display: block;
     width: 100%;
@@ -42,6 +38,7 @@
 
 .imgDesc p{
     line-height: 0.1;
+    font-weight: 300;
 }
 
 .close{

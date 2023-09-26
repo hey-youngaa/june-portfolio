@@ -29,7 +29,6 @@ import BScover from '../images/BScover.png'
 import os from '../images/os.jpg'
 import osb from '../images/osb.jpg'
 import oso from '../images/oso.jpg'
-import osy from '../images/osy.jpg'
 import oscover from '../images/oscover.png'
 
 import isit1 from '../images/isit1.jpg'
@@ -39,6 +38,9 @@ import isit4 from '../images/isit4.jpg'
 import isit5 from '../images/isit5.jpg'
 import isit6 from '../images/isit6.jpg'
 import isit7 from '../images/isit7.jpg'
+//import pepper from '../images/pepper.png'
+//import pepperskin from '../images/pepperskin.png'
+import skin from '../images/skin.png'
 import isit1cover from '../images/isit1cover.png'
 
 import DV from '../images/daytimeVacancies.jpg'
@@ -46,12 +48,13 @@ import LT from '../images/leopardTranspirings.png'
 import LGC from '../images/lettuceGardenCharm.jpg'
 import LOFS from '../images/lightOfFoldingScreen.png'
 import PF from '../images/potatoFields.jpg'
-import R2 from '../images/rendezvous2.jpg'
-import RDV from '../images/rendezvous.jpg'
+import R2 from '../images/rendezvous2.png'
+import RDV from '../images/rendezvous.png'
 import rubies from '../images/rubies.png'
 import splinter from '../images/splinter.jpg'
 import untitled from '../images/Untitled.jpg'
 import donkey from '../images/donkey.png'
+import storm from '../images/storm.png'
 
 import dwellings from '../images/dwellings.jpg'
 import ED from '../images/elephantDreams.png'
@@ -104,6 +107,7 @@ import plant from '../images/plant.png'
 import sinkHole from '../images/sinkhole.jpg'
 import tree from '../images/tree.png'
 import namja from '../images/namja.png'
+import nuggets from '../images/nuggets.png'
 
 import sb1 from '../images/sb1.png'
 import sb2 from '../images/sb2.png'
@@ -193,62 +197,68 @@ export const paintingWork = [
     {
         image: DV,
         alt: 'painting piece',
-        title: 'Daytime Vacancies (2022)',
-        matl: '18" x 24" | Oil paint and color pencil on wood'
+        title: 'Daytime Vacancies',
+        matl: '18" x 24" | Oil paint and color pencil on wood | 2022'
     },
     {
         image: splinter,
         alt: 'painting piece',
-        title: 'Story of a Splinter (2022)',
-        matl: '18" x 24" | Oil paint on wood'
+        title: 'Story of a Splinter',
+        matl: '18" x 24" | Oil paint on wood | 2022'
+    },
+    {
+        image: storm,
+        alt: 'painting piece',
+        title: 'Eye of the Storm',
+        matl: 'Oil paint, soft pastel, and thread on leathered fabric | 2022'
     },
     {
         image: LOFS,
         alt: 'painting piece',
-        title: 'Light of Folding Screen (2021)',
-        matl: '45" x 50" | Oil paint, conte, ink, and hanji on paper'
+        title: 'Light of Folding Screen',
+        matl: '45" x 50" | Oil paint, conte, ink, and hanji on paper | 2021'
     },
     {
         image: LGC,
         alt: 'painting piece',
-        title: 'Lettuce Garden Charm (2021)',
-        matl: '18" x 24" | Oil paint and oil pastel on canvas'
+        title: 'Lettuce Garden Charm',
+        matl: '18" x 24" | Oil paint and oil pastel on canvas | 2021'
     },
     {
         image: rubies,
         alt: 'painting piece',
-        title: 'Rubies in the Sternum, Long Thereafter (2021)',
-        matl: '17" x 31" | Oil paint, ink, soft pastel, and glitter on paper'
+        title: 'Rubies in the Sternum, Long Thereafter',
+        matl: '17" x 31" | Oil paint, ink, soft pastel, and glitter on paper | 2021'
     },
     {
         image: LT,
         alt: 'painting piece',
-        title: 'Leopard Transpirings (2021)',
-        matl: '14" x 21" | Oil paint, ink, and shellac on paper'
+        title: 'Leopard Transpirings',
+        matl: '14" x 21" | Oil paint, ink, and shellac on paper | 2021'
     },
     {
         image: untitled,
         alt: 'painting piece',
-        title: 'Untitled (2020)',
-        matl: '8" x 11" | Oil paint and oil pastel on canvas'
+        title: 'Untitled',
+        matl: '8" x 11" | Oil paint and oil pastel on canvas | 2020'
     },
     {
         image: PF,
         alt: 'painting piece',
-        title: 'Potato Plains (2020)',
-        matl: '11" x 8" | Oil paint and oil pastel on canvas'
+        title: 'Potato Plains',
+        matl: '11" x 8" | Oil paint and oil pastel on canvas | 2020'
     },
     {
         image: RDV,
         alt: 'painting piece',
-        title: 'Rendezvous (2020)',
-        matl: '11" x 8" | Oil paint on masonite'
+        title: 'Rendezvous',
+        matl: '11" x 8" | Oil paint on masonite | 2020'
     },
     {
         image: R2,
         alt: 'painting piece',
-        title: 'Rendezvous II (2020)',
-        matl: '8" x 11" | Oil paint on masonite'
+        title: 'Rendezvous II',
+        matl: '8" x 11" | Oil paint on masonite | 2020'
     },
 ]
 
@@ -256,162 +266,156 @@ export const drawingWork = [
     {
         image: red,
         alt: 'drawing piece',
-        title: "The Backside of an Extinguished Hill (2021)",
-        matl: '8" x 9" | Oil monoprint and soft pastel on paper'
+        title: "The Backside of an Extinguished Hill",
+        matl: '8" x 9" | Oil monoprint and soft pastel on paper | 2021'
     },
     {
         image: scap,
         alt: 'drawing piece',
-        title: 'Alien Field (2021)',
-        matl: '8" x 9" | Oil monoprint and soft pastel on paper'
+        title: 'Alien Field',
+        matl: '8" x 9" | Oil monoprint and soft pastel on paper | 2021'
     },
     {
         image: donkey,
         alt: 'drawing piece',
-        title: 'Guardian (2021)',
-        matl: '20" x 20" | Ink, shellac, glitter, and soft pastel on paper'
+        title: 'Guardian',
+        matl: '20" x 20" | Ink, shellac, glitter, and soft pastel on paper | 2021'
     },
     {
         image: ED,
         alt: 'drawing piece',
-        title: 'Elephant Dreams (2021)',
-        matl: 'Acrylic stencil, glitter, and thread on paper'
+        title: 'Elephant Dreams',
+        matl: 'Acrylic stencil, glitter, and thread on paper | 2021'
     },
     {
         image: dwellings,
         alt: 'drawing piece',
-        title: 'Dwellings (2020)',
-        matl: '9" x 14" | Acrylic and ink on paper'
+        title: 'Dwellings',
+        matl: '9" x 14" | Acrylic and ink on paper | 2020'
     },
     {
         image: ddm,
         alt: 'drawing piece',
-        title: 'Figure Drawing (2020)',
-        matl: 'Conte and soft pastel on paper'
+        title: 'Figure Drawing',
+        matl: 'Conte and soft pastel on paper | 2020'
     },
     {
         image: OD,
         alt: 'drawing piece',
-        title: 'Observation Drawings (2020)',
-        matl: '9" x 7" | Silver point and open flame on paper'
+        title: 'Observation Drawings',
+        matl: '9" x 7" | Silver point and open flame on paper | 2020'
     },
     {
         image: TL,
         alt: 'drawing piece',
-        title: 'The Leftover (2020)',
-        matl: '9" x 7" | Acrylic and ink on paper'
-    },
+        title: 'The Leftover',
+        matl: '9" x 7" | Acrylic and ink on paper | 2020'
+    }
 ]
 
 export const sculptureWork = [
     {
         image: elephant,
-        title: 'Elephant In The Snake',
+        title: 'Elephant in the Snake',
         alt: 'sculpture piece',
-        matl: '15" x 7" | Cord and nail on found wood'
+        matl: '15" x 7" | Cord and nail on found wood | 2023'
     },
     {
         image: raft,
         title: "Raft (the folding horizon on a mackerel's back)",
         alt: 'sculpture piece',
-        matl: '12" x 18" | Soft pastel, charcoal, and string on cardboard'
+        matl: '12" x 18" | Soft pastel, charcoal, and string on cardboard | 2022'
     },
     {
         image: driftwood1,
         title: 'Untitled',
         alt: 'sculpture piece',
-        matl: '18" x 3" | Oil pastel on found wood'
+        matl: '18" x 3" | Oil pastel on found wood | 2023'
     },
     {
         image: driftwood2,
         title: 'Untitled',
         alt: 'sculpture piece',
-        matl: '17" x 3" | Oil pastel on found wood'
+        matl: '17" x 3" | Oil pastel on found wood | 2023'
     },
     {
         image: reflexes2,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth II (After Worster) (2023) ',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
+        title: 'Reflexes of a Vulnerable Earth II (After Worster)',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood | 2023'
     },
     {
         image: reflexes,
         alt: 'sculpture piece',
-        title: 'Reflexes Of A Vulnerable Earth (After Worster) (2023)',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood'
+        title: 'Reflexes of a Vulnerable Earth (After Worster)',
+        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood | 2023'
     },
     {
         image: dustSide,
         alt: 'sculpture piece',
-        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga) (2023)',
-        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood'
+        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood | 2023'
     },
     {
         image: dust,
         alt:'sculpture piece',
         title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
-        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood'
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood | 2023'
     },
     {
         image: windowSide,
         alt: 'sculpture piece',
-        title: 'Mountainside View (2023)',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
+        title: 'Mountainside View',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board | 2023'
     },
     {
         image: window,
         alt: 'sculpture piece',
-        title: 'Mountainside View (2023)',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board'
+        title: 'Mountainside View',
+        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board | 2023'
     },
     {
         image: bug,
         alt: 'sculpture piece',
-        title: 'Bug (2022)',
-        matl: '4" x 6" | Thread and nail on found wood'
+        title: 'Bug',
+        matl: '4" x 6" | Thread and nail on found wood | 2022'
     },
     {
         image: port,
         alt: 'sculpture piece',
-        title: 'Port (2022)',
-        matl: '7" x 7" | Oil and ink on found wood'
+        title: 'Port',
+        matl: '7" x 7" | Oil and ink on found wood | 2022'
     }
 ]
 
 export const miscWork = [
     {
-        original: divers,
-        thumbnail: divers,
+        image: divers,
         title: 'Divers (2023)',
         alt: 'misc work'
     },
     {
-        original: purple,
-        thumbnail: purple,
+        image: purple,
         title: 'Coral Wallpaper (2023)',
         alt: 'misc work'
     },
     {
-        original: swim,
-        thumbnail: swim,
+        image: swim,
         title: 'Swimmer (2022)',
         alt: 'misc work'
     },
     {
-        original: washingAshore,
-        thumbnail: washingAshore,
+        image: washingAshore,
         title: 'Washed Ashore (2022)',
         alt: 'misc work'
     },
     {
-        original: rocks,
-        thumbnail: rocks,
+        image: rocks,
         title: 'Rock Trail (2022)',
         alt: 'misc work'
     },
     {
-        original: corner,
-        thumbnail: corner,
+        image: corner,
         title: 'Onlooker (2022)',
         alt: 'misc work'
     }
@@ -419,7 +423,7 @@ export const miscWork = [
 export const drawingSeries = [
     {
         id: 'groundwater-series',
-        title: 'Groundwater',
+        title: 'Ground(water)',
         cover: GW1cover,
         alt: 'groundwater piece',
         year: '2023',
@@ -430,6 +434,7 @@ export const drawingSeries = [
         the shoreline, and other features that curate accessible water, the drawings
         seek to define resistance in nature as invasive species, urban clearing and
         pollutants become regular sights to behold.`,
+        text2: '',
         imgs: [
             {
                 image: GW1,
@@ -475,7 +480,8 @@ export const drawingSeries = [
                 image: GW11,
                 alt: 'groundwater'
             },
-        ]
+        ],
+        imgs2:[]
     },
     {
         id:'bedtime-tales-series',
@@ -485,6 +491,7 @@ export const drawingSeries = [
         year: '2020',
         matl: 'Ink, acrylic, and soft pastel on paper',
         text: '',
+        text2:'',
         imgs: [
             {
                 image: BS1,
@@ -506,7 +513,8 @@ export const drawingSeries = [
                 image: BS5,
                 alt: 'bedtime tales'
             }
-        ]
+        ],
+        imgs2: []
     },
     {
         id: 'in-summer-i-will-tear-series',
@@ -519,6 +527,7 @@ export const drawingSeries = [
         peppers in the summer. Come wintertime, the garden beds are left empty like lying caskets
         . Suffering from the symptoms of an insistent longing, lies a hollow house of splintered
         corners, rubber pipe, and dried peel.`,
+        text2: 'Frottage trials on neon tissues paper using dried chili peppers.',
         imgs: [
             {
                 image: isit1,
@@ -539,7 +548,9 @@ export const drawingSeries = [
             {
                 image: isit5,
                 alt: "in summer i'll tear"
-            },
+            }
+        ],
+        imgs2: [
             {
                 image: isit6,
                 alt: "in summer i'll tear"
@@ -547,35 +558,37 @@ export const drawingSeries = [
             {
                 image: isit7,
                 alt: "in summer i'll tear"
+            },
+            {
+                image: skin,
+                alt:"in summer i'll tear"
             }
         ]
     },
     {
         id:'oil-spill-series',
-        title: 'Oill Spill',
+        title: 'Oil Spill',
         cover: oscover,
-        alt: 'oill spill piece',
+        alt: 'oil spill piece',
         year: '2020',
         matl:'Ink etching and color pencil on origami, digital collage',
         text:'',
+        text2: '',
         imgs: [
             {
                 image: os,
-                alt: 'oill spill'
+                alt: 'oil spill'
             },
             {
                 image: osb,
-                alt: 'oill spill'
+                alt: 'oil spill'
             },
             {
                 image: oso,
-                alt: 'oill spill'
-            },
-            {
-                image: osy,
-                alt: 'oill spill'
+                alt: 'oil spill'
             }
-        ]
+        ],
+        imgs2:[]
     }
 ]
 
@@ -586,7 +599,8 @@ export const archive = [
     },
     {
         image: apec,
-        alt: 'archive piece'
+        alt: `World leaders dressed in durumagi for the Asia-Pacific Economic
+        Cooperation Summit in Korea (November 19, 2005)`
     },
     {
         image: leaf,
@@ -598,11 +612,15 @@ export const archive = [
     },
     {
         image: laos,
-        alt: 'archive piece'
+        alt: 'Laotian poster illustrating how opium breaks your heart'
     },
     {
         image: fossil,
-        alt: 'archive piece'
+        alt: 'Typical pre-turbidite trace fossils'
+    },
+    {
+        image: nuggets,
+        alt: 'Dino nuggets'
     },
     {
         image: go,
@@ -622,35 +640,40 @@ export const archive = [
     },
     {
         image: dwarves,
-        alt: 'archive piece'
+        alt: 'Streets of the Orange Alternative Movement'
     },
     {
         image: cuchi,
-        alt: 'archive piece'
+        alt: 'Cu Chi Tunnel'
     },
     {
         image: bamboo,
-        alt: 'archive piece'
+        alt: 'Bamboo rhizome'
     },
     {
         image: fishSpine,
-        alt: 'archive piece'
+        alt: 'A fish spine'
     },
     {
         image: dress,
-        alt: 'archive piece'
+        alt: `Roberto Caval's evening dress (2006) made of blue and white
+        silk satin.`
     },
     {
         image: lure,
         alt: 'archive piece'
     },
     {
-        image: magazine,
+        image: plant,
         alt: 'archive piece'
     },
     {
+        image: magazine,
+        alt: 'National Geographic on the bliss of American travel'
+    },
+    {
         image: map,
-        alt: 'archive piece'
+        alt: 'Diagram mapping personal space'
     },
     {
         image: namja,
@@ -667,11 +690,7 @@ export const archive = [
     {
         image: littlePrince,
         alt: 'archive piece'
-    },
-    {
-        image: plant,
-        alt: 'archive piece'
-    },
+    }
 ]
 
 export const sketchbookWork = [

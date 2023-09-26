@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/june-portfolio/static/css/main.eadc563d.css",
-    "main.js": "/june-portfolio/static/js/main.7d95994a.js",
+    "main.css": "/june-portfolio/static/css/main.8325f307.css",
+    "main.js": "/june-portfolio/static/js/main.e219bacd.js",
     "static/media/red.png": "/june-portfolio/static/media/red.59818e90c9e6e5414117.png",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
-    "static/media/dust.png": "/june-portfolio/static/media/dust.149826864dcf8667f777.png",
-    "static/media/window.png": "/june-portfolio/static/media/window.74ba7e88ba1622572781.png",
-    "static/media/reflexes2.png": "/june-portfolio/static/media/reflexes2.01189c47fa902a4ee43e.png",
     "static/media/reflexes.png": "/june-portfolio/static/media/reflexes.14529db5ac5d259d1ffb.png",
     "static/media/GW1cover.png": "/june-portfolio/static/media/GW1cover.15e6b8d65b5d7e8cebd8.png",
     "static/media/BScover.png": "/june-portfolio/static/media/BScover.66a7d8e83eb4f19fcb4c.png",
-    "static/media/windowSide.png": "/june-portfolio/static/media/windowSide.3f3a1cccd1d06af953c9.png",
+    "static/media/windowSide.png": "/june-portfolio/static/media/windowSide.8245bc4db76212908497.png",
+    "static/media/dust.png": "/june-portfolio/static/media/dust.55d0714277ed3e8bde42.png",
     "static/media/fishspine.png": "/june-portfolio/static/media/fishspine.5798e5fe5d2f5ed508f9.png",
+    "static/media/reflexes2.png": "/june-portfolio/static/media/reflexes2.b55f4e6c89575fb27f75.png",
     "static/media/leopardTranspirings.png": "/june-portfolio/static/media/leopardTranspirings.f6b8323d25d5206d8b59.png",
     "static/media/elephant.png": "/june-portfolio/static/media/elephant.9045fdb26642e6c9e945.png",
     "static/media/rendezvous.jpg": "/june-portfolio/static/media/rendezvous.8c3d1bf6cb7535abefb0.jpg",
     "static/media/rubies.png": "/june-portfolio/static/media/rubies.08fa7f8033b5aec258fc.png",
     "static/media/elephantDreams.png": "/june-portfolio/static/media/elephantDreams.2ec46b000e0119e39819.png",
     "static/media/sb10.png": "/june-portfolio/static/media/sb10.8041241b824753d35d0c.png",
+    "static/media/window.png": "/june-portfolio/static/media/window.4461f084b3cbb58a9cd2.png",
     "static/media/sb8.png": "/june-portfolio/static/media/sb8.c578d23a19c6087586ae.png",
     "static/media/animals.png": "/june-portfolio/static/media/animals.1d215428466c3c2f03a5.png",
     "static/media/sb9.png": "/june-portfolio/static/media/sb9.e300895cd50a5c2c04c4.png",
@@ -29,7 +29,6 @@
     "static/media/sb4.png": "/june-portfolio/static/media/sb4.f2aa551f1147ef768ddc.png",
     "static/media/isit7.jpg": "/june-portfolio/static/media/isit7.1fd6cfe1a078dac34231.jpg",
     "static/media/BS2.jpg": "/june-portfolio/static/media/BS2.6ae5993f6dff06bcb71a.jpg",
-    "static/media/sb14.png": "/june-portfolio/static/media/sb14.1f16b0ef37eb44bb77b6.png",
     "static/media/sb11.png": "/june-portfolio/static/media/sb11.8a58a5784a6a43381374.png",
     "static/media/theLeftover.jpg": "/june-portfolio/static/media/theLeftover.3bbfe2faa2e4aa9ecdc1.jpg",
     "static/media/purple.png": "/june-portfolio/static/media/purple.8478a336ea9228a931f6.png",
@@ -38,6 +37,7 @@
     "static/media/driftwood1.png": "/june-portfolio/static/media/driftwood1.99b1ddf7375c7f02a4ea.png",
     "static/media/lightOfFoldingScreen.png": "/june-portfolio/static/media/lightOfFoldingScreen.542b79d38d4a9203e1fe.png",
     "static/media/isit6.jpg": "/june-portfolio/static/media/isit6.ab07f99f990c7c9c8300.jpg",
+    "static/media/sb14.png": "/june-portfolio/static/media/sb14.94d27d93a3fcbde227b8.png",
     "static/media/bug.png": "/june-portfolio/static/media/bug.90327dfa848f9b7aa96a.png",
     "static/media/BS1.jpg": "/june-portfolio/static/media/BS1.0f5d46fd5e5ae3cf27ed.jpg",
     "static/media/oscover.png": "/june-portfolio/static/media/oscover.f06c7787f055cb6dbae9.png",
@@ -47,6 +47,7 @@
     "static/media/sb5.png": "/june-portfolio/static/media/sb5.4685a16327f80b30b88a.png",
     "static/media/sb13.png": "/june-portfolio/static/media/sb13.dd6d838dfb90bcd6217a.png",
     "static/media/magazine.jpg": "/june-portfolio/static/media/magazine.f8a42f7c2d7f794e177f.jpg",
+    "static/media/namja.png": "/june-portfolio/static/media/namja.14288d40abf498e13c96.png",
     "static/media/line.png": "/june-portfolio/static/media/line.15b3d2868e2771860c63.png",
     "static/media/scap.jpg": "/june-portfolio/static/media/scap.e459a1779da4128ca5c6.jpg",
     "static/media/donkey.png": "/june-portfolio/static/media/donkey.d5e339ab3e01128089eb.png",
@@ -94,7 +95,6 @@
     "static/media/GW7.jpg": "/june-portfolio/static/media/GW7.dfefbbb66992baaac8a8.jpg",
     "static/media/splinter.jpg": "/june-portfolio/static/media/splinter.60103e050530fca8ce54.jpg",
     "static/media/port.jpg": "/june-portfolio/static/media/port.12c1c3d9e68442baa68f.jpg",
-    "static/media/osy.jpg": "/june-portfolio/static/media/osy.e157a9a7eda7e05ecd25.jpg",
     "static/media/osb.jpg": "/june-portfolio/static/media/osb.91e10777f7d89de36331.jpg",
     "static/media/oso.jpg": "/june-portfolio/static/media/oso.698b47dadba5f4cca2c0.jpg",
     "static/media/fossil.png": "/june-portfolio/static/media/fossil.98351aeb40ff602f1e24.png",
@@ -117,11 +117,11 @@
     "static/media/menu.svg": "/june-portfolio/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/june-portfolio/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/june-portfolio/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.eadc563d.css.map": "/june-portfolio/static/css/main.eadc563d.css.map",
-    "main.7d95994a.js.map": "/june-portfolio/static/js/main.7d95994a.js.map"
+    "main.8325f307.css.map": "/june-portfolio/static/css/main.8325f307.css.map",
+    "main.e219bacd.js.map": "/june-portfolio/static/js/main.e219bacd.js.map"
   },
   "entrypoints": [
-    "static/css/main.eadc563d.css",
-    "static/js/main.7d95994a.js"
+    "static/css/main.8325f307.css",
+    "static/js/main.e219bacd.js"
   ]
 }

@@ -4,9 +4,11 @@ import './details.css'
 import { drawingSeries } from '../../assets/data/Data'
 import ImgGallery from '../../components/imgGallery/ImgGallery'
 
+
 function Details() {
-  let {id} = useParams()
-  let [series, setSeries] = useState(null)
+  let {id} = useParams();
+  let [series, setSeries] = useState(null);
+
 
   useEffect(() => {
     let series = drawingSeries.find((series) => series.id === id)
@@ -20,12 +22,15 @@ function Details() {
     {series ? (
       <div className="singleSeries">
         <div className="seriesDesc">
-          <h3>{series.title}</h3>
+          <h1>{series.title}</h1>
           <h3>{series.year}</h3>
           <h3>{series.matl}</h3>
+          <br />
           <p> {series.text}</p>
         </div>
         <ImgGallery gallery={series.imgs} />
+        <p>{series.text2}</p>
+        <ImgGallery gallery={series.imgs2} />
       </div>
     ) : null}
     </div>

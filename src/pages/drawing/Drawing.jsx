@@ -10,7 +10,7 @@ function Drawing() {
     <div className='pageContainer'>
       <div className="pageHeader">
         <h3>Planetary Suburbs (2020 - present)</h3>
-        <p>mixed media on paper</p>
+        <p>Mixed media on paper</p>
       </div>
       <ImgGallery gallery={drawingWork} />
       <div className="break"></div>
