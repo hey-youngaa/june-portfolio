@@ -385,7 +385,7 @@ export const drawingSeries = [
         cover: isit1cover,
         alt: "in summer i'll tear piece",
         matl: 'ink, crayon, and graphite on hanji'
-        text: 'I grew up with a yard that bore chili peppers in the summer. Come wintertime, the garden beds are left empty like lying caskets. Suffering from the symptoms of an insistent longing, lies a hollow house of splintered corners, rubber pipe, and dried peel. The red that I call home finds shelter in the padded dirt, asleep underneath the nipping cold. As the seasons change, eventually the red will come-first from the dirt, then into you.',
+        text: 'I was born in June, just before harvest season. Come wintertime, the garden beds are left empty like lying caskets. Suffering from the symptoms of an insistent longing, lies a winded house of splintered corners, rubber pipe, and dried peel. The red that I call home finds shelter in the padded dirt, quiet and asleep underneath the nipping cold. And as the sun beckons all life underneath it, the red eventually comes-first from the dirt, then into me.',
         imgs: [
             {
                 image: isit1,
