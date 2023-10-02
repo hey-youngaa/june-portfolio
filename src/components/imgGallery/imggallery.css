@@ -66,6 +66,19 @@
     right: 10%;
 }
 
+@media screen and (max-width:600px) {
+    .previous{
+        left: 5%;
+    }
+    .next{
+        right: 5%;
+    }
+    .close{
+        right: 5%;
+    }
+
+}
+
 @media screen and (max-width:350px) {
     .masonryContainer{
         margin: 0 10px;

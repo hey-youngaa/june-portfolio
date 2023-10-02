@@ -6,9 +6,8 @@ import ImgSlider from '../../components/imgSlider/ImgSlider'
 
 function Misc() {
   return (
-    <div className="pageContainer">
+    <div>
       <ImgSlider slides={miscWork} />
-      <p>hello</p>
     </div>
   )
 }

@@ -523,10 +523,11 @@ export const drawingSeries = [
         alt: "in summer i'll tear piece",
         year: '2021',
         matl: 'Ink, crayon, and graphite on hanji',
-        text: `I grew up in the temperate suburbs of Maryland with a yard that bore chili
-        peppers in the summer. Come wintertime, the garden beds are left empty like lying caskets
-        . Suffering from the symptoms of an insistent longing, lies a hollow house of splintered
-        corners, rubber pipe, and dried peel.`,
+        text: `I was born in June, just before harvest season. Come wintertime, the garden beds are left
+        empty like lying caskets. Suffering from the symptoms of an insistent longing, lies a winded house
+        of splintered corners, rubber pipe, and dried peel. The red that I call home finds shelter in the padded
+        dirt, quiet and asleep underneath the nipping cold. And as the sun beckons all life underneath it, the red
+        eventually comes - first from the dirt, then into me.`,
         text2: 'Frottage trials on neon tissues paper using dried chili peppers.',
         imgs: [
             {
