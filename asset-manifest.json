@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/june-portfolio/static/css/main.1acae332.css",
-    "main.js": "/june-portfolio/static/js/main.72e58bd4.js",
+    "main.css": "/june-portfolio/static/css/main.9d264213.css",
+    "main.js": "/june-portfolio/static/js/main.3dcc5319.js",
     "static/media/red.png": "/june-portfolio/static/media/red.59818e90c9e6e5414117.png",
     "static/media/dustSide.png": "/june-portfolio/static/media/dustSide.7be0cb52047c5e1eb364.png",
     "static/media/reflexes.png": "/june-portfolio/static/media/reflexes.14529db5ac5d259d1ffb.png",
@@ -120,11 +120,11 @@
     "static/media/menu.svg": "/june-portfolio/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/june-portfolio/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/june-portfolio/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.1acae332.css.map": "/june-portfolio/static/css/main.1acae332.css.map",
-    "main.72e58bd4.js.map": "/june-portfolio/static/js/main.72e58bd4.js.map"
+    "main.9d264213.css.map": "/june-portfolio/static/css/main.9d264213.css.map",
+    "main.3dcc5319.js.map": "/june-portfolio/static/js/main.3dcc5319.js.map"
   },
   "entrypoints": [
-    "static/css/main.1acae332.css",
-    "static/js/main.72e58bd4.js"
+    "static/css/main.9d264213.css",
+    "static/js/main.3dcc5319.js"
   ]
 }
