@@ -390,31 +390,37 @@ export const sculptureWork = [
 
 export const miscWork = [
     {
+        id: 0,
         image: divers,
         title: 'Divers (2023)',
         alt: 'misc work'
     },
     {
+        id: 1,
         image: purple,
         title: 'Coral Wallpaper (2023)',
         alt: 'misc work'
     },
     {
+        id: 2,
         image: swim,
         title: 'Swimmer (2022)',
         alt: 'misc work'
     },
     {
+        id:3,
         image: washingAshore,
         title: 'Washed Ashore (2022)',
         alt: 'misc work'
     },
     {
+        id:4,
         image: rocks,
         title: 'Rock Trail (2022)',
         alt: 'misc work'
     },
     {
+        id:5,
         image: corner,
         title: 'Onlooker (2022)',
         alt: 'misc work'

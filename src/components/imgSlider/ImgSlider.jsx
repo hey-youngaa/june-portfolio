@@ -1,38 +1,64 @@
 import React, {useState} from 'react'
+import './imgslider.css'
 import left from '../../assets/images/left.png'
 import right from '../../assets/images/right.png'
-import './imgslider.css'
 
 function ImgSlider({slides}) {
-    const [current, setCurrent] = useState(0);
-    const length= slides.length;
+  const [sliderData, setSliderData] = useState(slides[0]);
+  const [val, setVal] = useState(0);
+  const length = slides.length
 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
+  const handleClick = (index) => {
+    const slider = slides[index]
+    setSliderData(slider)
+  }
 
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
+  const nextSlide = () => {
+    let index = val === length - 1 ?  0: val + 1;
+    setVal(index);
+    const slider = slides[index];
+    setSliderData(slider);
+  }
+
+  const prevSlide = () => {
+    let index = val === 0 ? length - 1 : val - 1;
+    setVal(index);
+    const slider = slides[index];
+    setSliderData(slider)
+  }
 
   return (
-    <div className="slider">
-        <img src={left} alt='left arrow' className='leftArrow' onClick={prevSlide} />
-        <img src={right} alt='right arrow' className='rightArrow' onClick={nextSlide} />
-        {slides.map((item,index) => (
-            <div className={index === current ? 'slide active' : 'slide'} key={index} >
-                {index === current && (
-                    <div className="mainSlide">
-                        <div>
-                            <img src={item.image} alt={item.alt} className='mainImg' />
-                        </div>
-                        <div>
-                            <h2>{item.title}</h2>
-                        </div>
-                    </div>
-                )}
-            </div>
+    <div className='slider'>
+      <div className="mainRow">
+        <img
+          src={left}
+          alt='left arrow'
+          className='leftArrow'
+          onClick={prevSlide}
+        />
+        <img src={sliderData.image} alt='' className='mainImg'/>
+        <img
+          src={right}
+          alt='right arrow'
+          className='rightArrow'
+          onClick={nextSlide}
+        />
+      </div>
+      <div className="titleRow">
+        <h2>{sliderData.title}</h2>
+      </div>
+      <div className="thumbRow">
+        {slides.map((item,i) => (
+          <div className="thumbnail" key={i}>
+            <img
+            className={sliderData.id === i ? 'clicked' : ''}
+              src={item.image}
+              alt={item.alt}
+              onClick={() => handleClick(i)}
+            />
+          </div>
         ))}
+      </div>
     </div>
   )
 }
