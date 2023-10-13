@@ -15,7 +15,7 @@ import Sketchbook from './pages/sketchbook/Sketchbook';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/june-portfolio'>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
