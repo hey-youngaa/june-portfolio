@@ -1,113 +1,100 @@
 *{
     box-sizing: border-box;
 }
-.slider{
-    text-align: center;
-    margin-top: 50px;
-    height: calc(100vh - 130px);
-}
 
-.mainRow{
+.slider{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-}
-
-.mainImg{
-    height: 100%;
-    max-width: 80%;
-    object-fit: cover;
-}
-
-.leftArrow, .rightArrow{
-    cursor: pointer;
-    width: 40px;
-    position: absolute;
-}
-
-.leftArrow{
-    left: 35px;
-}
-
-.rightArrow{
-    right: 35px;
-}
-
-.titleRow{
-    position: relative;
-    top: -10px;
+    height: calc(100vh - 130px);
+    width: 100%;
+    justify-content:flex-start;
 }
 
 .thumbRow{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    top: -20px;
+    flex-direction: column;
+    margin-right: 5%;
 }
 
 .thumbnail{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 90px;
+    margin-bottom: 5px;
     cursor: pointer;
-    padding-left: 10px;
 }
 
 .thumbnail img{
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
-.thumbnail img:hover{
+.thumbnail:hover{
     border: 2px solid #D373B2;
 }
 
-.clicked{
-    border: 2px solid #D373B2;
+.mainRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-@media screen and (min-width: 1000px) {
-    .leftArrow,.rightArrow{
-        position: relative;
-    }
-
-    .leftArrow{
-        left: -20px;
-    }
-
-    .rightArrow{
-        right: -20px;
-    }
+.mainImgWrapper{
+    height: 80%;
+    display: flex;
 }
 
-@media screen and (max-width:750px) {
+.mainImg{
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.titleRow{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleRow h2{
+    font-size: 20px;
+}
+
+.leftArrow, .rightArrow{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .slider{
+        flex-direction: column;
+        height: 100%;
+    }
+    .thumbRow{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        flex: blue;
+    }
     .thumbnail{
         width: 80px;
-        height: 80px;
-        padding-left: 5px;
+        height: 60px;
+        margin: 4px;
+    }
+    .titleRow{
+        width: 100%;
+    }
+    .mainRow{
+        height: 60vh;
+    }
+    .mainImgWrapper{
+        height: 60%;
     }
 
-    .leftArrow{
-        left: 10px;
-    }
-
-    .rightArrow{
-        right: 10px;
-    }
-
-    .leftArrow,.rightArrow{
-        position: absolute;
-        top: 10%;
-    }
-
-    .mainImg{
-        max-width: 95%;
-    }
-
-    .titleRow h2{
-        font-size: 18px;
-    }
 }

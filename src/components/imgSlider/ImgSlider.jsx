@@ -29,24 +29,6 @@ function ImgSlider({slides}) {
 
   return (
     <div className='slider'>
-      <div className="mainRow">
-        <img
-          src={left}
-          alt='left arrow'
-          className='leftArrow'
-          onClick={prevSlide}
-        />
-        <img src={sliderData.image} alt='' className='mainImg'/>
-        <img
-          src={right}
-          alt='right arrow'
-          className='rightArrow'
-          onClick={nextSlide}
-        />
-      </div>
-      <div className="titleRow">
-        <h2>{sliderData.title}</h2>
-      </div>
       <div className="thumbRow">
         {slides.map((item,i) => (
           <div className="thumbnail" key={i}>
@@ -59,6 +41,28 @@ function ImgSlider({slides}) {
           </div>
         ))}
       </div>
+
+      <div className="mainRow">
+        <div className="mainImgWrapper">
+          <img src={sliderData.image} alt='' className='mainImg'/>
+        </div>
+        <div className="titleRow">
+          <img
+            src={left}
+            alt='left arrow'
+            className='leftArrow'
+            onClick={prevSlide}
+          />
+          <h2>{sliderData.title}</h2>
+          <img
+            src={right}
+            alt='right arrow'
+            className='rightArrow'
+            onClick={nextSlide}
+          />
+        </div>
+      </div>
+
     </div>
   )
 }
