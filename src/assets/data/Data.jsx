@@ -17,19 +17,19 @@ import GW8 from '../images/GW8.jpg'
 import GW9 from '../images/GW9.jpg'
 import GW10 from '../images/GW10.jpg'
 import GW11 from '../images/GW11.jpg'
-import GW1cover from '../images/GW1cover.png'
+import GW1cover from '../images/GW1cover.jpg'
 
-import BS1 from '../images/BS1.jpg'
-import BS2 from '../images/BS2.jpg'
-import BS3 from '../images/BS3.jpg'
-import BS4 from '../images/BS4.jpg'
-import BS5 from '../images/BS5.jpg'
-import BScover from '../images/BScover.png'
+import BS1 from '../images/BT1.jpg'
+import BS2 from '../images/BT2.jpg'
+import BS3 from '../images/BT3.jpg'
+import BS4 from '../images/BT4.jpg'
+import BS5 from '../images/BT5.jpg'
+import BScover from '../images/BTcover.jpg'
 
 import os from '../images/os.jpg'
 import osb from '../images/osb.jpg'
 import oso from '../images/oso.jpg'
-import oscover from '../images/oscover.png'
+import oscover from '../images/oscover.jpg'
 
 import isit1 from '../images/isit1.jpg'
 import isit2 from '../images/isit2.jpg'
@@ -38,91 +38,91 @@ import isit4 from '../images/isit4.jpg'
 import isit5 from '../images/isit5.jpg'
 import isit6 from '../images/isit6.jpg'
 import isit7 from '../images/isit7.jpg'
-//import pepper from '../images/pepper.png'
-//import pepperskin from '../images/pepperskin.png'
-import skin from '../images/skin.png'
-import isit1cover from '../images/isit1cover.png'
+import skin from '../images/skin.jpg'
+import isit1cover from '../images/isit1cover.jpg'
 
 import DV from '../images/daytimeVacancies.jpg'
 import LT from '../images/leopardTranspirings.png'
 import LGC from '../images/lettuceGardenCharm.jpg'
-import LOFS from '../images/lightOfFoldingScreen.png'
+import LOFS from '../images/lightOfFoldingScreen.jpg'
 import PF from '../images/potatoFields.jpg'
-import R2 from '../images/rendezvous2.png'
-import RDV from '../images/rendezvous.png'
+import R2 from '../images/rendezvous2.jpg'
+import RDV from '../images/rendezvous.jpg'
 import rubies from '../images/rubies.png'
 import splinter from '../images/splinter.jpg'
-import untitled from '../images/Untitled.jpg'
-import donkey from '../images/donkey.png'
-import storm from '../images/storm.png'
+import untitled from '../images/untitled.jpg'
+import donkey from '../images/donkey.jpg'
+import storm from '../images/storm.jpg'
 
 import dwellings from '../images/dwellings.jpg'
-import ED from '../images/elephantDreams.png'
+import ED from '../images/elephantDreams.jpg'
 import OD from '../images/observationDrawings.png'
 import TL from '../images/theLeftover.jpg'
 import ddm from '../images/ddm.jpg'
 import red from '../images/red.png'
-import scap from '../images/scap.jpg'
+import alienField from '../images/alienFieldjpg.jpg'
 
-import elephant from '../images/elephant.png'
-import raft from '../images/Raft.png'
-import driftwood1 from '../images/driftwood1.png'
-import driftwood2 from '../images/driftwood2.png'
-import window from '../images/window.png'
-import windowSide from '../images/windowSide.png'
-import dust from '../images/dust.png'
-import dustSide from '../images/dustSide.png'
-import reflexes from '../images/reflexes.png'
-import reflexes2 from '../images/reflexes2.png'
+import elephant from '../images/elephant.jpg'
+import raft from '../images/raft.jpg'
+import driftwood1 from '../images/driftwood1.jpg'
+import driftwood2 from '../images/driftwood2.jpg'
+import machine from '../images/deathOfTheMachine.jpg'
+import machineSide from '../images/deathOfTheMachineSide.jpg'
+import window from '../images/window.jpg'
+import windowSide from '../images/windowSide.jpg'
+import dust from '../images/dust.jpg'
+import dustSide from '../images/dustSide.jpg'
+import reflexes from '../images/reflexes.jpg'
+import reflexes2 from '../images/reflexes2.jpg'
 import port from '../images/port.jpg'
-import bug from '../images/bug.png'
+import bug from '../images/bug.jpg'
 
-import swim from '../images/swim.png'
-import divers from '../images/divers.png'
-import corner from '../images/corner.png'
-import rocks from '../images/rocks.png'
-import washingAshore from '../images/washingAshore.png'
-import purple from '../images/purple.png'
+import swim from '../images/swim.jpg'
+import divers from '../images/divers.jpg'
+import onlooker from '../images/onlooker.jpg'
+import rocks from '../images/rocks.jpg'
+import washingAshore from '../images/washingAshore.jpg'
+import purple from '../images/purple.jpg'
 
-import animal from '../images/animals.png'
-import apec from '../images/apec.png'
-import bamboo from '../images/bamboo.png'
-import cuchi from '../images/cuchi.png'
+import animal from '../images/animals.jpg'
+import apec from '../images/apec.jpg'
+import bamboo from '../images/bamboo.jpg'
+import cuchi from '../images/cuchi.jpg'
 import dress from '../images/dress.jpg'
-import dwarves from '../images/dwarves.png'
-import egg from '../images/egg.png'
-import eye from '../images/eye.png'
-import fishSpine from '../images/fishspine.png'
-import fossil from '../images/fossil.png'
-import go from '../images/go.png'
+import dwarves from '../images/dwarves.jpg'
+import egg from '../images/egg.jpg'
+import eye from '../images/eye.jpg'
+import fishSpine from '../images/fishSpine.jpg'
+import fossil from '../images/fossil.jpg'
+import go from '../images/go.jpg'
 import laos from '../images/laos.jpg'
 import leaf from '../images/leaf.jpg'
-import line from '../images/line.png'
-import littlePrince from '../images/littleprince_.png'
+import line from '../images/line.jpg'
+import littlePrince from '../images/littlePrince.jpg'
 import lure from '../images/lure.jpg'
 import magazine from '../images/magazine.jpg'
-import map from '../images/map.png'
-import me from '../images/me.jpg'
-import plant from '../images/plant.png'
+import map from '../images/map.jpg'
+import me from '../images/youngMe.jpg'
+import plant from '../images/plant.jpg'
 import sinkHole from '../images/sinkhole.jpg'
-import tree from '../images/tree.png'
-import namja from '../images/namja.png'
-import nuggets from '../images/nuggets.png'
+import tree from '../images/tree.jpg'
+import namja from '../images/namja.jpg'
+import nuggets from '../images/nuggets.jpg'
 
-import sb1 from '../images/sb1.png'
-import sb2 from '../images/sb2.png'
-import sb3 from '../images/sb3.png'
-import sb4 from '../images/sb4.png'
-import sb5 from '../images/sb5.png'
-import sb6 from '../images/sb6.png'
-import sb7 from '../images/sb7.png'
-import sb8 from '../images/sb8.png'
-import sb9 from '../images/sb9.png'
-import sb10 from '../images/sb10.png'
-import sb11 from '../images/sb11.png'
-import sb12 from '../images/sb12.png'
-import sb13 from '../images/sb13.png'
-import sb14 from '../images/sb14.png'
+import sb1 from '../images/sb1.jpg'
+import sb2 from '../images/sb2.jpg'
+import sb3 from '../images/sb3.jpg'
+import sb4 from '../images/sb4.jpg'
+import sb5 from '../images/sb5.jpg'
+import sb6 from '../images/sb6.jpg'
+import sb7 from '../images/sb7.jpg'
+import sb8 from '../images/sb8.jpg'
+import sb9 from '../images/sb9.jpg'
+import sb10 from '../images/sb10.jpg'
+import sb11 from '../images/sb11.jpg'
+import sb12 from '../images/sb12.jpg'
+import sb13 from '../images/sb13.jpg'
+import sb14 from '../images/sb14.jpg'
 
 export const NavItems = [
     {
@@ -270,7 +270,7 @@ export const drawingWork = [
         matl: '8" x 9" | Oil monoprint and soft pastel on paper | 2021'
     },
     {
-        image: scap,
+        image: alienField,
         alt: 'drawing piece',
         title: 'Alien Field',
         matl: '8" x 9" | Oil monoprint and soft pastel on paper | 2021'
@@ -337,6 +337,18 @@ export const sculptureWork = [
         title: 'Untitled',
         alt: 'sculpture piece',
         matl: '17" x 3" | Oil pastel on found wood | 2023'
+    },
+    {
+        image: machine,
+        title: 'Death of the Machine',
+        alt: 'sculpture piece',
+        matl: '2023'
+    },
+    {
+        image: machineSide,
+        title: 'Death of the Machine',
+        alt: 'sculpture piece',
+        matl: '2023'
     },
     {
         image: reflexes2,
@@ -421,7 +433,7 @@ export const miscWork = [
     },
     {
         id:5,
-        image: corner,
+        image: onlooker,
         title: 'Onlooker (2022)',
         alt: 'misc work'
     }

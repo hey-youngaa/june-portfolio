@@ -22,10 +22,12 @@ function ImgGallery({gallery}) {
     const prevSlide = () => {
         setSlideNumber( slideNumber === 0 ? length - 1 : slideNumber - 1)
     }
-    
+
+
     const nextSlide = () => {
        setSlideNumber( slideNumber === length - 1 ? 0 : slideNumber + 1)
     }
+
 
   return (
    <>
