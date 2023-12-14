@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff62c72d.css",
-    "main.js": "/static/js/main.8277d984.js",
-    "static/media/scumSide.jpg": "/static/media/scumSide.21c03e1d39cdc2acd3da.jpg",
+    "main.css": "/static/css/main.d89569c8.css",
+    "main.js": "/static/js/main.496ab660.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
@@ -87,6 +86,7 @@
     "static/media/untitled.jpg": "/static/media/untitled.3734e63e232b0cc8eea9.jpg",
     "static/media/dec9.jpg": "/static/media/dec9.8cc29d58b6b0c828bed2.jpg",
     "static/media/egg.jpg": "/static/media/egg.e3668b811e4b7ee7be4f.jpg",
+    "static/media/scum1.jpg": "/static/media/scum1.c8dc07dfd9b118611914.jpg",
     "static/media/isit1.jpg": "/static/media/isit1.b7a50d2bef285ac3ffce.jpg",
     "static/media/magazine.jpg": "/static/media/magazine.a8660b033d16f0a477dc.jpg",
     "static/media/plant.jpg": "/static/media/plant.3fea7879d36faa586fae.jpg",
@@ -106,7 +106,6 @@
     "static/media/driftwood1.jpg": "/static/media/driftwood1.d0d0c8f3c5cc17bdb138.jpg",
     "static/media/deathOfTheMachine.jpg": "/static/media/deathOfTheMachine.e04780c6b42241068f1e.jpg",
     "static/media/dec14.jpg": "/static/media/dec14.c21e6c95c49a6122bcfc.jpg",
-    "static/media/dec11.jpg": "/static/media/dec11.e957b811f82b6be82f32.jpg",
     "static/media/lettuceGardenCharm.jpg": "/static/media/lettuceGardenCharm.9dbbbe8723cec81e9b1e.jpg",
     "static/media/port.jpg": "/static/media/port.eca38eb517b7e0dbc587.jpg",
     "static/media/dec1.jpg": "/static/media/dec1.129ca0ba73c5591f4582.jpg",
@@ -131,15 +130,16 @@
     "static/media/live.svg": "/static/media/live.45d2a823f44935d9740a0e8c96a78828.svg",
     "static/media/email.svg": "/static/media/email.f23e44c5b4e60fb84713a3ab69c7105f.svg",
     "index.html": "/index.html",
+    "static/media/down.svg": "/static/media/down.da6b3bb2b5415401394f3aa6d522f631.svg",
     "static/media/watch.svg": "/static/media/watch.062be0b33611ed8c761c30b8534fad58.svg",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.ff62c72d.css.map": "/static/css/main.ff62c72d.css.map",
-    "main.8277d984.js.map": "/static/js/main.8277d984.js.map"
+    "main.d89569c8.css.map": "/static/css/main.d89569c8.css.map",
+    "main.496ab660.js.map": "/static/js/main.496ab660.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff62c72d.css",
-    "static/js/main.8277d984.js"
+    "static/css/main.d89569c8.css",
+    "static/js/main.496ab660.js"
   ]
 }
