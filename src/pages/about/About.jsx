@@ -1,13 +1,14 @@
 import React from 'react'
 import './about.css'
-import pain from '../../assets/images/pain.jpeg'
+import bug from '../../assets/images/bug.png'
+
 
 function About() {
   return (
     <div className='pageContainer'>
       <div className="aboutContent">
         <div className="pfpWrapper">
-          <img src={pain} alt="self"/>
+          <img src={bug} alt="self"/>
         </div>
         
         <div className="aboutInfoWrapper">

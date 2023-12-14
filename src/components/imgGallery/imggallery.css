@@ -19,15 +19,15 @@
 
 .modalImg{
     display: block;
-    max-height: 80vh;
-    max-width: 70vw;
+    max-height: 90vh;
+    max-width: 75vw;
     padding-bottom: 8%;
     padding-top: 5%;
 }
 
 .imgDesc{
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
     text-align: center;
     width: 100vw;
 }

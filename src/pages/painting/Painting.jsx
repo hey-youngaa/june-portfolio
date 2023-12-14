@@ -7,7 +7,7 @@ function Painting() {
   return (
     <div className='pageContainer'>
       <div className="pageHeader">
-        <h3>unruly visions (2020 - present)</h3>
+        <h3>Unruly Visions (2020 - present)</h3>
         <p>Mixed media on paper, fabric, wood</p>
       </div>
       <ImgGallery gallery={paintingWork} />

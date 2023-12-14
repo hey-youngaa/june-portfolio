@@ -1,5 +1,6 @@
 import React from 'react'
-import ImgGrid from '../../components/imgGrid/ImgGrid'
+//import ImgGrid from '../../components/imgGrid/ImgGrid'
+import ImgGallery from '../../components/imgGallery/ImgGallery'
 import { sculptureWork } from '../../assets/data/Data'
 
 
@@ -11,7 +12,7 @@ function Sculpture() {
         <h3>In Plain Sight (2022 - present)</h3>
         <p>Mixed media on cardboard, pulp, found wood</p>
       </div>
-      <ImgGrid collection={sculptureWork} />
+      <ImgGallery gallery={sculptureWork} />
     </div>
   )
 }

@@ -67,15 +67,19 @@ import raft from '../images/raft.jpg'
 import driftwood1 from '../images/driftwood1.jpg'
 import driftwood2 from '../images/driftwood2.jpg'
 import machine from '../images/deathOfTheMachine.jpg'
-import machineSide from '../images/deathOfTheMachineSide.jpg'
-import window from '../images/window.jpg'
-import windowSide from '../images/windowSide.jpg'
-import dust from '../images/dust.jpg'
-import dustSide from '../images/dustSide.jpg'
+//import machineSide from '../images/deathOfTheMachineSide.jpg'
+import mountainSide from '../images/mountainSide.jpg'
+//import windowSide from '../images/windowSide.jpg'
+//import scum from '../images/scum.jpg'
+import scumSide from '../images/scumSide.jpg'
 import reflexes from '../images/reflexes.jpg'
 import reflexes2 from '../images/reflexes2.jpg'
 import port from '../images/port.jpg'
-import bug from '../images/bug.jpg'
+//import bug from '../images/bug.jpg'
+import tower from '../images/tower.jpg'
+import kingdomOfGlass from '../images/kingdomOfGlass.png'
+import sailboat from '../images/sailboat.jpg'
+import severence from '../images/severence.jpg'
 
 import swim from '../images/swim.jpg'
 import divers from '../images/divers.jpg'
@@ -109,6 +113,20 @@ import tree from '../images/tree.jpg'
 import namja from '../images/namja.jpg'
 import nuggets from '../images/nuggets.jpg'
 
+import dec1 from '../images/dec1.jpg'
+import dec3 from '../images/dec3.jpg'
+import dec4 from '../images/dec4.jpg'
+import dec5 from '../images/dec5.jpg'
+import dec7 from '../images/dec7.jpg'
+import dec8 from '../images/dec8.jpg'
+import dec9 from '../images/dec9.jpg'
+import dec10 from '../images/dec10.jpg'
+import dec11 from '../images/dec11.jpg'
+import dec12 from '../images/dec12.jpg'
+import dec13 from '../images/dec13.jpg'
+import dec14 from '../images/dec14.jpg'
+//import dec15 from '../images/dec15.jpg'
+import dec16 from '../images/dec16.jpg'
 import sb1 from '../images/sb1.jpg'
 import sb2 from '../images/sb2.jpg'
 import sb3 from '../images/sb3.jpg'
@@ -315,6 +333,66 @@ export const drawingWork = [
 
 export const sculptureWork = [
     {
+        image: kingdomOfGlass,
+        title: 'Kingdom of Glass',
+        alt: 'sculpture piece',
+        matl: '6" x 5" | Acrylic, screws, soft & oil pastel on cardboard, paper pulp and wood | 2023'
+    },
+    {
+        image: machine,
+        title: 'Death of the Machine',
+        alt: 'sculpture piece',
+        matl: '6" x 7.5" | Acrylic, screws, staples, soft & oil pastel on cardboard, paper pulp and wood | 2023'
+    },
+    {
+        image: tower,
+        title: 'Untitled',
+        alt: 'sculpture piece',
+        matl: '4.5" x 11.5" | Acrylic, soft & oil pastel on paper pulp and wood | 2023'
+    },
+    {
+        image: severence,
+        title: 'Severence',
+        alt: 'sculpture piece',
+        matl: '7" x 7" | Acrylic, oil pastels and staples on found wood| 2023'
+    },
+    {
+        image: sailboat,
+        title: 'Sailboat',
+        alt: 'sculpture piece',
+        matl: '7.5" x 7" | Acrylic, oil pastel and staples on found wood | 2023'
+    },
+    {
+        image: reflexes2,
+        alt: 'sculpture piece',
+        title: 'Reflexes of a Vulnerable Earth II (After Worster)',
+        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
+    },
+    {
+        image: reflexes,
+        alt: 'sculpture piece',
+        title: 'Reflexes of a Vulnerable Earth (After Worster)',
+        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
+    },
+    {
+        image: scumSide,
+        alt: 'sculpture piece',
+        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paper pulp and wood | 2023'
+    },
+    {
+        image: mountainSide,
+        alt: 'sculpture piece',
+        title: 'Mountainside View',
+        matl: '7" x 7" | Acrylic, glitter, soft and oil pastel on hanji, staples, cardboard, paper pulp and foam board | 2023'
+    },
+    {
+        image: port,
+        alt: 'sculpture piece',
+        title: 'Port',
+        matl: '7" x 7" | Oil and ink on found wood | 2022'
+    },
+    {
         image: elephant,
         title: 'Elephant in the Snake',
         alt: 'sculpture piece',
@@ -338,66 +416,6 @@ export const sculptureWork = [
         alt: 'sculpture piece',
         matl: '17" x 3" | Oil pastel on found wood | 2023'
     },
-    {
-        image: machine,
-        title: 'Death of the Machine',
-        alt: 'sculpture piece',
-        matl: '2023'
-    },
-    {
-        image: machineSide,
-        title: 'Death of the Machine',
-        alt: 'sculpture piece',
-        matl: '2023'
-    },
-    {
-        image: reflexes2,
-        alt: 'sculpture piece',
-        title: 'Reflexes of a Vulnerable Earth II (After Worster)',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood | 2023'
-    },
-    {
-        image: reflexes,
-        alt: 'sculpture piece',
-        title: 'Reflexes of a Vulnerable Earth (After Worster)',
-        matl: '7" x 7" | Acrylic, staples, soft and oil pastel on hanji, cardboard and wood | 2023'
-    },
-    {
-        image: dustSide,
-        alt: 'sculpture piece',
-        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
-        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood | 2023'
-    },
-    {
-        image: dust,
-        alt:'sculpture piece',
-        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
-        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paperpulp and wood | 2023'
-    },
-    {
-        image: windowSide,
-        alt: 'sculpture piece',
-        title: 'Mountainside View',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board | 2023'
-    },
-    {
-        image: window,
-        alt: 'sculpture piece',
-        title: 'Mountainside View',
-        matl: '7" x 7" | Acrylic, glitter, staples, soft and oil pastel on hanji, cardboard, paper pulp and foam board | 2023'
-    },
-    {
-        image: bug,
-        alt: 'sculpture piece',
-        title: 'Bug',
-        matl: '4" x 6" | Thread and nail on found wood | 2022'
-    },
-    {
-        image: port,
-        alt: 'sculpture piece',
-        title: 'Port',
-        matl: '7" x 7" | Oil and ink on found wood | 2022'
-    }
 ]
 
 export const miscWork = [
@@ -713,6 +731,58 @@ export const archive = [
 ]
 
 export const sketchbookWork = [
+    {
+        image: dec1,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec3,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec4,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec5,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec7,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec8,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec9,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec10,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec11,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec12,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec13,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec14,
+        alt: 'sketchbook piece'
+    },
+    {
+        image: dec16,
+        alt: 'sketchbook piece'
+    },
     {
         image: sb14,
         alt: 'sketchbook piece'

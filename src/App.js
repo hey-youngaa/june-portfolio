@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/navBar/NavBar';
 //import SideBar from './components/sidebar/SideBar';
-import Home from './pages/home/Home'
+//import Home from './pages/home/Home'
 import Drawing from './pages/drawing/Drawing'
 import Details from './pages/details/Details'
 import Painting from './pages/painting/Painting'
@@ -15,11 +15,11 @@ import Sketchbook from './pages/sketchbook/Sketchbook';
 
 function App() {
   return (
-    <Router basename='/june-portfolio'>
+    <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="june-portfolio" element={<Home />} />
+        <Route path="/" element={<Sculpture />} />
+        <Route path="june-portfolio" element={<Sculpture />} />
         <Route path="/drawing" element={<Drawing />} />
         <Route path='/drawing/:id' element={<Details />} />
         <Route path="/painting" element={<Painting />} />
