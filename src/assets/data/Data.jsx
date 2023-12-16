@@ -67,15 +67,11 @@ import raft from '../images/raft.jpg'
 import driftwood1 from '../images/driftwood1.jpg'
 import driftwood2 from '../images/driftwood2.jpg'
 import machine from '../images/deathOfTheMachine.jpg'
-//import machineSide from '../images/deathOfTheMachineSide.jpg'
 import mountainSide from '../images/mountainSide.jpg'
-//import windowSide from '../images/windowSide.jpg'
-//import scum from '../images/scum.jpg'
-import scumSide from '../images/scumSide.jpg'
+import scum from '../images/scum1.jpg'
 import reflexes from '../images/reflexes.jpg'
 import reflexes2 from '../images/reflexes2.jpg'
 import port from '../images/port.jpg'
-//import bug from '../images/bug.jpg'
 import tower from '../images/tower.jpg'
 import kingdomOfGlass from '../images/kingdomOfGlass.png'
 import sailboat from '../images/sailboat.jpg'
@@ -121,11 +117,9 @@ import dec7 from '../images/dec7.jpg'
 import dec8 from '../images/dec8.jpg'
 import dec9 from '../images/dec9.jpg'
 import dec10 from '../images/dec10.jpg'
-import dec11 from '../images/dec11.jpg'
 import dec12 from '../images/dec12.jpg'
 import dec13 from '../images/dec13.jpg'
 import dec14 from '../images/dec14.jpg'
-//import dec15 from '../images/dec15.jpg'
 import dec16 from '../images/dec16.jpg'
 import sb1 from '../images/sb1.jpg'
 import sb2 from '../images/sb2.jpg'
@@ -345,14 +339,8 @@ export const sculptureWork = [
         matl: '6" x 7.5" | Acrylic, screws, staples, soft & oil pastel on cardboard, paper pulp and wood | 2023'
     },
     {
-        image: tower,
-        title: 'Untitled',
-        alt: 'sculpture piece',
-        matl: '4.5" x 11.5" | Acrylic, soft & oil pastel on paper pulp and wood | 2023'
-    },
-    {
         image: severence,
-        title: 'Severence',
+        title: 'Severance',
         alt: 'sculpture piece',
         matl: '7" x 7" | Acrylic, oil pastels and staples on found wood| 2023'
     },
@@ -363,22 +351,10 @@ export const sculptureWork = [
         matl: '7.5" x 7" | Acrylic, oil pastel and staples on found wood | 2023'
     },
     {
-        image: reflexes2,
+        image: tower,
+        title: 'Untitled',
         alt: 'sculpture piece',
-        title: 'Reflexes of a Vulnerable Earth II (After Worster)',
-        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
-    },
-    {
-        image: reflexes,
-        alt: 'sculpture piece',
-        title: 'Reflexes of a Vulnerable Earth (After Worster)',
-        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
-    },
-    {
-        image: scumSide,
-        alt: 'sculpture piece',
-        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
-        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paper pulp and wood | 2023'
+        matl: '4.5" x 11.5" | Acrylic, soft & oil pastel on paper pulp and wood | 2023'
     },
     {
         image: mountainSide,
@@ -387,22 +363,28 @@ export const sculptureWork = [
         matl: '7" x 7" | Acrylic, glitter, soft and oil pastel on hanji, staples, cardboard, paper pulp and foam board | 2023'
     },
     {
-        image: port,
+        image: scum,
         alt: 'sculpture piece',
-        title: 'Port',
-        matl: '7" x 7" | Oil and ink on found wood | 2022'
+        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
+        matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paper pulp and wood | 2023'
+    },
+    {
+        image: reflexes,
+        alt: 'sculpture piece',
+        title: 'Reflexes of a Vulnerable Earth (After Worster)',
+        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
+    },
+    {
+        image: reflexes2,
+        alt: 'sculpture piece',
+        title: 'Reflexes of a Vulnerable Earth II (After Worster)',
+        matl: '7" x 7" | Acrylic, soft and oil pastel on hanji, staples, cardboard and wood | 2023'
     },
     {
         image: elephant,
         title: 'Elephant in the Snake',
         alt: 'sculpture piece',
         matl: '15" x 7" | Cord and nail on found wood | 2023'
-    },
-    {
-        image: raft,
-        title: "Raft (the folding horizon on a mackerel's back)",
-        alt: 'sculpture piece',
-        matl: '12" x 18" | Soft pastel, charcoal, and string on cardboard | 2022'
     },
     {
         image: driftwood1,
@@ -415,6 +397,18 @@ export const sculptureWork = [
         title: 'Untitled',
         alt: 'sculpture piece',
         matl: '17" x 3" | Oil pastel on found wood | 2023'
+    },
+    {
+        image: port,
+        alt: 'sculpture piece',
+        title: 'Port',
+        matl: '7" x 7" | Oil and ink on found wood | 2022'
+    },
+    {
+        image: raft,
+        title: "Raft (the folding horizon on a mackerel's back)",
+        alt: 'sculpture piece',
+        matl: '12" x 18" | Soft pastel, charcoal, and string on cardboard | 2022'
     },
 ]
 
@@ -459,7 +453,8 @@ export const miscWork = [
 export const drawingSeries = [
     {
         id: 'groundwater-series',
-        title: 'Ground(water)',
+        title: 'Ground(water) (2023)',
+        titleWithoutYear: 'Ground(water)',
         cover: GW1cover,
         alt: 'groundwater piece',
         year: '2023',
@@ -521,7 +516,8 @@ export const drawingSeries = [
     },
     {
         id:'bedtime-tales-series',
-        title: 'Bedtime Tales',
+        title: 'Bedtime Tales (2020)',
+        titleWithoutYear: 'Bedtime Tales',
         cover: BScover,
         alt: 'bedtime tales piece',
         year: '2020',
@@ -554,7 +550,8 @@ export const drawingSeries = [
     },
     {
         id: 'in-summer-i-will-tear-series',
-        title: "In Summer I'll Tear",
+        title: "In Summer I'll Tear (2021)",
+        titleWithoutYear: "In Summer I'll Tear",
         cover: isit1cover,
         alt: "in summer i'll tear piece",
         year: '2021',
@@ -604,7 +601,8 @@ export const drawingSeries = [
     },
     {
         id:'oil-spill-series',
-        title: 'Oil Spill',
+        title: 'Oil Spill (2020)',
+        titleWithoutYear: 'Oil Spill',
         cover: oscover,
         alt: 'oil spill piece',
         year: '2020',
@@ -761,10 +759,6 @@ export const sketchbookWork = [
     },
     {
         image: dec10,
-        alt: 'sketchbook piece'
-    },
-    {
-        image: dec11,
         alt: 'sketchbook piece'
     },
     {

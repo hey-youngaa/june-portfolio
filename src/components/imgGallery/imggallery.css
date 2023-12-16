@@ -27,7 +27,7 @@
 
 .imgDesc{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     text-align: center;
     width: 100vw;
 }
@@ -37,8 +37,12 @@
 }
 
 .imgDesc p{
-    line-height: 0.1;
+    line-height: 1;
     font-weight: 300;
+    width: 80vw;
+    display: inline-block;
+    margin-top: -10px;
+    word-break: break-word;
 }
 
 .close{
@@ -77,6 +81,13 @@
         right: 5%;
     }
 
+    .modalImg{
+        max-height: 70vh;
+    }
+
+    .imgDesc{
+        bottom: 10%;
+    }
 }
 
 @media screen and (max-width:350px) {
@@ -84,12 +95,15 @@
         margin: 0 10px;
     }
 
+    .imgDesc{
+        bottom: 10%;
+    }
     .imgTitle{
         font-size: 14px;
+        width: 90vw;
     }
 
     .imgDesc p{
         font-size: 12px;
-        bottom: 0;
     }
 }

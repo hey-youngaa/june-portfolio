@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import insta from '../../assets/images/insta.svg'
 import './navbar.css'
 import menu from '../../assets/images/menu.svg'
+import down from '../../assets/images/down.svg'
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -20,7 +21,8 @@ function NavBar() {
         <div className={click ? 'navItems active' : 'navItems'} >
             <div className="dropdown">
                 <button className="dropBtn">
-                    gallery
+                    gallery 
+                    <img src={down} alt='dropdown menu' className='downArrow'/>
                 </button>
                 <div className="dropdownContent">
                     <NavLink to='/sculpture' className='dropLink' onClick={closeMobileMenu}>sculpture</NavLink>
@@ -29,8 +31,8 @@ function NavBar() {
                     <NavLink to='/misc' className='dropLink' onClick={closeMobileMenu}>misc</NavLink>
                 </div>
             </div>
-            <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>visual archive</NavLink>
             <NavLink to='/sketchbook' className='navItem' onClick={closeMobileMenu}>sketchbook</NavLink>
+            <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>visual archive</NavLink>
             <NavLink to='/about' className='navItem' onClick={closeMobileMenu}>about</NavLink>
             <div className="social">
                 <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma'>

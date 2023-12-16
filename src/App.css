@@ -13,8 +13,13 @@
     src: url('./assets/fonts/Karla.ttf');
 }
 
+@font-face {
+    font-family: 'Fira Code';
+    src: url('./assets/fonts/FiraCode-Regular.ttf');
+}
+
 .pageContainer{
-    padding: 50px 35px;
+    padding: 70px 35px;
 }
 
 .pageHeader{
@@ -25,12 +30,12 @@
 }
 
 h1, h2, h3{
-    font-family: Karla;
+    font-family: Fira Code;
     font-weight: 300;
 }
 
 p{
-    font-family: Karla;
+    font-family: Fira Code;
 }
 
 .pageHeader h3{
@@ -39,14 +44,4 @@ p{
 
 .pageHeader p{
     font-weight:300;
-}
-
-
-@media screen and (max-width: 800px){
-    .pageHeader h3{
-        font-size: 20px;
-    }
-    .pageHeader p{
-        font-size: 13px;
-    }
 }
