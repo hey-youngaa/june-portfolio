@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4010ad7.css",
-    "main.js": "/static/js/main.701b33ac.js",
+    "main.css": "/static/css/main.f455aea9.css",
+    "main.js": "/static/js/main.620eadad.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
@@ -111,6 +111,7 @@
     "static/media/dec1.jpg": "/static/media/dec1.129ca0ba73c5591f4582.jpg",
     "static/media/severence.jpg": "/static/media/severence.5a9947b179daf6d5e526.jpg",
     "static/media/osb.jpg": "/static/media/osb.6d06112ae517f9ddfd50.jpg",
+    "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
     "static/media/oso.jpg": "/static/media/oso.b6bc69df60ebd4878212.jpg",
     "static/media/sailboat.jpg": "/static/media/sailboat.37daf6308d3b42ffdd25.jpg",
     "static/media/dress.jpg": "/static/media/dress.843624fd0a500581a869.jpg",
@@ -135,11 +136,11 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.f4010ad7.css.map": "/static/css/main.f4010ad7.css.map",
-    "main.701b33ac.js.map": "/static/js/main.701b33ac.js.map"
+    "main.f455aea9.css.map": "/static/css/main.f455aea9.css.map",
+    "main.620eadad.js.map": "/static/js/main.620eadad.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4010ad7.css",
-    "static/js/main.701b33ac.js"
+    "static/css/main.f455aea9.css",
+    "static/js/main.620eadad.js"
   ]
 }
