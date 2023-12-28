@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cef2832c.css",
-    "main.js": "/static/js/main.3ac39523.js",
+    "main.js": "/static/js/main.08da4d32.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
@@ -89,8 +89,8 @@
     "static/media/scum1.jpg": "/static/media/scum1.c8dc07dfd9b118611914.jpg",
     "static/media/isit1.jpg": "/static/media/isit1.b7a50d2bef285ac3ffce.jpg",
     "static/media/magazine.jpg": "/static/media/magazine.a8660b033d16f0a477dc.jpg",
+    "static/media/dec5.jpg": "/static/media/dec5.0cd606b9fbf280dfb1a5.jpg",
     "static/media/plant.jpg": "/static/media/plant.3fea7879d36faa586fae.jpg",
-    "static/media/dec5.jpg": "/static/media/dec5.76a512ab2cfb8fe67ab1.jpg",
     "static/media/eye.jpg": "/static/media/eye.6d961c60189c6f086b28.jpg",
     "static/media/GW7.jpg": "/static/media/GW7.15d9cde1de4a7705f53a.jpg",
     "static/media/isit4.jpg": "/static/media/isit4.be3b1652d9c6c80258f1.jpg",
@@ -137,10 +137,10 @@
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "main.cef2832c.css.map": "/static/css/main.cef2832c.css.map",
-    "main.3ac39523.js.map": "/static/js/main.3ac39523.js.map"
+    "main.08da4d32.js.map": "/static/js/main.08da4d32.js.map"
   },
   "entrypoints": [
     "static/css/main.cef2832c.css",
-    "static/js/main.3ac39523.js"
+    "static/js/main.08da4d32.js"
   ]
 }
