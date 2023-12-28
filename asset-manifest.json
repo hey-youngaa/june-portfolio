@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cef2832c.css",
+    "main.css": "/static/css/main.c11e795f.css",
     "main.js": "/static/js/main.08da4d32.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
@@ -117,14 +117,12 @@
     "static/media/dress.jpg": "/static/media/dress.843624fd0a500581a869.jpg",
     "static/media/leaf.jpg": "/static/media/leaf.e7b873a3824392bead13.jpg",
     "static/media/lure.jpg": "/static/media/lure.e619d34bfa5c594f7b0c.jpg",
-    "static/media/Syne-regular.ttf": "/static/media/Syne-regular.738f6bde408f8ddf7106.ttf",
     "static/media/map.jpg": "/static/media/map.dac428f7d4de127480e2.jpg",
     "static/media/littlePrince.jpg": "/static/media/littlePrince.f45ec5a6642b06d20240.jpg",
     "static/media/youngMe.jpg": "/static/media/youngMe.e58ed0029bc98dab563a.jpg",
-    "static/media/Karla.ttf": "/static/media/Karla.873b3ab26751da74a1bc.ttf",
     "static/media/laos.jpg": "/static/media/laos.eff57aa36fd05e466e58.jpg",
     "static/media/tree.jpg": "/static/media/tree.292e89de57a5d1f3cfca.jpg",
-    "static/media/routed-gothic.ttf": "/static/media/routed-gothic.eb468ee694267b4d2235.ttf",
+    "static/media/FreePixel.ttf": "/static/media/FreePixel.94045bd7c2e557624bbf.ttf",
     "static/media/animals.jpg": "/static/media/animals.03258fb0d66fac094320.jpg",
     "static/media/go.jpg": "/static/media/go.b9972f09a1b3ef2163f5.jpg",
     "static/media/insta.svg": "/static/media/insta.47f41b6b56816e8c907c0c60a25e7c28.svg",
@@ -136,11 +134,11 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.cef2832c.css.map": "/static/css/main.cef2832c.css.map",
+    "main.c11e795f.css.map": "/static/css/main.c11e795f.css.map",
     "main.08da4d32.js.map": "/static/js/main.08da4d32.js.map"
   },
   "entrypoints": [
-    "static/css/main.cef2832c.css",
+    "static/css/main.c11e795f.css",
     "static/js/main.08da4d32.js"
   ]
 }
