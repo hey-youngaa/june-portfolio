@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0803d3d.css",
-    "main.js": "/static/js/main.08da4d32.js",
+    "main.css": "/static/css/main.4915867b.css",
+    "main.js": "/static/js/main.69653502.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
@@ -101,6 +101,7 @@
     "static/media/isit2.jpg": "/static/media/isit2.34cee0179e78cd5bc334.jpg",
     "static/media/dec10.jpg": "/static/media/dec10.6823cb2707c56b6e62ab.jpg",
     "static/media/splinter.jpg": "/static/media/splinter.2a84ae2181b7a2dbcf9d.jpg",
+    "static/media/Arimo-VariableFont_wght.ttf": "/static/media/Arimo-VariableFont_wght.4ddb268fb129e0f4d61e.ttf",
     "static/media/cuchi.jpg": "/static/media/cuchi.3122236ba8bb763c554d.jpg",
     "static/media/driftwood2.jpg": "/static/media/driftwood2.52c3e7575655e42b2dc4.jpg",
     "static/media/driftwood1.jpg": "/static/media/driftwood1.d0d0c8f3c5cc17bdb138.jpg",
@@ -111,10 +112,12 @@
     "static/media/dec1.jpg": "/static/media/dec1.129ca0ba73c5591f4582.jpg",
     "static/media/severence.jpg": "/static/media/severence.5a9947b179daf6d5e526.jpg",
     "static/media/osb.jpg": "/static/media/osb.6d06112ae517f9ddfd50.jpg",
+    "static/media/SourceCodePro-VariableFont_wght.ttf": "/static/media/SourceCodePro-VariableFont_wght.46e9d73a686e6dc90ddc.ttf",
     "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
     "static/media/oso.jpg": "/static/media/oso.b6bc69df60ebd4878212.jpg",
     "static/media/sailboat.jpg": "/static/media/sailboat.37daf6308d3b42ffdd25.jpg",
     "static/media/dress.jpg": "/static/media/dress.843624fd0a500581a869.jpg",
+    "static/media/VT323-Regular.ttf": "/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
     "static/media/leaf.jpg": "/static/media/leaf.e7b873a3824392bead13.jpg",
     "static/media/lure.jpg": "/static/media/lure.e619d34bfa5c594f7b0c.jpg",
     "static/media/map.jpg": "/static/media/map.dac428f7d4de127480e2.jpg",
@@ -134,11 +137,12 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
-    "main.d0803d3d.css.map": "/static/css/main.d0803d3d.css.map",
-    "main.08da4d32.js.map": "/static/js/main.08da4d32.js.map"
+    "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
+    "main.4915867b.css.map": "/static/css/main.4915867b.css.map",
+    "main.69653502.js.map": "/static/js/main.69653502.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0803d3d.css",
-    "static/js/main.08da4d32.js"
+    "static/css/main.4915867b.css",
+    "static/js/main.69653502.js"
   ]
 }
