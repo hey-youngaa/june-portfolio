@@ -7,9 +7,7 @@ function About() {
   return (
     <div className='pageContainer'>
       <div className="aboutContent">
-        <div className="imgWrapper">
-          <img src={bug} alt="self"/>
-        </div>
+        <img src={bug} alt="self" className='aboutImg'/>
 
         <p className="aboutInfoWrapper">
           June Choi (b. 2001) is a visual artist currently studying at the Rhode Island School

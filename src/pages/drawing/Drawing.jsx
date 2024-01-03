@@ -8,12 +8,6 @@ import { Link } from 'react-router-dom'
 function Drawing() {
   return (
     <div className='pageContainer'>
-      <div className="pageHeader">
-        <h3>Planetary Suburbs (2020 - present)</h3>
-        <p>Mixed media on paper</p>
-      </div>
-      <ImgGallery gallery={drawingWork} />
-      <div className="break"></div>
       <div className="seriesContainer">
         {drawingSeries.map((item) => {
           return(
@@ -28,6 +22,12 @@ function Drawing() {
           )
         })}
       </div>
+      <div className="break"></div>
+      <div className="pageHeader">
+        <h3>Planetary Suburbs (2020 - present)</h3>
+        <p>Mixed media on paper</p>
+      </div>
+      <ImgGallery gallery={drawingWork} />
     </div>
   )
 }

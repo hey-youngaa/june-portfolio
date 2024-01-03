@@ -13,7 +13,7 @@ function NavBar() {
     return (
     <nav className="navBarContainer">
         <div className="logoWrapper">
-            <NavLink to='/' className='logo' onClick={closeMobileMenu}> June Choi</NavLink>
+            <NavLink to='/' className='logo' onClick={closeMobileMenu}> JUNE CHOI</NavLink>
         </div>
         <div className="menuIcon" onClick={handleClick}>
             <img src={menu} alt="menu icon"/>
@@ -34,11 +34,9 @@ function NavBar() {
             <NavLink to='/sketchbook' className='navItem' onClick={closeMobileMenu}>sketchbook</NavLink>
             <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>visual archive</NavLink>
             <NavLink to='/about' className='navItem' onClick={closeMobileMenu}>about</NavLink>
-            <div className="social">
-                <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma'>
-                    <img src={insta} alt='instagram'/>
-                </a>
-            </div>
+            <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma' id='instagram'>
+                <img src={insta} alt='instagram'/>
+            </a>
         </div>
     </nav>
   )

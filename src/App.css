@@ -1,23 +1,27 @@
 @font-face {
-    font-family: 'Routed Gothic';
-    src: url('./assets/fonts/routed-gothic.ttf');
-}
-
-@font-face{
-    font-family: 'Syne';
-    src: url('./assets/fonts/Syne-regular.ttf');
-}
-
-@font-face {
-    font-family: 'Karla';
-    src: url('./assets/fonts/Karla.ttf');
-}
-
-@font-face {
     font-family: 'Fira Code';
     src: url('./assets/fonts/FiraCode-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Free Pixel';
+    src: url('./assets/fonts/FreePixel.ttf');
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('./assets/fonts/VT323-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('./assets/fonts/Arimo-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('./assets/fonts/SourceCodePro-VariableFont_wght.ttf');
+}
 .pageContainer{
     padding: 70px 35px;
 }
@@ -32,10 +36,12 @@
 h1, h2, h3{
     font-family: Fira Code;
     font-weight: 300;
+    color: #354531;
 }
 
 p{
     font-family: Fira Code;
+    color: #354531;
 }
 
 .pageHeader h3{
@@ -44,4 +50,17 @@ p{
 
 .pageHeader p{
     font-weight:300;
+    position: relative;
+    top: -18px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 350px) {
+    .pageHeader h3{
+        font-size:18px;
+    }
+
+    .pageHeader p{
+        font-size: 14px;
+    }
 }

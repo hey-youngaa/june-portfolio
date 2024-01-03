@@ -3,57 +3,56 @@
     height: 80px;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     overflow: hidden;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .logoWrapper{
-    position: fixed;
-    left: 35px;
     z-index: 1;
 }
 
 .logo{
     text-decoration: none;
-    color: black;
+    color: #666633;
     font-size: 30px;
     cursor: pointer;
-    font-family: Fira Code;
+    font-family: Source Code Pro;
+    font-weight: bold;
 }
 
 .navItems{
     display: flex;
     flex-direction: row;
-    width: 55%;
-    justify-content: space-evenly;
-    font-family: Karla;
+    width: 50%;
+    justify-content: space-between;
+    font-family: Fira Code;  
 }
 
 .navItem{
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #354531;
     display: block;
 }
 
 .navItem:hover, .dropdown:hover .dropBtn{
-    color: #D373B2;
+    color: #FF6633;
 }
 
 .navItem.active{
-    color: #D373B2
+    color: #FF6633;
 }
 
-.social{
-    position: absolute;
-    right: 35px;
-}
-.social img{
+#instagram img{
     height: 20px;
     width: auto;
     cursor: pointer;
-    display: block;
+    vertical-align: middle;
+
 }
+
 
 .downArrow{
     height: 12px;
@@ -68,12 +67,12 @@
 .dropdown .dropBtn{
     border: none;
     background-color: white;
-    color: black;
+    color: #38401D;
     outline: none;
     font-size: 20px;
+    font-family: Fira Code;
     margin: 0;
     padding: 0;
-    font-family: Fira Code;
 }
 
 .dropdownContent{
@@ -86,10 +85,11 @@
 .dropLink{
     text-decoration: none;
     display: block;
-    color: black;
+    color: #38401D;
     font-size: 14px;
     margin: 2px 0;
     font-family: Fira Code;
+    font-weight: 300;
 }
 
 .dropLink:hover{
@@ -107,7 +107,7 @@
     display: none;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:1000px) {
     .menuIcon{
         display: block;
         position: fixed;
@@ -122,7 +122,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
     .navItems{
         background-color: white;
         position: fixed;
@@ -134,6 +134,7 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        justify-content:space-around;
     }
 
     .navItems.active{
@@ -145,6 +146,7 @@
 
     .navItem, .dropdown .dropBtn{
     display: none;
+    font-size: 20px;
     }
 
     .navItems.active .navItem{
@@ -171,13 +173,14 @@
         background-color: white;
     }
 
-    .navItems.active .social{
+    .navItems.active #instagram{
         position: relative;
     }
 
-    .navItems.active .social img{
-        margin-left: 55%;
+    .navItems.active #instagram img{
+        margin-left: 50%;
         margin-right: auto;
         display: block;
+        margin-bottom: 10%;
     }
 }

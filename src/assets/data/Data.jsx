@@ -359,13 +359,13 @@ export const sculptureWork = [
     {
         image: mountainSide,
         alt: 'sculpture piece',
-        title: 'Mountainside View',
+        title: 'As it bellies before our eyes',
         matl: '7" x 7" | Acrylic, glitter, soft and oil pastel on hanji, staples, cardboard, paper pulp and foam board | 2023'
     },
     {
         image: scum,
         alt: 'sculpture piece',
-        title: 'Scum: The dust that falls on modern things (The Artificial Kingdom, Celeste Olalquiga)',
+        title: 'Scum: The dust that falls on modern things (After Olalquiga)',
         matl: '5" x 7" | Acrylic, color pencil, soft & oil pastel on hanji, paper pulp and wood | 2023'
     },
     {

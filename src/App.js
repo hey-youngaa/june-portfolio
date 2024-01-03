@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './components/navBar/NavBar';
-//import SideBar from './components/sidebar/SideBar';
-//import Home from './pages/home/Home'
+import Copyright from './components/copyright/Copyright';
 import Drawing from './pages/drawing/Drawing'
 import Details from './pages/details/Details'
 import Painting from './pages/painting/Painting'
@@ -29,6 +28,7 @@ function App() {
         <Route path='/visual-archive' element={<VisualArchive />} />
         <Route path='/sketchbook' element={<Sketchbook />} />
       </Routes>
+      <Copyright />
     </Router>
   );
 }
