@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9edad25d.css",
-    "main.js": "/static/js/main.3546110e.js",
+    "main.css": "/static/css/main.92d52496.css",
+    "main.js": "/static/js/main.59b4b786.js",
     "static/media/GW1cover.jpg": "/static/media/GW1cover.4d997a56670f761e7e40.jpg",
     "static/media/BTcover.jpg": "/static/media/BTcover.4a7064f2a8a7f0d085e6.jpg",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
@@ -26,8 +26,6 @@
     "static/media/sb14.jpg": "/static/media/sb14.a7e0d3f59c59710dada0.jpg",
     "static/media/sb13.jpg": "/static/media/sb13.96325d256497e1189562.jpg",
     "static/media/sb5.jpg": "/static/media/sb5.a4d044b8126f2bfd5c5c.jpg",
-    "static/media/isit1cover.jpg": "/static/media/isit1cover.4eaab06b6633ff8e503b.jpg",
-    "static/media/oscover.jpg": "/static/media/oscover.cd0bb6fd9898ed46d396.jpg",
     "static/media/lightOfFoldingScreen.jpg": "/static/media/lightOfFoldingScreen.16ac162325a9768b4c13.jpg",
     "static/media/bug.png": "/static/media/bug.1614822d0ad3e6ae67c4.png",
     "static/media/red.png": "/static/media/red.6bd608f67937996f578f.png",
@@ -120,12 +118,14 @@
     "static/media/VT323-Regular.ttf": "/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
     "static/media/leaf.jpg": "/static/media/leaf.e7b873a3824392bead13.jpg",
     "static/media/lure.jpg": "/static/media/lure.e619d34bfa5c594f7b0c.jpg",
+    "static/media/oscover.jpg": "/static/media/oscover.d008ecba55214484bcd8.jpg",
     "static/media/map.jpg": "/static/media/map.dac428f7d4de127480e2.jpg",
     "static/media/littlePrince.jpg": "/static/media/littlePrince.f45ec5a6642b06d20240.jpg",
     "static/media/youngMe.jpg": "/static/media/youngMe.e58ed0029bc98dab563a.jpg",
     "static/media/laos.jpg": "/static/media/laos.eff57aa36fd05e466e58.jpg",
     "static/media/tree.jpg": "/static/media/tree.292e89de57a5d1f3cfca.jpg",
     "static/media/FreePixel.ttf": "/static/media/FreePixel.94045bd7c2e557624bbf.ttf",
+    "static/media/isit1cover.jpg": "/static/media/isit1cover.d26bfc3e7d5395f44f55.jpg",
     "static/media/animals.jpg": "/static/media/animals.03258fb0d66fac094320.jpg",
     "static/media/go.jpg": "/static/media/go.b9972f09a1b3ef2163f5.jpg",
     "static/media/insta.svg": "/static/media/insta.47f41b6b56816e8c907c0c60a25e7c28.svg",
@@ -138,11 +138,11 @@
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.9edad25d.css.map": "/static/css/main.9edad25d.css.map",
-    "main.3546110e.js.map": "/static/js/main.3546110e.js.map"
+    "main.92d52496.css.map": "/static/css/main.92d52496.css.map",
+    "main.59b4b786.js.map": "/static/js/main.59b4b786.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edad25d.css",
-    "static/js/main.3546110e.js"
+    "static/css/main.92d52496.css",
+    "static/js/main.59b4b786.js"
   ]
 }
