@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import bug from '../../assets/images/bug.png'
+import bug from '../../assets/images/bug.jpg'
 
 
 function About() {

@@ -42,16 +42,15 @@ import skin from '../images/skin.jpg'
 import isit1cover from '../images/isit1cover.jpg'
 
 import DV from '../images/daytimeVacancies.jpg'
-import LT from '../images/leopardTranspirings.png'
+import LT from '../images/leopardTranspirings.jpg'
 import LGC from '../images/lettuceGardenCharm.jpg'
 import LOFS from '../images/lightOfFoldingScreen.jpg'
 import PF from '../images/potatoFields.jpg'
 import R2 from '../images/rendezvous2.jpg'
 import RDV from '../images/rendezvous.jpg'
-import rubies from '../images/rubies.png'
+import rubies from '../images/rubies.jpg'
 import splinter from '../images/splinter.jpg'
 import untitled from '../images/untitled.jpg'
-import donkey from '../images/donkey.jpg'
 import storm from '../images/storm.jpg'
 
 import dwellings from '../images/dwellings.jpg'
@@ -59,21 +58,22 @@ import ED from '../images/elephantDreams.jpg'
 import OD from '../images/observationDrawings.png'
 import TL from '../images/theLeftover.jpg'
 import ddm from '../images/ddm.jpg'
-import red from '../images/red.png'
-import alienField from '../images/alienFieldjpg.jpg'
+import red from '../images/red.jpg'
+import alienField from '../images/alienField.jpg'
+import donkey from '../images/donkey.jpg'
 
 import elephant from '../images/elephant.jpg'
 import raft from '../images/raft.jpg'
 import driftwood1 from '../images/driftwood1.jpg'
 import driftwood2 from '../images/driftwood2.jpg'
 import machine from '../images/deathOfTheMachine.jpg'
-import mountainSide from '../images/mountainSide.jpg'
-import scum from '../images/scum1.jpg'
+import mountain from '../images/mountain.jpg'
+import scum from '../images/scum.jpg'
 import reflexes from '../images/reflexes.jpg'
 import reflexes2 from '../images/reflexes2.jpg'
 import port from '../images/port.jpg'
 import tower from '../images/tower.jpg'
-import kingdomOfGlass from '../images/kingdomOfGlass.png'
+import kingdomOfGlass from '../images/kingdomOfGlass.jpg'
 import sailboat from '../images/sailboat.jpg'
 import severence from '../images/severence.jpg'
 
@@ -92,7 +92,7 @@ import dress from '../images/dress.jpg'
 import dwarves from '../images/dwarves.jpg'
 import egg from '../images/egg.jpg'
 import eye from '../images/eye.jpg'
-import fishSpine from '../images/fishSpine.jpg'
+import fishSpine from '../images/fishspine.jpg'
 import fossil from '../images/fossil.jpg'
 import go from '../images/go.jpg'
 import laos from '../images/laos.jpg'
@@ -108,6 +108,9 @@ import sinkHole from '../images/sinkhole.jpg'
 import tree from '../images/tree.jpg'
 import namja from '../images/namja.jpg'
 import nuggets from '../images/nuggets.jpg'
+import starfish from '../images/starfish.jpg'
+import root from '../images/root.png'
+import usgs from '../images/usgsSinkhole.jpg'
 
 import dec1 from '../images/dec1.jpg'
 import dec3 from '../images/dec3.jpg'
@@ -357,7 +360,7 @@ export const sculptureWork = [
         matl: '4.5" x 11.5" | Acrylic, soft & oil pastel on paper pulp and wood | 2023'
     },
     {
-        image: mountainSide,
+        image: mountain,
         alt: 'sculpture piece',
         title: 'As it bellies before our eyes',
         matl: '7" x 7" | Acrylic, glitter, soft and oil pastel on hanji, staples, cardboard, paper pulp and foam board | 2023'
@@ -719,7 +722,19 @@ export const archive = [
         alt: 'archive piece'
     },
     {
+        image: starfish,
+        alt: 'archive piece'
+    },
+    {
         image: sinkHole,
+        alt: 'archive piece'
+    },
+    {
+        image: usgs,
+        alt: 'archive piece'
+    },
+    {
+        image: root,
         alt: 'archive piece'
     },
     {

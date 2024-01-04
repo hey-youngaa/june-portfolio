@@ -12,28 +12,26 @@ function NavBar() {
     const closeMobileMenu = () => setClick(false);
     return (
     <nav className="navBarContainer">
-        <div className="logoWrapper">
-            <NavLink to='/' className='logo' onClick={closeMobileMenu}> JUNE CHOI</NavLink>
-        </div>
+        <NavLink to='/' className='logo' onClick={closeMobileMenu}> JUNE CHOI</NavLink>
         <div className="menuIcon" onClick={handleClick}>
             <img src={menu} alt="menu icon"/>
         </div>
         <div className={click ? 'navItems active' : 'navItems'} >
             <div className="dropdown">
                 <button className="dropBtn">
-                    gallery 
+                    GALLERY 
                     <img src={down} alt='dropdown menu' className='downArrow'/>
                 </button>
                 <div className="dropdownContent">
-                    <NavLink to='/sculpture' className='dropLink' onClick={closeMobileMenu}>sculpture</NavLink>
-                    <NavLink to='/painting' className='dropLink' onClick={closeMobileMenu}>painting</NavLink>
-                    <NavLink to='/drawing' className='dropLink' onClick={closeMobileMenu}>drawing</NavLink>
-                    <NavLink to='/misc' className='dropLink' onClick={closeMobileMenu}>misc</NavLink>
+                    <NavLink to='/sculpture' className='dropLink' onClick={closeMobileMenu}>SCULPTURE</NavLink>
+                    <NavLink to='/painting' className='dropLink' onClick={closeMobileMenu}>PAINTING</NavLink>
+                    <NavLink to='/drawing' className='dropLink' onClick={closeMobileMenu}>DRAWING</NavLink>
+                    <NavLink to='/misc' className='dropLink' onClick={closeMobileMenu}>MISC</NavLink>
                 </div>
             </div>
-            <NavLink to='/sketchbook' className='navItem' onClick={closeMobileMenu}>sketchbook</NavLink>
-            <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>visual archive</NavLink>
-            <NavLink to='/about' className='navItem' onClick={closeMobileMenu}>about</NavLink>
+            <NavLink to='/sketchbook' className='navItem' onClick={closeMobileMenu}>SKETCHBOOK</NavLink>
+            <NavLink to='/visual-archive' className='navItem' onClick={closeMobileMenu}>VISUAL ARCHIVE</NavLink>
+            <NavLink to='/about' className='navItem' onClick={closeMobileMenu}>ABOUT</NavLink>
             <a target='_blank' rel='noreferrer' href='http://www.instagram.com/hey.goma' id='instagram'>
                 <img src={insta} alt='instagram'/>
             </a>

@@ -55,12 +55,12 @@ p{
     justify-content: center;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
     .pageHeader h3{
-        font-size:18px;
+        font-size: 16px;
     }
 
     .pageHeader p{
-        font-size: 14px;
+        font-size: 12px;
     }
 }

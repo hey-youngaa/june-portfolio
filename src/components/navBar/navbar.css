@@ -5,18 +5,14 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 10px 35px 0 35px;
 }
 
-.logoWrapper{
-    z-index: 1;
-}
 
 .logo{
     text-decoration: none;
     color: #666633;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     font-family: Source Code Pro;
     font-weight: bold;
@@ -27,13 +23,14 @@
     flex-direction: row;
     width: 50%;
     justify-content: space-between;
-    font-family: Fira Code;  
+    font-family: Source Code Pro;  
+    font-weight: bold;
 }
 
 .navItem{
     font-size: 20px;
     text-decoration: none;
-    color: #354531;
+    color: #666633;
     display: block;
 }
 
@@ -50,14 +47,13 @@
     width: auto;
     cursor: pointer;
     vertical-align: middle;
-
 }
-
 
 .downArrow{
     height: 12px;
     width: auto;
     display: inline-block;
+    color: #666633;
 }
 .dropdown{
     overflow: hidden;
@@ -67,10 +63,11 @@
 .dropdown .dropBtn{
     border: none;
     background-color: white;
-    color: #38401D;
+    color: #666633;
     outline: none;
     font-size: 20px;
-    font-family: Fira Code;
+    font-family: Source Code Pro;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -85,11 +82,11 @@
 .dropLink{
     text-decoration: none;
     display: block;
-    color: #38401D;
+    color: #666633;
     font-size: 14px;
     margin: 2px 0;
-    font-family: Fira Code;
-    font-weight: 300;
+    font-family: Source Code Pro;
+    font-weight: normal;
 }
 
 .dropLink:hover{
@@ -111,13 +108,13 @@
     .menuIcon{
         display: block;
         position: fixed;
-        top: 20px;
-        right: 25px;
+        top: 30px;
+        right: 30px;
         cursor: pointer;
     }
 
     .menuIcon img{
-        height: 40px;
+        height: 32px;
         width: auto;
     }
 }
