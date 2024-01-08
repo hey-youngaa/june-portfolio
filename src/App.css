@@ -27,10 +27,29 @@
 }
 
 .pageHeader{
-    display: inline;
-    margin-left: 50%;
-    margin-right: 50%;
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 30px;
     text-align: center;
+}
+
+
+.sectionTitle, .sectionYear{
+    font-family: Fira Code;
+    color: #354531;
+    font-size: 20px;
+}
+
+.sectionTitle{
+    margin-right: 16px;
+}
+.sectionMatl{
+    font-family: Fira Code;
 }
 
 h1, h2, h3{
@@ -44,23 +63,21 @@ p{
     color: #354531;
 }
 
-.pageHeader h3{
-    font-size: 20px;
-}
 
-.pageHeader p{
-    font-weight:300;
-    position: relative;
-    top: -18px;
-    justify-content: center;
-}
 
 @media screen and (max-width: 390px) {
-    .pageHeader h3{
+    .pageHeader{
+        width: 400px;
+        flex-direction: column;
+    }
+    .sectionTitle, .sectionYear{
         font-size: 16px;
     }
 
-    .pageHeader p{
+    .sectionTitle{
+        margin: 0;
+    }
+    .sectionMatl{
         font-size: 12px;
     }
 }

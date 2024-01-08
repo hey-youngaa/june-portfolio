@@ -17,19 +17,16 @@ import GW8 from '../images/GW8.jpg'
 import GW9 from '../images/GW9.jpg'
 import GW10 from '../images/GW10.jpg'
 import GW11 from '../images/GW11.jpg'
-import GW1cover from '../images/GW1cover.jpg'
 
 import BS1 from '../images/BT1.jpg'
 import BS2 from '../images/BT2.jpg'
 import BS3 from '../images/BT3.jpg'
 import BS4 from '../images/BT4.jpg'
 import BS5 from '../images/BT5.jpg'
-import BScover from '../images/BTcover.jpg'
 
 import os from '../images/os.jpg'
 import osb from '../images/osb.jpg'
 import oso from '../images/oso.jpg'
-import oscover from '../images/oscover.jpg'
 
 import isit1 from '../images/isit1.jpg'
 import isit2 from '../images/isit2.jpg'
@@ -39,7 +36,6 @@ import isit5 from '../images/isit5.jpg'
 import isit6 from '../images/isit6.jpg'
 import isit7 from '../images/isit7.jpg'
 import skin from '../images/skin.jpg'
-import isit1cover from '../images/isit1cover.jpg'
 
 import DV from '../images/daytimeVacancies.jpg'
 import LT from '../images/leopardTranspirings.jpg'
@@ -458,7 +454,7 @@ export const drawingSeries = [
         id: 'groundwater-series',
         title: 'Ground(water) (2023)',
         titleWithoutYear: 'Ground(water)',
-        cover: GW1cover,
+        cover: GW1,
         alt: 'groundwater piece',
         year: '2023',
         matl: 'Soft pastel and oil paint on arches oil paper',
@@ -518,44 +514,10 @@ export const drawingSeries = [
         imgs2:[]
     },
     {
-        id:'bedtime-tales-series',
-        title: 'Bedtime Tales (2020)',
-        titleWithoutYear: 'Bedtime Tales',
-        cover: BScover,
-        alt: 'bedtime tales piece',
-        year: '2020',
-        matl: 'Ink, acrylic, and soft pastel on paper',
-        text: '',
-        text2:'',
-        imgs: [
-            {
-                image: BS1,
-                alt: 'bedtime tales'
-            },
-            {
-                image: BS2,
-                alt: 'bedtime tales'
-            },
-            {
-                image: BS3,
-                alt: 'bedtime tales'
-            },
-            {
-                image: BS4,
-                alt: 'bedtime tales'
-            },
-            {
-                image: BS5,
-                alt: 'bedtime tales'
-            }
-        ],
-        imgs2: []
-    },
-    {
         id: 'in-summer-i-will-tear-series',
         title: "In Summer I'll Tear (2021)",
         titleWithoutYear: "In Summer I'll Tear",
-        cover: isit1cover,
+        cover: isit1,
         alt: "in summer i'll tear piece",
         year: '2021',
         matl: 'Ink, crayon, and graphite on hanji',
@@ -606,7 +568,7 @@ export const drawingSeries = [
         id:'oil-spill-series',
         title: 'Oil Spill (2020)',
         titleWithoutYear: 'Oil Spill',
-        cover: oscover,
+        cover: os,
         alt: 'oil spill piece',
         year: '2020',
         matl:'Ink etching and color pencil on origami, digital collage',
@@ -627,6 +589,40 @@ export const drawingSeries = [
             }
         ],
         imgs2:[]
+    },
+    {
+        id:'bedtime-tales-series',
+        title: 'Bedtime Tales (2020)',
+        titleWithoutYear: 'Bedtime Tales',
+        cover: BS1,
+        alt: 'Bedtime Tales',
+        year: '2020',
+        matl: 'Ink, acrylic, and soft pastel on paper',
+        text: '',
+        text2:'',
+        imgs: [
+            {
+                image: BS1,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS2,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS3,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS4,
+                alt: 'bedtime tales'
+            },
+            {
+                image: BS5,
+                alt: 'bedtime tales'
+            }
+        ],
+        imgs2: []
     }
 ]
 

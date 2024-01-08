@@ -9,8 +9,9 @@ function Sculpture() {
   return (
     <div className='pageContainer'>
       <div className="pageHeader">
-        <h3>In Plain Sight (2022 - present)</h3>
-        <p>Mixed media on cardboard, pulp, found wood</p>
+        <div className='sectionTitle'>In Plain Sight</div>
+        <div className="sectionYear">(2022 - present)</div>
+        <div className="sectionMatl">Mixed media on cardboard, pulp, found wood</div>
       </div>
       <ImgGallery gallery={sculptureWork} />
     </div>

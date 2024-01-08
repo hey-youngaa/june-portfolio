@@ -35,11 +35,11 @@
 }
 
 .navItem:hover, .dropdown:hover .dropBtn{
-    color: #FF6633;
+    color: #FF9966;
 }
 
 .navItem.active{
-    color: #FF6633;
+    color: #FF9966;
 }
 
 #instagram img{
@@ -181,3 +181,10 @@
         margin-bottom: 10%;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .logo{
+        margin-left: 10vw
+    }
+}
+
