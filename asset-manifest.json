@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.00afb9ca.css",
-    "main.js": "/static/js/main.8c19092f.js",
+    "main.css": "/static/css/main.27dcaa17.css",
+    "main.js": "/static/js/main.223cf4e1.js",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
     "static/media/observationDrawings.png": "/static/media/observationDrawings.7954a2f8e70f2c0f5567.png",
     "static/media/fossil.jpg": "/static/media/fossil.35c65801be566b4194f7.jpg",
@@ -75,7 +75,6 @@
     "static/media/sb11.jpg": "/static/media/sb11.ad8e9f4b54098b2ad945.jpg",
     "static/media/purple.jpg": "/static/media/purple.3324d23eba25c1d44be1.jpg",
     "static/media/sinkhole.jpg": "/static/media/sinkhole.c161c889cdeb4bac3414.jpg",
-    "static/media/GW1cover.jpg": "/static/media/GW1cover.0633de7a6311642140ee.jpg",
     "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
     "static/media/sb9.jpg": "/static/media/sb9.959d3ca46b0a24d3f26e.jpg",
     "static/media/sb13.jpg": "/static/media/sb13.13b5c4f64780f9c92cb2.jpg",
@@ -100,10 +99,8 @@
     "static/media/theLeftover.jpg": "/static/media/theLeftover.652c20f4e5eb45bf98e3.jpg",
     "static/media/bamboo.jpg": "/static/media/bamboo.91acb9f94e3662a9eb7a.jpg",
     "static/media/sb2.jpg": "/static/media/sb2.3044bed72144632eab51.jpg",
-    "static/media/BTcover.jpg": "/static/media/BTcover.09043617d40e427d2b2f.jpg",
     "static/media/isit1.jpg": "/static/media/isit1.edeb704d072c9f83cbb4.jpg",
     "static/media/sb4.jpg": "/static/media/sb4.be2c5a4776bca1570248.jpg",
-    "static/media/oscover.jpg": "/static/media/oscover.d008ecba55214484bcd8.jpg",
     "static/media/sb3.jpg": "/static/media/sb3.1c313f737b48a39ebbf0.jpg",
     "static/media/dec1.jpg": "/static/media/dec1.67806d1ce3a34f00f95e.jpg",
     "static/media/isit5.jpg": "/static/media/isit5.a244bf10828e9719c670.jpg",
@@ -128,7 +125,6 @@
     "static/media/dwarves.jpg": "/static/media/dwarves.d0244a48f544b647de40.jpg",
     "static/media/sb1.jpg": "/static/media/sb1.cc98b17f5dffab0f3bd4.jpg",
     "static/media/driftwood1.jpg": "/static/media/driftwood1.3d3354049f969342bb89.jpg",
-    "static/media/isit1cover.jpg": "/static/media/isit1cover.d26bfc3e7d5395f44f55.jpg",
     "static/media/go.jpg": "/static/media/go.b9972f09a1b3ef2163f5.jpg",
     "static/media/swim.jpg": "/static/media/swim.84678223a605516ace26.jpg",
     "static/media/insta.svg": "/static/media/insta.47f41b6b56816e8c907c0c60a25e7c28.svg",
@@ -141,11 +137,11 @@
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.00afb9ca.css.map": "/static/css/main.00afb9ca.css.map",
-    "main.8c19092f.js.map": "/static/js/main.8c19092f.js.map"
+    "main.27dcaa17.css.map": "/static/css/main.27dcaa17.css.map",
+    "main.223cf4e1.js.map": "/static/js/main.223cf4e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.00afb9ca.css",
-    "static/js/main.8c19092f.js"
+    "static/css/main.27dcaa17.css",
+    "static/js/main.223cf4e1.js"
   ]
 }
