@@ -23,7 +23,8 @@
     src: url('./assets/fonts/SourceCodePro-VariableFont_wght.ttf');
 }
 .pageContainer{
-    padding: 70px 35px;
+    padding: 70px 2em;
+    min-height: calc(100vh - 80px - 2rem);
 }
 
 .pageHeader{
@@ -67,8 +68,9 @@ p{
 
 @media screen and (max-width: 390px) {
     .pageHeader{
-        width: 400px;
+        width: 100%;
         flex-direction: column;
+        margin-top: 0;
     }
     .sectionTitle, .sectionYear{
         font-size: 16px;

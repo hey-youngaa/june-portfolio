@@ -5,21 +5,24 @@
 .slider{
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 130px);
-    width: 100%;
-    justify-content:flex-start;
+    padding: 70px 10%;
+    height: calc(100vh - 80px - 2.5rem);
+    justify-content: center;
 }
 
 .thumbRow{
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
+    height: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: 1rem;
+    gap: 4px;
 }
 
 .thumbnail{
     width: 120px;
     height: 90px;
-    margin-bottom: 5px;
     cursor: pointer;
 }
 
@@ -29,34 +32,25 @@
     height: 100%;
 }
 
-.thumbnail:hover{
-    border: 2px solid #D373B2;
-}
 
 .mainRow{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.mainImgWrapper{
-    height: 80%;
-    display: flex;
+    width: calc(100% - 120px - 1rem);
+    height: 90%;
 }
 
 .mainImg{
-    height: 100%;
-    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
     object-fit: contain;
-    margin: auto;
+    display: block;
 }
 
 .titleRow{
     display: flex;
     flex-direction: row;
-    width: 90%;
     height: 8%;
     justify-content: space-between;
     align-items: center;
@@ -71,30 +65,51 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .slider{
+        padding: 10%;
         flex-direction: column;
-        height: 100%;
+        align-items: center;
     }
     .thumbRow{
         flex-direction: row;
         width: 100%;
-        justify-content: center;
-        flex: blue;
+        height: 90px;
+        gap: 4px;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        overflow-x: auto;
+        overflow-y: hidden;
     }
+
     .thumbnail{
-        width: 80px;
-        height: 60px;
-        margin: 4px;
+        min-height: 90px;
+        min-width: 120px;
     }
-    .titleRow{
-        width: 100%;
-    }
+
     .mainRow{
-        height: 60vh;
+        width: 100%;
+        height: calc(100% - 90px - 2.5rem);
     }
-    .mainImgWrapper{
+
+}
+
+@media screen and (max-width: 700px) {
+    .mainRow{
         height: 60%;
     }
 
+    .thumbRow{
+        margin-bottom: 2em;
+    }
+
+    .titleRow h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .slider{
+        padding: 2em;
+    }
 }

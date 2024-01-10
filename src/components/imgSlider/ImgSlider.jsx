@@ -43,9 +43,7 @@ function ImgSlider({slides}) {
       </div>
 
       <div className="mainRow">
-        <div className="mainImgWrapper">
-          <img src={sliderData.image} alt='' className='mainImg'/>
-        </div>
+        <img src={sliderData.image} alt='' className='mainImg'/>  
         <div className="titleRow">
           <img
             src={left}

@@ -79,6 +79,7 @@ import onlooker from '../images/onlooker.jpg'
 import rocks from '../images/rocks.jpg'
 import washingAshore from '../images/washingAshore.jpg'
 import purple from '../images/purple.jpg'
+import wtohg from '../images/whereTheOthersHaveGone.jpg'
 
 import animal from '../images/animals.jpg'
 import apec from '../images/apec.jpg'
@@ -414,36 +415,42 @@ export const sculptureWork = [
 export const miscWork = [
     {
         id: 0,
+        image: wtohg,
+        title: 'Where the others have gone (2024)',
+        alt: 'misc work'
+    },
+    {
+        id: 1,
         image: divers,
         title: 'Divers (2023)',
         alt: 'misc work'
     },
     {
-        id: 1,
+        id: 2,
         image: purple,
         title: 'Coral Wallpaper (2023)',
         alt: 'misc work'
     },
     {
-        id: 2,
+        id: 3,
         image: swim,
         title: 'Swimmer (2022)',
         alt: 'misc work'
     },
     {
-        id:3,
+        id:4,
         image: washingAshore,
         title: 'Washed Ashore (2022)',
         alt: 'misc work'
     },
     {
-        id:4,
+        id:5,
         image: rocks,
         title: 'Rock Trail (2022)',
         alt: 'misc work'
     },
     {
-        id:5,
+        id:6,
         image: onlooker,
         title: 'Onlooker (2022)',
         alt: 'misc work'
