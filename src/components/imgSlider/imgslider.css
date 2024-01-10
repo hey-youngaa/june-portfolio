@@ -5,7 +5,7 @@
 .slider{
     display: flex;
     flex-direction: row;
-    padding: 70px 10%;
+    padding: 70px 5% 1em 5%;
     height: calc(100vh - 80px - 2.5rem);
     justify-content: center;
 }
@@ -13,7 +13,7 @@
 .thumbRow{
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 90%;
     overflow-x: hidden;
     overflow-y: auto;
     margin-right: 1rem;
@@ -36,13 +36,14 @@
 .mainRow{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: column;
-    width: calc(100% - 120px - 1rem);
-    height: 90%;
+    width: calc(80% - 120px - 1rem);
+    height: 100%;
 }
 
 .mainImg{
-    max-height: 100%;
+    max-height: 90%;
     width: 100%;
     object-fit: contain;
     display: block;
@@ -52,6 +53,7 @@
     display: flex;
     flex-direction: row;
     height: 8%;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,9 +69,10 @@
 
 @media screen and (max-width: 1000px) {
     .slider{
-        padding: 10%;
+        padding:5%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .thumbRow{
         flex-direction: row;
@@ -89,14 +92,18 @@
 
     .mainRow{
         width: 100%;
-        height: calc(100% - 90px - 2.5rem);
+        height: calc(95% - 90px);
+    }
+
+    .titleRow{
+        width: 90%;
     }
 
 }
 
 @media screen and (max-width: 700px) {
     .mainRow{
-        height: 60%;
+       height:50%;
     }
 
     .thumbRow{
@@ -110,6 +117,12 @@
 
 @media screen and (max-width: 390px) {
     .slider{
-        padding: 2em;
+        padding: 0 2em;
+    }
+    .titleRow{
+        width: 100%;
+    }
+    .titleRow h2{
+        font-size: 14px;
     }
 }
