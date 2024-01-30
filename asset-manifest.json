@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8d86269.css",
-    "main.js": "/static/js/main.1c9830c6.js",
+    "main.css": "/static/css/main.4f2c9bc4.css",
+    "main.js": "/static/js/main.85480fa1.js",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
     "static/media/observationDrawings.png": "/static/media/observationDrawings.7954a2f8e70f2c0f5567.png",
     "static/media/fossil.jpg": "/static/media/fossil.35c65801be566b4194f7.jpg",
@@ -98,6 +98,7 @@
     "static/media/root.png": "/static/media/root.3f63118de6db96e7065a.png",
     "static/media/divers.jpg": "/static/media/divers.4329785e75c00c0967fa.jpg",
     "static/media/theLeftover.jpg": "/static/media/theLeftover.652c20f4e5eb45bf98e3.jpg",
+    "static/media/sb15.jpg": "/static/media/sb15.41cf2f07c5f59977497a.jpg",
     "static/media/bamboo.jpg": "/static/media/bamboo.91acb9f94e3662a9eb7a.jpg",
     "static/media/sb2.jpg": "/static/media/sb2.3044bed72144632eab51.jpg",
     "static/media/isit1.jpg": "/static/media/isit1.edeb704d072c9f83cbb4.jpg",
@@ -125,6 +126,7 @@
     "static/media/nuggets.jpg": "/static/media/nuggets.2b5399e0c4cd9f7e4d8d.jpg",
     "static/media/dwarves.jpg": "/static/media/dwarves.d0244a48f544b647de40.jpg",
     "static/media/sb1.jpg": "/static/media/sb1.cc98b17f5dffab0f3bd4.jpg",
+    "static/media/sb16.jpg": "/static/media/sb16.ebd08ce012194efd3d74.jpg",
     "static/media/driftwood1.jpg": "/static/media/driftwood1.3d3354049f969342bb89.jpg",
     "static/media/go.jpg": "/static/media/go.b9972f09a1b3ef2163f5.jpg",
     "static/media/swim.jpg": "/static/media/swim.84678223a605516ace26.jpg",
@@ -138,11 +140,11 @@
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.e8d86269.css.map": "/static/css/main.e8d86269.css.map",
-    "main.1c9830c6.js.map": "/static/js/main.1c9830c6.js.map"
+    "main.4f2c9bc4.css.map": "/static/css/main.4f2c9bc4.css.map",
+    "main.85480fa1.js.map": "/static/js/main.85480fa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8d86269.css",
-    "static/js/main.1c9830c6.js"
+    "static/css/main.4f2c9bc4.css",
+    "static/js/main.85480fa1.js"
   ]
 }
