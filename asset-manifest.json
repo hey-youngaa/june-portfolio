@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d22df186.css",
-    "main.js": "/static/js/main.01ff8663.js",
+    "main.css": "/static/css/main.3a67ee1e.css",
+    "main.js": "/static/js/main.5508cd73.js",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
     "static/media/gaze.jpg": "/static/media/gaze.12e612c2ea05b49c4bb0.jpg",
     "static/media/face.jpg": "/static/media/face.ab7704fffb65b125ca05.jpg",
@@ -14,7 +14,6 @@
     "static/media/eye.jpg": "/static/media/eye.6d961c60189c6f086b28.jpg",
     "static/media/GW1.jpg": "/static/media/GW1.fe9ad5ee42756d264b9b.jpg",
     "static/media/leopardTranspirings.jpg": "/static/media/leopardTranspirings.da88d604d4e0ce394788.jpg",
-    "static/media/Arimo-VariableFont_wght.ttf": "/static/media/Arimo-VariableFont_wght.4ddb268fb129e0f4d61e.ttf",
     "static/media/cuchi.jpg": "/static/media/cuchi.3122236ba8bb763c554d.jpg",
     "static/media/untitled.jpg": "/static/media/untitled.158a50a94cf04c4922d4.jpg",
     "static/media/elephantDreams.jpg": "/static/media/elephantDreams.ae8635e8164f3bf3193a.jpg",
@@ -22,6 +21,7 @@
     "static/media/tower.jpg": "/static/media/tower.67cce0d728ba132597ee.jpg",
     "static/media/daytimeVacancies.jpg": "/static/media/daytimeVacancies.80396201bd1173f20166.jpg",
     "static/media/GW2.jpg": "/static/media/GW2.55540257b9889d4b53c6.jpg",
+    "static/media/dark.jpg": "/static/media/dark.3cdb3b07d9bd4665d5a0.jpg",
     "static/media/lettuceGardenCharm.jpg": "/static/media/lettuceGardenCharm.9dbbbe8723cec81e9b1e.jpg",
     "static/media/BT4.jpg": "/static/media/BT4.4a3eb221326d1ea3d5a1.jpg",
     "static/media/donkey.jpg": "/static/media/donkey.3553c374e42d1e3dcdcb.jpg",
@@ -69,6 +69,7 @@
     "static/media/osb.jpg": "/static/media/osb.6d06112ae517f9ddfd50.jpg",
     "static/media/severence.jpg": "/static/media/severence.a7a9b87f1e0f6bef1be0.jpg",
     "static/media/isit6.jpg": "/static/media/isit6.ed10632fe94e588b2af9.jpg",
+    "static/media/sundown.jpg": "/static/media/sundown.9c86b0d6df8b6282e57c.jpg",
     "static/media/bug.jpg": "/static/media/bug.7f6626c8bf666c1793fb.jpg",
     "static/media/alienField.jpg": "/static/media/alienField.3238a0a119c66866cff7.jpg",
     "static/media/fishspine.jpg": "/static/media/fishspine.db67bea8e1bca2ce75a4.jpg",
@@ -92,7 +93,6 @@
     "static/media/map.jpg": "/static/media/map.4e0af9226fcf22ac0e9a.jpg",
     "static/media/isit3.jpg": "/static/media/isit3.aba57990c6833526bb10.jpg",
     "static/media/dress.jpg": "/static/media/dress.843624fd0a500581a869.jpg",
-    "static/media/VT323-Regular.ttf": "/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
     "static/media/sb12.jpg": "/static/media/sb12.69129e62cf80143f5eec.jpg",
     "static/media/isit2.jpg": "/static/media/isit2.b8dcd4663a88a6b63c17.jpg",
     "static/media/leaf.jpg": "/static/media/leaf.e7b873a3824392bead13.jpg",
@@ -124,7 +124,6 @@
     "static/media/tree.jpg": "/static/media/tree.292e89de57a5d1f3cfca.jpg",
     "static/media/driftwood2.jpg": "/static/media/driftwood2.f6569c449e14ece2ceaa.jpg",
     "static/media/onlooker.jpg": "/static/media/onlooker.be2ac99b9d738e8b6ad4.jpg",
-    "static/media/FreePixel.ttf": "/static/media/FreePixel.94045bd7c2e557624bbf.ttf",
     "static/media/nuggets.jpg": "/static/media/nuggets.2b5399e0c4cd9f7e4d8d.jpg",
     "static/media/dwarves.jpg": "/static/media/dwarves.d0244a48f544b647de40.jpg",
     "static/media/sb1.jpg": "/static/media/sb1.cc98b17f5dffab0f3bd4.jpg",
@@ -142,11 +141,11 @@
     "static/media/dot.svg": "/static/media/dot.42efd4a2388fb48f86fd383177a6af7a.svg",
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.d22df186.css.map": "/static/css/main.d22df186.css.map",
-    "main.01ff8663.js.map": "/static/js/main.01ff8663.js.map"
+    "main.3a67ee1e.css.map": "/static/css/main.3a67ee1e.css.map",
+    "main.5508cd73.js.map": "/static/js/main.5508cd73.js.map"
   },
   "entrypoints": [
-    "static/css/main.d22df186.css",
-    "static/js/main.01ff8663.js"
+    "static/css/main.3a67ee1e.css",
+    "static/js/main.5508cd73.js"
   ]
 }
