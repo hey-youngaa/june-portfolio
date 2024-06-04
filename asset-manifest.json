@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c43a2071.css",
-    "main.js": "/static/js/main.5508cd73.js",
+    "main.js": "/static/js/main.48af503c.js",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
     "static/media/gaze.jpg": "/static/media/gaze.12e612c2ea05b49c4bb0.jpg",
     "static/media/face.jpg": "/static/media/face.ab7704fffb65b125ca05.jpg",
@@ -50,6 +50,7 @@
     "static/media/reflexes.jpg": "/static/media/reflexes.3701337f786555502f44.jpg",
     "static/media/sb14.jpg": "/static/media/sb14.a473d3f15c0b42760a2f.jpg",
     "static/media/GW6.jpg": "/static/media/GW6.ea6c586c4d7cbecf7df8.jpg",
+    "static/media/peace.jpg": "/static/media/peace.9e868e9f0a35ee843fa0.jpg",
     "static/media/BT1.jpg": "/static/media/BT1.6432a19867490d6c43fd.jpg",
     "static/media/mountain.jpg": "/static/media/mountain.36ddd20f15a1a8fb5b8e.jpg",
     "static/media/skin.jpg": "/static/media/skin.306517dcb936b2873f7b.jpg",
@@ -77,6 +78,7 @@
     "static/media/SourceCodePro-VariableFont_wght.ttf": "/static/media/SourceCodePro-VariableFont_wght.46e9d73a686e6dc90ddc.ttf",
     "static/media/ddm.jpg": "/static/media/ddm.21abcb9e4988d9e2e92f.jpg",
     "static/media/sb11.jpg": "/static/media/sb11.ad8e9f4b54098b2ad945.jpg",
+    "static/media/underpass.jpg": "/static/media/underpass.1ab40a3b297b4e06528e.jpg",
     "static/media/purple.jpg": "/static/media/purple.3324d23eba25c1d44be1.jpg",
     "static/media/sinkhole.jpg": "/static/media/sinkhole.c161c889cdeb4bac3414.jpg",
     "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
@@ -85,6 +87,8 @@
     "static/media/oso.jpg": "/static/media/oso.b6bc69df60ebd4878212.jpg",
     "static/media/rendezvous.jpg": "/static/media/rendezvous.84c1e2e9824219b86974.jpg",
     "static/media/dec5.jpg": "/static/media/dec5.c83d74614e4eaa3b725d.jpg",
+    "static/media/waysideFront.jpg": "/static/media/waysideFront.85cc733e8a87ce234b3d.jpg",
+    "static/media/waysideDetail.jpg": "/static/media/waysideDetail.a5eef3a9c0d80d19230e.jpg",
     "static/media/isit7.jpg": "/static/media/isit7.4bad8e07ed277f95db8d.jpg",
     "static/media/dec12.jpg": "/static/media/dec12.9120140a6265db4ccce3.jpg",
     "static/media/storm.jpg": "/static/media/storm.aeb36bcad4aaea47a3eb.jpg",
@@ -96,6 +100,7 @@
     "static/media/sb12.jpg": "/static/media/sb12.69129e62cf80143f5eec.jpg",
     "static/media/isit2.jpg": "/static/media/isit2.b8dcd4663a88a6b63c17.jpg",
     "static/media/leaf.jpg": "/static/media/leaf.e7b873a3824392bead13.jpg",
+    "static/media/waysideBack.jpg": "/static/media/waysideBack.ad37fa3735ae9e86f3d1.jpg",
     "static/media/dwellings.jpg": "/static/media/dwellings.c9dd9965b4f2c680cbc2.jpg",
     "static/media/root.png": "/static/media/root.3f63118de6db96e7065a.png",
     "static/media/divers.jpg": "/static/media/divers.4329785e75c00c0967fa.jpg",
@@ -142,10 +147,10 @@
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
     "main.c43a2071.css.map": "/static/css/main.c43a2071.css.map",
-    "main.5508cd73.js.map": "/static/js/main.5508cd73.js.map"
+    "main.48af503c.js.map": "/static/js/main.48af503c.js.map"
   },
   "entrypoints": [
     "static/css/main.c43a2071.css",
-    "static/js/main.5508cd73.js"
+    "static/js/main.48af503c.js"
   ]
 }
