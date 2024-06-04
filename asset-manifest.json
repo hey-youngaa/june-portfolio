@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c43a2071.css",
-    "main.js": "/static/js/main.48af503c.js",
+    "main.js": "/static/js/main.14cccc30.js",
     "static/media/elephant.jpg": "/static/media/elephant.7552512407782549877f.jpg",
     "static/media/gaze.jpg": "/static/media/gaze.12e612c2ea05b49c4bb0.jpg",
-    "static/media/face.jpg": "/static/media/face.ab7704fffb65b125ca05.jpg",
     "static/media/observationDrawings.png": "/static/media/observationDrawings.7954a2f8e70f2c0f5567.png",
     "static/media/fossil.jpg": "/static/media/fossil.35c65801be566b4194f7.jpg",
     "static/media/egg.jpg": "/static/media/egg.e3668b811e4b7ee7be4f.jpg",
@@ -81,6 +80,7 @@
     "static/media/underpass.jpg": "/static/media/underpass.1ab40a3b297b4e06528e.jpg",
     "static/media/purple.jpg": "/static/media/purple.3324d23eba25c1d44be1.jpg",
     "static/media/sinkhole.jpg": "/static/media/sinkhole.c161c889cdeb4bac3414.jpg",
+    "static/media/face.jpg": "/static/media/face.b90af8784cb5b1fd63a7.jpg",
     "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
     "static/media/sb9.jpg": "/static/media/sb9.959d3ca46b0a24d3f26e.jpg",
     "static/media/sb13.jpg": "/static/media/sb13.13b5c4f64780f9c92cb2.jpg",
@@ -147,10 +147,10 @@
     "static/media/sparkle.svg": "/static/media/sparkle.37fb5c900b89151f281d1de22fdef8fa.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
     "main.c43a2071.css.map": "/static/css/main.c43a2071.css.map",
-    "main.48af503c.js.map": "/static/js/main.48af503c.js.map"
+    "main.14cccc30.js.map": "/static/js/main.14cccc30.js.map"
   },
   "entrypoints": [
     "static/css/main.c43a2071.css",
-    "static/js/main.48af503c.js"
+    "static/js/main.14cccc30.js"
   ]
 }
