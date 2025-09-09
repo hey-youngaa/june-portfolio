@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.d00c9e67.css",
-    "main.js": "/static/js/main.87b36e27.js",
+    "main.css": "/static/css/main.c79e7360.css",
+    "main.js": "/static/js/main.f5b190a5.js",
     "static/media/sb22.png": "/static/media/sb22.e82d7fb5b4103b85db4e.png",
+    "static/media/house-and-yarn.webp": "/static/media/house-and-yarn.756dd23d692f403f59c0.webp",
     "static/media/reflexes.webp": "/static/media/reflexes.baa6513710df33af285b.webp",
     "static/media/sb21.png": "/static/media/sb21.84e41124f3f995e51d8b.png",
     "static/media/elephantDream.webp": "/static/media/elephantDream.942ec69b0e70ec63b811.webp",
@@ -17,6 +18,7 @@
     "static/media/reflexes2.webp": "/static/media/reflexes2.cf64221e5c860fe0437a.webp",
     "static/media/GW7.webp": "/static/media/GW7.f7fa9a78370d7ff63209.webp",
     "static/media/GW4.webp": "/static/media/GW4.6473e07358535925f32a.webp",
+    "static/media/home-where-apple-lie.webp": "/static/media/home-where-apple-lie.fc16761f884f79017480.webp",
     "static/media/GW5.webp": "/static/media/GW5.c9029dd0c1a690cddb53.webp",
     "static/media/GW2.webp": "/static/media/GW2.6d66e11280c0008cdbc1.webp",
     "static/media/GW11.webp": "/static/media/GW11.12e64f5036dcf6847788.webp",
@@ -26,7 +28,6 @@
     "static/media/mountain.webp": "/static/media/mountain.299d4b8c229ccc197f34.webp",
     "static/media/rendezvous2.webp": "/static/media/rendezvous2.be5bb3ea448c69b91a00.webp",
     "static/media/ddm.webp": "/static/media/ddm.1059d0243a6b9eca3714.webp",
-    "static/media/whereTheOthersHaveGone.webp": "/static/media/whereTheOthersHaveGone.bfc0e2a1be8f27fb4b38.webp",
     "static/media/dec3.webp": "/static/media/dec3.d6e70e8363b41ed60175.webp",
     "static/media/backside.webp": "/static/media/backside.49bbf376cf1b202efa3c.webp",
     "static/media/leopardTranspirings.webp": "/static/media/leopardTranspirings.ba66bc69efaeba44b0e4.webp",
@@ -58,7 +59,6 @@
     "static/media/sundown.webp": "/static/media/sundown.0f0b9ec89a5d84d7f770.webp",
     "static/media/gaze.webp": "/static/media/gaze.7afc580a49da135fba86.webp",
     "static/media/skin.webp": "/static/media/skin.0aa44ed8c260ffe69eda.webp",
-    "static/media/rocks.webp": "/static/media/rocks.7ea0c053af2c4803af4f.webp",
     "static/media/seeing.webp": "/static/media/seeing.abfacef203adefce1a68.webp",
     "static/media/BT4.webp": "/static/media/BT4.aed8d7afe59b06593327.webp",
     "static/media/galleryBCKG.jpg": "/static/media/galleryBCKG.bb5a7d6886492c1893d1.jpg",
@@ -99,7 +99,6 @@
     "static/media/isit1.webp": "/static/media/isit1.701d234eb8c8430a9789.webp",
     "static/media/isit5.webp": "/static/media/isit5.de909b20662c39615775.webp",
     "static/media/isit4.webp": "/static/media/isit4.cc6075be7626dd06ed22.webp",
-    "static/media/washingAshore.webp": "/static/media/washingAshore.a98549ea209af7636033.webp",
     "static/media/observationDrawings.webp": "/static/media/observationDrawings.a8b47c912684e7467612.webp",
     "static/media/onlooker.webp": "/static/media/onlooker.02a685e636a4e237253e.webp",
     "static/media/sb1.webp": "/static/media/sb1.0a47c1fd8f46ec5658f4.webp",
@@ -110,11 +109,11 @@
     "static/media/down.svg": "/static/media/down.da6b3bb2b5415401394f3aa6d522f631.svg",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.d00c9e67.css.map": "/static/css/main.d00c9e67.css.map",
-    "main.87b36e27.js.map": "/static/js/main.87b36e27.js.map"
+    "main.c79e7360.css.map": "/static/css/main.c79e7360.css.map",
+    "main.f5b190a5.js.map": "/static/js/main.f5b190a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d00c9e67.css",
-    "static/js/main.87b36e27.js"
+    "static/css/main.c79e7360.css",
+    "static/js/main.f5b190a5.js"
   ]
 }
