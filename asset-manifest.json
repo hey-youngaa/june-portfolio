@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e3a1067.css",
-    "main.js": "/static/js/main.f5b190a5.js",
+    "main.css": "/static/css/main.32f92ba1.css",
+    "main.js": "/static/js/main.c2ad03cf.js",
     "static/media/sb22.png": "/static/media/sb22.e82d7fb5b4103b85db4e.png",
     "static/media/house-and-yarn.webp": "/static/media/house-and-yarn.756dd23d692f403f59c0.webp",
     "static/media/reflexes.webp": "/static/media/reflexes.baa6513710df33af285b.webp",
@@ -109,11 +109,11 @@
     "static/media/down.svg": "/static/media/down.da6b3bb2b5415401394f3aa6d522f631.svg",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/copyright.svg": "/static/media/copyright.c7752838c28f62b18edda2901823eb3b.svg",
-    "main.6e3a1067.css.map": "/static/css/main.6e3a1067.css.map",
-    "main.f5b190a5.js.map": "/static/js/main.f5b190a5.js.map"
+    "main.32f92ba1.css.map": "/static/css/main.32f92ba1.css.map",
+    "main.c2ad03cf.js.map": "/static/js/main.c2ad03cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e3a1067.css",
-    "static/js/main.f5b190a5.js"
+    "static/css/main.32f92ba1.css",
+    "static/js/main.c2ad03cf.js"
   ]
 }
